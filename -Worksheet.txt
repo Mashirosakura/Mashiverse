@@ -1,0 +1,95 @@
+Pofflin (applin convergent poffin)
+Trainline that can take you places you've registered
+Rotom Catalog around Hearthome area
+
+Dara starts out reserved; (Dark)
+	> Family ties: Palmer and Barry, unnamed mother
+	> Main motivation: Prove to her dad that despite her personality she can still accomplish something like the gym challenge without changing who she is
+	> As the journey goes on she becomes more outgoing and reflects some of Barry's younger traits (I'll fine YOU if you're late > then is late)
+	> Meets Darkrai and witnesses her worst nightmare
+	> In Twingem she confronts her dad about her motivation and he tells her he was never disappointed in her he was just worried about her fading into the background,
+	  which she has proven by this point was wrong
+
+Hiro starts out as full of himself; (Blond)
+	> Family ties: Cynthia, unnamed father
+	> Main motivation: Finds Lunar Wing as a child and tries to find out where it came from
+	> As the journey goes on 
+	> Meets Cresselia and learns to accept their flaws
+	> 
+
+Team Lucid wants to use Mega Darkrai's power to attempt to fuse the Distortion World to the normal world
+	> Possibly to save Cyrus
+	> Steals Darkrai's Mega Stone from Alamos Town and brings it to Newmoon Island
+
+### Pathing
+Start Ramanos Town area, 20 years after DPPt
+	> Prof. Lucas/Dawn gives starter (Gender matching player)
+	> Go through new Mt.Coronet area
+	> Route 212 > Pastoria (Aaron Gym1) >Bug
+	> Route 213 > Valor Lakefront > Route 222 > Sunyshore (Volkner Gym2) >Electric
+	> Route 222 > Valor Lakefront > Route 214 > Veilstone (Maylene Gym3) >Fighting
+		> Get Bicycle
+	> Route 215 > Route 210 bottom > Solaceon > Route 209 > Hearthome (FTK Gym4 > Megas begin) >Fairy
+	> Route 208 > Mt.Coronet > Route 207 (Oreburgh blocked) > Cycling Road > Eterna (Leader absent) > Celestic (Strength here) > Mt.Coronet > Route 216/217 > Acuity Lakefront
+	  > Snowpoint (Candice Gym5) >Ice
+	> Backtrack to Eterna (Mira (Gardenia Apprentice) Gym6) >Psychic
+	> Route 205/Eterna Forest > Floaroma > Valley Windworks (possibly rename to Windworks Valley and expand?) > Alamos Town (??? Gym7) >Dark
+	> Cave to Oreburgh > Route 203 > Jubilife
+		> Potential optional storyline to give a reason to go to Canalave?
+	> Route 202 > Twingem City (Barry Gym8) >Multi
+	> West to Victory Road
+	> E4 (Cheryl (Normal/Grass) > Buck (Fire/Ground) > Wake (Water/Dragon?) > Fantina (Ghost/Dark))
+	> Champion Parent (Gender opposite player)
+	
+### Storyline
+	> Player wakes up on their 10th(?) birthday
+	> Same gender parent tells them the professor should be arriving soon with their starters
+	> Prof. appears, player chooses, gets dex
+	> Player walks outside with Prof to see them off, Dara runs into them saying they were going to miss the player starter event
+		> Says the player can fine them for being late
+	> Prof recalls Barry and also offers a starter set to Dara, she picks the starter good against yours.
+	> Dara thanks Prof and runs off to show their parents and that they'd catch up with player later
+	> Prof tells player to say goodbye before heading off on their journey, then heads to train station
+	> Parent gives player Poké Balls and Potions, berries perhaps
+	> Dara meets player outside and challenges them to a battle
+	> After the fight, says her gramps has offered to guide them through Mt.Coronet and to head there when ready
+		> Freedom to check Route 221 to the south
+		> Route 221 contains Pokémon like Bidoof, Starly, Wingull, Bonsly, Nidorans
+	> Meet up with Palmer at the entrance to Mt.Coronet
+	> Dara appears and everyone starts heading in, then she remembers she forgot something
+	> Palmer tells her he's waited a while already and that he'd guide the player first
+	> Cue straightforward Mt.Coronet path with ledges and rock smash areas
+		> Tutorials here
+		> Cave contains Pokémon like Zubat, Machop, Geodude, Cleffa, Chingling
+	> Arriving in Route 212, Palmer says he's going back to get Dara and points player in the direction of Pastoria
+		> Water blocks passage to upper half of Route 212, no rain
+		> Route contains Pokémon like Wooper, Yanma, Budew, Bidoof, Dewpider
+	> Arriving in Pastoria, Dara appears behind and gives player Trainline Pass from parent, then battles /w healing
+	> Dara says she's going to fight the Gym and that the player should give it a try too
+		> Marsh contains Pokémon like Wooper, Starly, Croagunk, Goomy, Stunfisk, Skorupi, Carnivine
+	> Player heads to Gym, but bumps into other rival Hiro coming out
+		> Comments on Dara's demeanor (passed her on the way out)
+		> Acts pompous and riding the high of winning a badge, challenges the player
+		> After losing, blames the Gym battle for bad performance
+	> Do Bug Gym, Aaron leader
+	> Dara meets up with you as you're leaving town and says the nearest Gym is in Sunyshore City
+		> She says she's heading off to the Marsh to check out what Pokémon they have
+	> Player travels through Route 213 (previously blocked off) and Route 222
+		> The way to Route 214 is blocked by Cut trees, which is unlocked by Sunyshore's Gym
+		> There's a bunch of people blocking a new entrance to Sendoff Spring from Route 222
+		> Route 213 contains Pokémon like Shellos, Wingull, Buizel, Taillow, Crabrawler
+		> Valor Lakefront contains Pokémon like Shellos, Geodude, Girafarig(?), Houndour, Elekid
+		> Route 222 contains Pokémon like Chatot, Magnemite, Shinx/Luxio, Buizel, Glameow, Crabrawler and H.Voltorb(HoneyTree)
+	> As the player tries to enter Sunyshore Gym, Volkner steps out and apologises as he needs to deal with something
+	> Player follows him back to the Sendoff Spring where they fight off Lucid grunts, and have to fight Admin Somnia who is gathering data on the Distortion World
+	> After beating her she states they've gained enough and gracefully retreats
+	> Volkner commends player on their victory and says they'll wait for them at the Gym
+		> Sendoff Spring contains Pokémon like Duskull, Chingling, Staravia, Flabébé, Luxio
+		> Team Lucid leaves behind HM01
+	> Fight da Volkner
+	> Player travels through Route 214 to Veilstone
+	> 
+	> 
+	> 
+	> 
+	> 

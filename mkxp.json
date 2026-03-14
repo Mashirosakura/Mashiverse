@@ -13,7 +13,7 @@
     // Note that the "Game Title" defined in RPG Maker XP should not have
     // accented characters in it, which is why this property is useful.
     //
-    "windowTitle": "Pokémon Essentials v21.1",
+    "windowTitle": "Pokémon Celestite",
 
     // The game window's width and height, in pixels.
     //
@@ -80,7 +80,7 @@
     // Index all accessible assets via their lower case path (emulates Windows
     // case insensitivity).
     //
-    "pathCache": false,
+    // "pathCache": true,
 
     //==========================================================================
     // Window size, scaling, rendering and frame rate.
