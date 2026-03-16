@@ -20,15 +20,16 @@ Name = Pokémon Trainer
 Gender = Female
 BaseMoney = 60
 #-------------------------------
-[RIVAL1]
-Name = Rival
-Gender = Male
-BaseMoney = 16
-#-------------------------------
-[RIVAL2]
+[RIVAL_Hiro]
 Name = Rival
 Gender = Male
 BaseMoney = 36
+#-------------------------------
+[RIVAL_Dara]
+Name = Rival
+Gender = Female
+BaseMoney = 36
+BattleBGM = DPPT 029 Battle! (Rival)
 #-------------------------------
 [AROMALADY]
 Name = Aroma Lady

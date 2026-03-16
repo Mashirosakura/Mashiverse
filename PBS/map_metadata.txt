@@ -3,97 +3,99 @@
 [001]   # Intro
 Name = Intro
 #-------------------------------
-[002]   # Lappet Town
+[002]   # Amity Square
 Name = Lappet Town
 Outdoor = true
 ShowArea = true
 MapPosition = 0,13,12
 BattleBack = field
 #-------------------------------
-[003]   # Player's house
-Name = \PN's house
-HealingSpot = 2,8,8
-MapPosition = 0,13,12
+[003]   # Ramanas Town
+Name = Ramanas Town
 #-------------------------------
-[004]   # Pokémon Lab
+[203]   # Ramanas Town (outside)
+Name = Ramanas Town
+ShowArea = true
+BattleBack = field
+Outdoor = true
+#-------------------------------
+[004]
 Name = Pokémon Lab
 MapPosition = 0,13,12
 #-------------------------------
-[005]   # Route 1
-Name = Route 1
-Outdoor = true
+[005]
+Name = Mt. Coronet
 ShowArea = true
-MapPosition = 0,13,11
-BattleBack = field
+BattleBack = cave1
 #-------------------------------
-[006]   # Kurt's house
+[006]
 Name = Route 1
 MapPosition = 0,13,11
 #-------------------------------
-[007]   # Cedolan City
+[007]
 Name = Cedolan City
 Outdoor = true
 ShowArea = true
 MapPosition = 0,13,10
 MapSize = 2,11
 #-------------------------------
-[008]   # Daisy's house
+[008]
 Name = Lappet Town
 MapPosition = 0,13,12
 #-------------------------------
-[009]   # Cedolan City Poké Center
+[009]
 Name = Cedolan City
 HealingSpot = 8,17,11
 MapPosition = 0,14,10
 #-------------------------------
-[010]   # Cedolan Gym
+[010]
 Name = Cedolan City
 MapPosition = 0,13,10
 BattleBack = indoor3
 Environment = Rock
 Flags = DisableBoxLink
 #-------------------------------
-[011]   # Pokémon Institute
+[011]
 Name = Cedolan City
 MapPosition = 0,14,10
 #-------------------------------
-[012]   # Cedolan City Condo
+[012]
 Name = Cedolan City
 MapPosition = 0,14,10
 #-------------------------------
-[013]   # Game Corner
+[013]
 Name = Cedolan City
 MapPosition = 0,14,10
 #-------------------------------
-[014]   # Cedolan Dept. 1F
+[014]
 Name = Cedolan City
 MapPosition = 0,13,10
 #-------------------------------
-[015]   # Cedolan Dept. 2F
+[015]
 Name = Cedolan City
 MapPosition = 0,13,10
 #-------------------------------
-[016]   # Cedolan Dept. 3F
+[016]
 Name = Cedolan City
 MapPosition = 0,13,10
 #-------------------------------
-[017]   # Cedolan Dept. 4F
+[017]
 Name = Cedolan City
 MapPosition = 0,13,10
 #-------------------------------
-[018]   # Cedolan Dept. 5F
+[018]
 Name = Cedolan City
 MapPosition = 0,13,10
 #-------------------------------
-[019]   # Cedolan Dept. Rooftop
+[019]
 Name = Cedolan City
 MapPosition = 0,13,10
 #-------------------------------
-[020]   # Cedolan Dept. Elevator
+[020]
 Name = Cedolan City
 MapPosition = 0,13,10
 #-------------------------------
-[021]   # Route 2
+[021]
 Name = Route 2
 Outdoor = true
 ShowArea = true
@@ -102,30 +104,37 @@ MapPosition = 0,14,8
 BattleBack = field
 MapSize = 1,11
 #-------------------------------
-[023]   # Lerucean Town
+[022]   # Oreburgh City
+Name = Oreburgh City
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 0,9,17
+#-------------------------------
+[023]
 Name = Lerucean Town
 Outdoor = true
 ShowArea = true
 MapPosition = 0,15,8
 #-------------------------------
-[024]   # Lerucean Town Poké Center
+[024]
 Name = Lerucean Town
 HealingSpot = 23,11,15
 MapPosition = 0,15,8
 #-------------------------------
-[025]   # Lerucean Town Mart
+[025]
 Name = Lerucean Town
 MapPosition = 0,15,8
 #-------------------------------
-[026]   # Pokémon Fan Club
+[026]
 Name = Lerucean Town
 MapPosition = 0,15,8
 #-------------------------------
-[027]   # Pokémon Day Care
+[027]
 Name = Lerucean Town
 MapPosition = 0,15,8
 #-------------------------------
-[028]   # Natural Park
+[028]
 Name = Natural Park
 Outdoor = true
 ShowArea = true
@@ -133,18 +142,18 @@ MapPosition = 0,16,8
 BattleBack = field
 Flags = MossRock,BugContest
 #-------------------------------
-[029]   # Natural Park Entrance
+[029]
 Name = Natural Park
 Bicycle = true
 MapPosition = 0,16,8
 Flags = BugContestReception
 #-------------------------------
-[030]   # Natural Park Pavillion
+[030]
 Name = Natural Park
 MapPosition = 0,16,8
 Flags = BugContestReception
 #-------------------------------
-[031]   # Route 3
+[031]
 Name = Route 3
 Outdoor = true
 ShowArea = true
@@ -152,7 +161,18 @@ MapPosition = 0,14,6
 BattleBack = field
 MapSize = 2,1101
 #-------------------------------
-[034]   # Ice Cave
+[032]   # Oreburgh City
+Name = Oreburgh City
+MapPosition = 0,9,17
+#-------------------------------
+[033]   # Oreburgh Mine
+Name = Oreburgh Mine
+ShowArea = true
+Bicycle = true
+MapPosition = 0,9,18
+Environment = Cave
+#-------------------------------
+[034]
 Name = Route 3
 Bicycle = true
 MapPosition = 0,15,6
@@ -160,29 +180,29 @@ BattleBack = cave1
 Environment = Cave
 Flags = IceRock
 #-------------------------------
-[035]   # Ingido Plateau outside
+[035]
 Name = Ingido Plateau
 Outdoor = true
 ShowArea = true
 MapPosition = 0,13,6
 #-------------------------------
-[036]   # Pokémon League entrance
+[036]
 Name = Ingido Plateau
 HealingSpot = 35,17,7
 MapPosition = 0,13,6
 #-------------------------------
-[037]   # Pokémon League room 1
+[037]
 Name = Ingido Plateau
 MapPosition = 0,13,6
 BattleBack = elite1
 Flags = DisableBoxLink
 #-------------------------------
-[038]   # Hall of Fame
+[038]
 Name = Ingido Plateau
 MapPosition = 0,13,6
 Flags = DisableBoxLink
 #-------------------------------
-[039]   # Route 4
+[039]
 Name = Route 4
 Outdoor = true
 ShowArea = true
@@ -190,14 +210,14 @@ MapPosition = 0,11,6
 BattleBack = field
 MapSize = 2,11
 #-------------------------------
-[040]   # Route 4 Cycling Road
+[040]
 Name = Route 4
 Outdoor = true
 ShowArea = true
 BicycleAlways = true
 MapPosition = 0,11,6
 #-------------------------------
-[041]   # Route 5
+[041]
 Name = Route 5
 Outdoor = true
 ShowArea = true
@@ -205,7 +225,19 @@ BicycleAlways = true
 MapPosition = 0,11,7
 MapSize = 1,111
 #-------------------------------
-[044]   # Route 6
+[042]   # Route 207
+Name = Route 207
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 0,9,16
+#-------------------------------
+[043]   # Oreburgh City Poke Center
+Name = Oreburgh City Poke Center
+HealingSpot = 22,50,19
+MapPosition = 0,9,17
+#-------------------------------
+[044]
 Name = Route 6
 Outdoor = true
 ShowArea = true
@@ -213,19 +245,19 @@ MapPosition = 0,11,10
 BattleBack = field
 MapSize = 2,11
 #-------------------------------
-[045]   # Route 6 Cycling Road
+[045]
 Name = Route 6
 Outdoor = true
 ShowArea = true
 BicycleAlways = true
 MapPosition = 0,11,10
 #-------------------------------
-[046]   # Route 4 Cycling Road gate
+[046]
 Name = Route 4
 Bicycle = true
 MapPosition = 0,12,6
 #-------------------------------
-[047]   # Route 7
+[047]
 Name = Route 7
 Outdoor = true
 ShowArea = true
@@ -235,7 +267,11 @@ BattleBack = rocky
 MapSize = 2,11
 Environment = Rock
 #-------------------------------
-[049]   # Rock Cave 1F
+[048]   # Oreburgh City Mart
+Name = Oreburgh City Mart
+MapPosition = 0,8,17
+#-------------------------------
+[049]
 Name = Route 7
 Bicycle = true
 MapPosition = 0,16,10
@@ -243,7 +279,7 @@ BattleBack = cave1
 Environment = Cave
 Flags = Magnetic,DistortionWorld
 #-------------------------------
-[050]   # Rock Cave B1F
+[050]
 Name = Route 7
 Bicycle = true
 MapPosition = 0,16,10
@@ -252,7 +288,7 @@ BattleBack = cave3
 Environment = Cave
 Flags = Magnetic,DistortionWorld
 #-------------------------------
-[051]   # Dungeon
+[051]
 Name = Route 7
 Bicycle = true
 MapPosition = 0,16,10
@@ -261,88 +297,88 @@ BattleBack = cave2
 Environment = Cave
 Flags = Magnetic,DistortionWorld,ScaleWildEncounterLevels
 #-------------------------------
-[052]   # Battle Frontier
+[052]
 Name = Battle Frontier
 Outdoor = true
 ShowArea = true
 MapPosition = 0,17,10
 #-------------------------------
-[053]   # Battle Frontier Poké Center
+[053]
 Name = Battle Frontier
 HealingSpot = 52,17,14
 MapPosition = 0,17,10
 #-------------------------------
-[054]   # Battle Frontier Mart
+[054]
 Name = Battle Frontier
 MapPosition = 0,17,10
 #-------------------------------
-[055]   # Battle Tower
+[055]
 Name = Battle Frontier
 HealingSpot = 52,30,10
 MapPosition = 0,17,10
 #-------------------------------
-[056]   # Battle Tower arena
+[056]
 Name = Battle Frontier
 MapPosition = 0,17,10
 BattleBack = indoor1
 Flags = DisableBoxLink
 #-------------------------------
-[057]   # Stadium Cup lobby
+[057]
 Name = Battle Frontier
 MapPosition = 0,17,10
 #-------------------------------
-[058]   # Battle Palace
+[058]
 Name = Battle Frontier
 MapPosition = 0,17,10
 #-------------------------------
-[059]   # Battle Palace arena
-Name = Battle Frontier
-MapPosition = 0,17,10
-BattleBack = indoor1
-Flags = DisableBoxLink
-#-------------------------------
-[060]   # Battle Arena
-Name = Battle Frontier
-MapPosition = 0,17,10
-#-------------------------------
-[061]   # Battle Arena arena
+[059]
 Name = Battle Frontier
 MapPosition = 0,17,10
 BattleBack = indoor1
 Flags = DisableBoxLink
 #-------------------------------
-[062]   # Battle Factory
+[060]
 Name = Battle Frontier
 MapPosition = 0,17,10
 #-------------------------------
-[063]   # Battle Factory intro corridor
-Name = Battle Frontier
-MapPosition = 0,17,10
-Flags = DisableBoxLink
-#-------------------------------
-[064]   # Battle Factory arena
+[061]
 Name = Battle Frontier
 MapPosition = 0,17,10
 BattleBack = indoor1
 Flags = DisableBoxLink
 #-------------------------------
-[065]   # Battle Factory corridor
+[062]
+Name = Battle Frontier
+MapPosition = 0,17,10
+#-------------------------------
+[063]
 Name = Battle Frontier
 MapPosition = 0,17,10
 Flags = DisableBoxLink
 #-------------------------------
-[066]   # Safari Zone outside
+[064]
+Name = Battle Frontier
+MapPosition = 0,17,10
+BattleBack = indoor1
+Flags = DisableBoxLink
+#-------------------------------
+[065]
+Name = Battle Frontier
+MapPosition = 0,17,10
+Flags = DisableBoxLink
+#-------------------------------
+[066]
 Name = Safari Zone
 Outdoor = true
 ShowArea = true
 MapPosition = 0,12,12
 BattleBack = field
 #-------------------------------
-[067]   # Safari Zone gate
+[067]
 Name = Safari Zone
 MapPosition = 0,12,12
 #-------------------------------
-[068]   # Safari Zone
+[068]
 Name = Safari Zone
 Outdoor = true
 ShowArea = true
@@ -351,7 +387,7 @@ SafariMap = true
 BattleBack = forest
 Environment = Forest
 #-------------------------------
-[069]   # Route 8
+[069]
 Name = Route 8
 Outdoor = true
 ShowArea = true
@@ -359,17 +395,17 @@ MapPosition = 0,13,13
 DiveMap = 70
 BattleBack = field
 #-------------------------------
-[070]   # Route 8 underwater
+[070]
 Name = Route 8
 MapPosition = 0,13,13
 BattleBack = underwater
 Environment = Underwater
 #-------------------------------
-[071]   # Route 8 harbor
+[071]
 Name = Route 8
 MapPosition = 0,13,13
 #-------------------------------
-[072]   # Berth Island
+[072]
 Name = Berth Island
 Outdoor = true
 ShowArea = true
@@ -378,7 +414,7 @@ MapPosition = 0,18,17
 BattleBack = field
 Flags = DistortionWorld
 #-------------------------------
-[073]   # Faraday Island
+[073]
 Name = Faraday Island
 Outdoor = true
 ShowArea = true
@@ -386,13 +422,954 @@ MapPosition = 0,22,16
 BattleBack = field
 Flags = DistortionWorld
 #-------------------------------
-[074]   # Route 6 Cycling Road gate
+[074]
 Name = Route 6
 Bicycle = true
 MapPosition = 0,12,10
 #-------------------------------
-[075]   # Tiall Region
+[075]
 Name = Tiall Region
 Outdoor = true
 MapPosition = 1,13,16
 BattleBack = city
+#-------------------------------
+[076]   # Oreburgh Gate
+Name = Oreburgh Gate
+ShowArea = true
+Bicycle = true
+MapPosition = 0,7,17
+SnapEdges = true
+Environment = Cave
+#-------------------------------
+[077]   # Celestic Town
+Name = Celestic Town
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 0,14,10
+#-------------------------------
+[078]   # Celestic Town Ruins
+Name = Celestic Town Ruins
+MapPosition = 0,14,10
+#-------------------------------
+[079]   # Route 211
+Name = Route 211
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 0,13,10
+#-------------------------------
+[080]   # Route 210
+Name = Route 210
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 0,17,12
+#-------------------------------
+[081]   # Celestic Town
+Name = Celestic Town
+MapPosition = 0,14,10
+#-------------------------------
+[082]   # Mt. Coronet
+Name = Mt. Coronet
+ShowArea = true
+Bicycle = true
+MapPosition = 0,12,9
+Environment = Cave
+#-------------------------------
+[083]   # Iceberg Ruins
+Name = Iceberg Ruins
+ShowArea = true
+Bicycle = true
+MapPosition = 0,12,6
+Environment = Cave
+#-------------------------------
+[084]   # Solaceon Town
+Name = Solaceon Town
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 0,17,14
+#-------------------------------
+[085]   # Solaceon Town filler trees
+Name = Solaceon Town filler trees
+Outdoor = true
+#-------------------------------
+[086]   # Celestic Town Poke Center
+Name = Celestic Town Poke Center
+HealingSpot = 77,24,31
+MapPosition = 0,14,10
+#-------------------------------
+[087]   # Solaceon Town Poke Center
+Name = Solaceon Town Poke Center
+HealingSpot = 84,28,15
+MapPosition = 0,17,14
+#-------------------------------
+[088]   # Solaceon Town Mart
+Name = Solaceon Town Mart
+MapPosition = 0,17,14
+#-------------------------------
+[089]   # Solaceon Ruins
+Name = Solaceon Ruins
+ShowArea = true
+Bicycle = true
+MapPosition = 0,18,14
+Environment = Cave
+#-------------------------------
+[090]   # Eterna City
+Name = Eterna City
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 0,9,10
+#-------------------------------
+[091]   # Route 205 Eterna side
+Name = Route 205
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 0,8,10
+#-------------------------------
+[092]   # Eterna Forest
+Name = Eterna Forest
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 0,7,11
+#-------------------------------
+[093]   # Eterna Forest
+Name = Eterna Forest
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 0,6,10
+Environment = ForestGrass
+#-------------------------------
+[094]   # Route 205 Floaroma side
+Name = Route 205
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 0,6,13
+#-------------------------------
+[095]   # Fuego Ironworks
+Name = Fuego Ironworks
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 0,5,12
+#-------------------------------
+[096]   # Floaroma Town
+Name = Floaroma Town
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 0,5,14
+#-------------------------------
+[097]   # Floaroma Town
+Name = Floaroma Town
+MapPosition = 0,5,14
+#-------------------------------
+[098]   # Floaroma Meadow
+Name = Floaroma Meadow
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 0,5,13
+#-------------------------------
+[099]   # Eterna south tree filler
+Name = Eterna south tree filler
+#-------------------------------
+[102]   # Eterna southeast rock filler
+Name = Eterna southeast rock filler
+#-------------------------------
+[103]
+Name = Grandtree Arena
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 0,6,9
+Environment = ForestGrass
+#-------------------------------
+[104]   # Route 209
+Name = Route 209
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 0,17,16
+#-------------------------------
+[105]   # Route 203
+Name = Route 203
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 0,6,17
+#-------------------------------
+[106]   # Jubilife City
+Name = Jubilife City
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 0,4,17
+#-------------------------------
+[107]   # Route 218 Gate
+Name = Route 218 Gate
+Bicycle = true
+MapPosition = 0,4,17
+#-------------------------------
+[108]   # Route 218
+Name = Route 218
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 0,3,17
+#-------------------------------
+[109]   # Canalave City
+Name = Canalave City
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 0,1,17
+#-------------------------------
+[110]   # Route 204
+Name = Route 204
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 0,5,16
+#-------------------------------
+[111]   # Valley Windworks
+Name = Valley Windworks
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 0,7,14
+#-------------------------------
+[112]   # Iron Island
+Name = Iron Island
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 0,3,9
+#-------------------------------
+[113]   # Iron Island
+Name = Iron Island
+ShowArea = true
+Bicycle = true
+MapPosition = 0,3,9
+#-------------------------------
+[114]   # Iron Ruins
+Name = Iron Ruins
+ShowArea = true
+Bicycle = true
+MapPosition = 0,3,9
+#-------------------------------
+[115]   # Route 218 Gate
+Name = Route 218 Gate
+Bicycle = true
+MapPosition = 0,1,17
+#-------------------------------
+[116]   # Route 210
+Name = Route 210
+Outdoor = true
+ShowArea = true
+Bicycle = true
+Weather = Fog,100
+MapPosition = 0,16,10
+#-------------------------------
+[117]   # Mt. Coronet
+Name = Mt. Coronet
+ShowArea = true
+Bicycle = true
+MapPosition = 0,12,6
+#-------------------------------
+[118]   # Iron Island
+Name = Iron Island
+ShowArea = true
+Bicycle = true
+MapPosition = 0,3,9
+#-------------------------------
+[119]   # Eterna City
+Name = Eterna City
+MapPosition = 0,9,10
+#-------------------------------
+[120]   # Iron Island
+Name = Iron Island
+MapPosition = 0,3,9
+#-------------------------------
+[121]   # Mt. Coronet
+Name = Mt. Coronet
+ShowArea = true
+Bicycle = true
+MapPosition = 0,11,16
+#-------------------------------
+[122]   # Route 208
+Name = Route 208
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 0,12,16
+#-------------------------------
+[123]   # Hearthome City
+Name = Hearthome City
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 0,14,16
+#-------------------------------
+[124]   # Route 208 Gate
+Name = Route 208 Gate
+Bicycle = true
+MapPosition = 0,14,16
+#-------------------------------
+[125]   # Route 209 Gate
+Name = Route 209 Gate
+Bicycle = true
+MapPosition = 0,15,16
+#-------------------------------
+[126]   # Route 215
+Name = Route 215
+Outdoor = true
+ShowArea = true
+Bicycle = true
+Weather = Rain,100
+MapPosition = 0,18,12
+#-------------------------------
+[127]
+Name = Route 215
+ShowArea = true
+Bicycle = true
+MapPosition = 0,17,12
+#-------------------------------
+[128]
+Name = Brava Arena
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 0,17,13
+#-------------------------------
+[129]   # Eterna City Poke Center
+Name = Eterna City Poke Center
+HealingSpot = 90,16,24
+MapPosition = 0,9,10
+#-------------------------------
+[130]   # Eterna City Mart
+Name = Eterna City Mart
+MapPosition = 0,9,10
+#-------------------------------
+[131]   # Floaroma Town Poke Center
+Name = Floaroma Town Poke Center
+HealingSpot = 96,24,49
+MapPosition = 0,5,14
+#-------------------------------
+[132]   # Floaroma Town Mart
+Name = Floaroma Town Mart
+MapPosition = 0,5,14
+#-------------------------------
+[133]   # Jubilife City Poke Center
+Name = Jubilife City Poke Center
+HealingSpot = 106,52,39
+MapPosition = 0,5,18
+#-------------------------------
+[134]   # Jubilife City Mart
+Name = Jubilife City Mart
+MapPosition = 0,5,17
+#-------------------------------
+[135]   # Canalave City Poke Center
+Name = Canalave City Poke Center
+HealingSpot = 109,34,16
+MapPosition = 0,1,16
+#-------------------------------
+[136]   # Canalave City Mart
+Name = Canalave City Mart
+MapPosition = 0,1,17
+#-------------------------------
+[137]   # Hearthome City Poke Center
+Name = Hearthome City Poke Center
+HealingSpot = 123,16,24
+MapPosition = 0,14,15
+#-------------------------------
+[138]   # Hearthome City Mart
+Name = Hearthome City Mart
+MapPosition = 0,14,16
+#-------------------------------
+[139]   # Resort Area
+Name = Resort Area
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 0,24,8
+#-------------------------------
+[140]   # Route 229
+Name = Route 229
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 0,24,7
+#-------------------------------
+[141]   # Route 228
+Name = Route 228
+Outdoor = true
+ShowArea = true
+Bicycle = true
+Weather = Sandstorm,100
+MapPosition = 0,23,5
+#-------------------------------
+[142]   # Route 228
+Name = Route 228
+ShowArea = true
+Bicycle = true
+MapPosition = 0,23,5
+#-------------------------------
+[143]   # Resort Area Poke Center
+Name = Resort Area Poke Center
+HealingSpot = 139,10,24
+MapPosition = 0,24,8
+#-------------------------------
+[144]   # Rock Peak Ruins
+Name = Rock Peak Ruins
+ShowArea = true
+Bicycle = true
+MapPosition = 0,23,5
+#-------------------------------
+[145]   # Ravaged Path
+Name = Ravaged Path
+ShowArea = true
+Bicycle = true
+MapPosition = 0,5,15
+#-------------------------------
+[146]   # Route 206
+Name = Route 206
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 0,9,13
+#-------------------------------
+[147]   # Cycling Road
+Name = Route 206
+Outdoor = true
+ShowArea = true
+BicycleAlways = true
+MapPosition = 0,9,13
+#-------------------------------
+[148]   # Cycling Road South Gate 
+Name = Cycling Road South Gate
+Bicycle = true
+MapPosition = 0,9,15
+#-------------------------------
+[149]   # Cycling Road North Gate
+Name = Cycling Road North Gate
+Bicycle = true
+MapPosition = 0,9,12
+#-------------------------------
+[150]   # Route 226
+Name = Route 226
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 0,22,4
+#-------------------------------
+[151]   # Route 227
+Name = Route 227
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 0,22,3
+#-------------------------------
+[152]   # Stark Mountian
+Name = Stark Mountian
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 0,22,1
+#-------------------------------
+[153]   # Stark Mountain
+Name = Stark Mountain
+ShowArea = true
+Bicycle = true
+MapPosition = 0,22,1
+#-------------------------------
+[154]
+Name = Molten Arena
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 0,22,0
+#-------------------------------
+[155]   # Route 230
+Name = Route 230
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 0,21,7
+#-------------------------------
+[156]   # Route 216
+Name = Route 216
+Outdoor = true
+ShowArea = true
+Weather = Snow,100
+MapPosition = 0,10,6
+Environment = Snow
+#-------------------------------
+[157]   # Route 217
+Name = Route 217
+Outdoor = true
+ShowArea = true
+Weather = Blizzard,100
+MapPosition = 0,9,4
+Environment = Snow
+#-------------------------------
+[158]   # Route 216
+Name = Route 216
+HealingSpot = 156,20,20
+MapPosition = 0,9,6
+#-------------------------------
+[159]   # Acuity Lakefront
+Name = Acuity Lakefront
+Outdoor = true
+ShowArea = true
+Weather = Snow,100
+MapPosition = 0,9,1
+Environment = Snow
+#-------------------------------
+[160]   # Snowpoint City
+Name = Snowpoint City
+Outdoor = true
+ShowArea = true
+Weather = Snow,100
+MapPosition = 0,11,1
+Environment = Snow
+#-------------------------------
+[161]   # Lake Acuity
+Name = Lake Acuity
+Outdoor = true
+ShowArea = true
+MapPosition = 0,9,0
+Environment = Snow
+#-------------------------------
+[162]   # Acuity Cavern
+Name = Acuity Cavern
+ShowArea = true
+Bicycle = true
+MapPosition = 0,9,0
+Environment = Cave
+#-------------------------------
+[163]   # Survival Area
+Name = Survival Area
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 0,20,4
+#-------------------------------
+[164]   # Route 225
+Name = Route 225
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 0,19,5
+#-------------------------------
+[165]   # Route 225 more
+Name = Route 225
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 0,19,5
+#-------------------------------
+[166]   # Fight Area
+Name = Fight Area
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 0,19,7
+#-------------------------------
+[167]   # Snowpoint City Poke Center
+Name = Snowpoint City Poke Center
+HealingSpot = 160,27,46
+MapPosition = 0,11,1
+#-------------------------------
+[168]   # Survival Area Poke Center
+Name = Survival Area Poke Center
+HealingSpot = 163,20,20
+MapPosition = 0,20,4
+#-------------------------------
+[169]   # Fight Area Poke Center
+Name = Fight Area Poke Center
+HealingSpot = 166,39,16
+MapPosition = 0,19,7
+#-------------------------------
+[170]   # Snowpoint City Mart
+Name = Snowpoint City Mart
+MapPosition = 0,11,1
+#-------------------------------
+[171]   # Survival Area Mart
+Name = Survival Area Mart
+MapPosition = 0,20,4
+#-------------------------------
+[172]   # Fight Area Mart
+Name = Fight Area Mart
+MapPosition = 0,19,7
+#-------------------------------
+[173]   # Snowpoint Temple
+Name = Snowpoint Temple
+ShowArea = true
+Bicycle = true
+MapPosition = 0,11,0
+#-------------------------------
+[174]   # Mt. Coronet
+Name = Mt. Coronet
+ShowArea = true
+Bicycle = true
+MapPosition = 0,11,15
+#-------------------------------
+[175]
+Name = Mt. Coronet
+ShowArea = true
+Bicycle = true
+MapPosition = 0,11,14
+#-------------------------------
+[176]
+Name = Mt. Coronet
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 0,11,12
+#-------------------------------
+[177]
+Name = Moonview Arena
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 0,11,12
+#-------------------------------
+[178]
+Name = Arena's Approach
+Outdoor = true
+ShowArea = true
+Weather = Snow,100
+MapPosition = 0,8,3
+#-------------------------------
+[179]
+Name = Icepeak Arena
+Outdoor = true
+ShowArea = true
+Weather = Blizzard,100
+MapPosition = 0,8,3
+#-------------------------------
+[180]
+Name = Hearthome City
+ShowArea = true
+Bicycle = true
+MapPosition = 0,14,15
+#-------------------------------
+[181]
+Name = Team Galactic Hideout
+ShowArea = true
+Bicycle = true
+MapPosition = 0,14,15
+#-------------------------------
+[182]   # Mt. Coronet
+Name = Mt. Coronet
+ShowArea = true
+Bicycle = true
+MapPosition = 0,11,13
+#-------------------------------
+[183]   # Mt. Coronet
+Name = Mt. Coronet
+Outdoor = true
+ShowArea = true
+Weather = Snow,100
+MapPosition = 0,12,13
+#-------------------------------
+[184]   # Mt. Coronet
+Name = Mt. Coronet
+ShowArea = true
+Bicycle = true
+MapPosition = 0,12,12
+#-------------------------------
+[185]   # Spear Pillar
+Name = Spear Pillar
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 0,12,11
+#-------------------------------
+[186]
+Name = Oreburgh City
+ShowArea = true
+MapPosition = 0,9,17
+#-------------------------------
+[187]   # Route 228 Gate
+Name = Route 228 Gate
+Bicycle = true
+MapPosition = 0,23,4
+#-------------------------------
+[188]   # Route 225 Gate
+Name = Route 225 Gate
+Bicycle = true
+MapPosition = 0,19,7
+#-------------------------------
+[189]   # Wayward Cave
+Name = Wayward Cave
+ShowArea = true
+Bicycle = true
+MapPosition = 0,9,12
+DarkMap = true
+#-------------------------------
+[190]   # Wayward Cave
+Name = Wayward Cave
+Bicycle = true
+MapPosition = 0,9,12
+#-------------------------------
+[191]   # Route 202
+Name = Route 202
+Outdoor = true
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[192]   # Sandgem Town
+Name = Sandgem Town
+Outdoor = true
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[193]   # Route 201
+Name = Route 201
+Outdoor = true
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[194]   # Twinleaf Town
+Name = Twinleaf Town
+Outdoor = true
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[195]   # Verity Lakefront
+Name = Verity Lakefront
+Outdoor = true
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[196]   # Lake Verity
+Name = Lake Verity
+Outdoor = true
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[197]   # Verity Cavern
+Name = Verity Cavern
+Outdoor = true
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[198]   # Route 219
+Name = Route 219
+Outdoor = true
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[199]   # Route 220
+Name = Route 220
+Outdoor = true
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[200]   # Route 221
+Name = Route 221
+Outdoor = true
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[205]   # Veilstone City
+Name = Veilstone City
+Outdoor = true
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[206]   # Route 214
+Name = Route 214
+Outdoor = true
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[207]   # Maniac Tunnel
+Name = Maniac Tunnel
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[208]   # Spring Path
+Name = Spring Path
+Outdoor = true
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[209]   # Sendoff Spring
+Name = Sendoff Spring
+Outdoor = true
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[210]   # Turnback Cave
+Name = Turnback Cave
+ShowArea = true
+Bicycle = true
+Weather = Fog,100
+#-------------------------------
+[211]   # Turnback Cave
+Name = Turnback Cave
+ShowArea = true
+Bicycle = true
+Weather = Fog,100
+#-------------------------------
+[212]   # Turnback Cave
+Name = Turnback Cave
+ShowArea = true
+Bicycle = true
+Weather = Fog,100
+#-------------------------------
+[213]   # Turnback Cave
+Name = Turnback Cave
+ShowArea = true
+Bicycle = true
+Weather = Fog,100
+#-------------------------------
+[214]   # Valor Lakefront
+Name = Valor Lakefront
+Outdoor = true
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[215]   # Lake Valor
+Name = Lake Valor
+Outdoor = true
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[216]   # Lake Valor
+Name = Lake Valor
+Outdoor = true
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[217]   # Valor Cavern
+Name = Valor Cavern
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[218]   # Route 213
+Name = Route 213
+Outdoor = true
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[219]   # Pastoria City
+Name = Pastoria City
+Outdoor = true
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[221]   # Great Marsh
+Name = Great Marsh
+Outdoor = true
+ShowArea = true
+Bicycle = true
+SafariMap = true
+#-------------------------------
+[222]   # Route 212
+Name = Route 212
+Outdoor = true
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[223]   # Route 212
+Name = Route 212
+Outdoor = true
+ShowArea = true
+Bicycle = true
+Weather = Rain,100
+#-------------------------------
+[224]   # Route 222
+Name = Route 222
+Outdoor = true
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[225]   # Sunyshore City
+Name = Sunyshore City
+Outdoor = true
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[226]   # Route 223
+Name = Route 223
+Outdoor = true
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[227]   # Pokémon League
+Name = Pokémon League
+Outdoor = true
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[228]   # Victory Road
+Name = Victory Road
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[229]   # Victory Road
+Name = Victory Road
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[230]   # Victory Road
+Name = Victory Road
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[231]   # Victory Road
+Name = Victory Road
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[232]   # Victory Road ADD FOG
+Name = Victory Road ADD FOG
+ShowArea = true
+Bicycle = true
+Weather = Fog,100
+#-------------------------------
+[233]   # Route 224
+Name = Route 224
+Outdoor = true
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[234]   # Route 224
+Name = Route 224
+Outdoor = true
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[235]   # Seabreak Path
+Name = Seabreak Path
+Outdoor = true
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[236]   # Flower Paradise
+Name = Flower Paradise
+Outdoor = true
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[237]   # Fullmoon Island
+Name = Fullmoon Island
+Outdoor = true
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[238]   # Newmoon Island
+Name = Newmoon Island
+Outdoor = true
+ShowArea = true
+Bicycle = true

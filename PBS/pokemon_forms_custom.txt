@@ -1,0 +1,37 @@
+﻿# See the documentation on the wiki to learn how to edit this file.
+#-------------------------------
+[PETILIL,1]
+Generation = 8
+#-------------------------------
+[RUFFLET,1]
+Generation = 8
+#-------------------------------
+[GOOMY,1]
+Generation = 8
+#-------------------------------
+[NIDORAN,1]
+FormName = Female
+Types = POISON
+BaseStats = 55,47,52,41,40,40
+GenderRatio = AlwaysFemale
+GrowthRate = Parabolic
+BaseExp = 55
+EVs = HP,1
+CatchRate = 235
+Happiness = 50
+Abilities = POISONPOINT,RIVALRY
+HiddenAbilities = HUSTLE
+Moves = 1,GROWL,1,POISONSTING,5,SCRATCH,10,TAILWHIP,15,FURYSWIPES,20,TOXICSPIKES,25,DOUBLEKICK,30,BITE,35,HELPINGHAND,40,TOXIC,45,FLATTER,50,CRUNCH,55,EARTHPOWER
+TutorMoves = AERIALACE,ATTRACT,BEATUP,BLIZZARD,BODYSLAM,CAPTIVATE,CHARM,CONFIDE,COUNTER,CRUNCH,CUT,DEFENSECURL,DIG,DOUBLEEDGE,DOUBLETEAM,EARTHPOWER,ECHOEDVOICE,ENDURE,FACADE,FOCUSENERGY,FRUSTRATION,HEADBUTT,HELPINGHAND,HIDDENPOWER,HONECLAWS,ICEBEAM,IRONTAIL,MIMIC,MUDSLAP,NATURALGIFT,POISONJAB,PROTECT,RAINDANCE,REST,RETURN,ROCKSMASH,ROUND,SECRETPOWER,SHADOWCLAW,SHOCKWAVE,SLEEPTALK,SLUDGEBOMB,SNORE,STRENGTH,SUBSTITUTE,SUNNYDAY,SUPERFANG,SWAGGER,THIEF,THUNDER,THUNDERBOLT,TOXIC,TOXICSPIKES,VENOMDRENCH,VENOSHOCK,WATERPULSE
+EggMoves = BEATUP,CHARM,COUNTER,DISABLE,FOCUSENERGY,POISONFANG,POISONTAIL,SKULLBASH,SUPERSONIC,TAKEDOWN,VENOMDRENCH
+EggGroups = Monster,Field
+HatchSteps = 5120
+Height = 0.4
+Weight = 7.0
+Color = Blue
+Shape = Quadruped
+Habitat = Grassland
+Category = Poison Pin
+Pokedex = Its highly toxic barbs are thought to have developed as protection for this small-bodied Pokémon. When enraged, it releases a horrible toxin from its horn.
+Generation = 1
+Evolutions = NIDORINA,Level,16

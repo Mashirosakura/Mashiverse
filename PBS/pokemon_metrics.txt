@@ -168,7 +168,7 @@ FrontSprite = -2,18
 ShadowX = 0
 ShadowSize = 3
 #-------------------------------
-[NIDORANfE]
+[NIDORAN_1]
 BackSprite = 0,0
 FrontSprite = -2,23
 ShadowX = 0
@@ -186,7 +186,7 @@ FrontSprite = 1,8
 ShadowX = 0
 ShadowSize = 3
 #-------------------------------
-[NIDORANmA]
+[NIDORAN]
 BackSprite = -1,0
 FrontSprite = -2,21
 ShadowX = 0
