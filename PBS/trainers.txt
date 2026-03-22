@@ -11,3 +11,57 @@ Pokemon = PIPLUP,5
 [RIVAL_Dara,Dara,2]
 LoseText = Aww man I think I'm losing $10 million...
 Pokemon = TURTWIG,5
+#-------------------------------
+[RIVAL_Dara,Dara,3]
+LoseText = Aw man...
+Pokemon = BUNEARY,10
+ Shiny = true
+Pokemon = CHIMCHAR,11
+#-------------------------------
+[RIVAL_Dara,Dara,4]
+LoseText = Aw man...
+Pokemon = BUNEARY,10
+Pokemon = PIPLUP,11
+#-------------------------------
+[RIVAL_Dara,Dara,5]
+LoseText = Aw man...
+Pokemon = BUNEARY,10
+Pokemon = TURTWIG,11
+#-------------------------------
+[YOUNGSTER,Timmy]
+LoseText = Wow, you're already pretty good!
+Pokemon = CHINGLING,5
+#-------------------------------
+[LASS,Julia]
+LoseText = Oh, my Budew!
+Pokemon = BUDEW,6
+#-------------------------------
+[BUGCATCHER_M,Brent]
+LoseText = You netted a victory this time!
+Pokemon = KRICKETOT,6
+#-------------------------------
+[LASS,Nina]
+LoseText = The item is yours...
+Pokemon = NIDORAN,6
+    Gender = F
+#-------------------------------
+[FISHERMAN,Garren]
+LoseText = Reeled up a good fight this time!
+Pokemon = MAGIKARP,4
+#-------------------------------
+[BUGCATCHER_M,Shan]
+LoseText = No, my evolved bugs!
+Pokemon = WURMPLE,6
+Pokemon = CASCOON,7
+Pokemon = SILCOON,7
+#-------------------------------
+[YOUNGSTER,Ben]
+LoseText = You can go on ahead...
+Pokemon = EKANS,7
+Pokemon = MACHOP,7
+#-------------------------------
+[ACETRAINER_F,Rebecca]
+LoseText = Well I guess that's yours now!
+Pokemon = QUAGSIRE,24
+Pokemon = ARAQUANID,24
+#-------------------------------

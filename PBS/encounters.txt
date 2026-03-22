@@ -64,17 +64,17 @@ Cave,5
 #-------------------------------
 [223] # Route 212 south
 Land,21
-    25,BIDOOF,5,7
-    25,DEWPIDER,5,7
-    25,EKANS,5,7
-    25,BUDEW,5,7
-    1,GOOMY_1,5,7
+    45,BIDOOF,3,6
+    15,DEWPIDER,3,6
+    25,EKANS,3,6
+    25,BUDEW,3,6
+    4,GOOMY_1,3,6
 LandNight,21
-    25,BIDOOF,5,7
-    25,DEWPIDER,5,7
-    25,EKANS,5,7
-    25,KRICKETOT,5,7
-    1,GOOMY_1,5,7
+    25,BIDOOF,3,6
+    25,DEWPIDER,3,6
+    25,EKANS,3,6
+    25,KRICKETOT,3,6
+    4,GOOMY_1,3,6
 Water,2
     40,TENTACRUEL,20,30
     20,SHELLOS_1,20,30

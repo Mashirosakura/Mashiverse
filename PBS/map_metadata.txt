@@ -1286,7 +1286,8 @@ Name = Route 212
 Outdoor = true
 ShowArea = true
 Bicycle = true
-Weather = Rain,100
+BattleBack = field
+Weather = Rain,30
 #-------------------------------
 [224]   # Route 222
 Name = Route 222
