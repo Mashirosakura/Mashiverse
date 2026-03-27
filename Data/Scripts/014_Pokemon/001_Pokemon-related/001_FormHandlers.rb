@@ -437,7 +437,7 @@ MultipleForms.register(:ESPURR, {
   }
 })
 
-MultipleForms.copy(:ESPURR, :MEOWSTIC)
+MultipleForms.copy(:ESPURR, :MEOWSTIC, :NIDORAN)
 
 MultipleForms.register(:AEGISLASH, {
   "getFormOnLeavingBattle" => proc { |pkmn, battle, usedInBattle, endBattle|

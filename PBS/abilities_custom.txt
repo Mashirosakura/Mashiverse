@@ -1,0 +1,36 @@
+#-------------------------------
+[STEAMGUARD]
+Name = Steam Guard
+Description = Draws in Water moves and boosts next Fire move.
+#-------------------------------
+[BUILDINGBLOCKS]
+Name = Building Blocks
+Description = Scatters plastic blocks when hit by physical moves.
+#-------------------------------
+[REVEALED]
+Name = Revealed
+Description = After landing an attack, all other Pokemon lose HP.
+#-------------------------------
+[DREAMMIST]
+Name = Dream Mist
+Description = Deals 1.3x more damage against a sleeping target.
+#-------------------------------
+[DIVINESHELL]
+Name = Divine Shell
+Description = Uses Sp.Defense to boost its special moves.
+#-------------------------------
+[SEAMAJESTY]
+Name = Sea Majesty
+Description = Boosts atk stats if priority, + crits in rain.
+#-------------------------------
+[DUALTONE]
+Name = Dual Tone
+Description = Sound moves hit 2 times. Taking sound moves +1 Spe.
+#-------------------------------
+[SHOWDOWNMODE]
+Name = Showdown Mode
+Description = Increase all stats once. After 4 turns, -2 stats.
+#-------------------------------
+[INCANTATION]
+Name = Incantation
+Description = Its sound-based moves become Ghost-type.

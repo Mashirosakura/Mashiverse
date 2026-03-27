@@ -1,5 +1,5 @@
 ﻿# See the documentation on the wiki to learn how to edit this file.
-#-------------------------------
+#-------------------------------Bosses
 [RIVAL_Dara,Dara]
 LoseText = Aww man I think I'm losing $10 million...
 Pokemon = CHIMCHAR,5
@@ -15,7 +15,7 @@ Pokemon = TURTWIG,5
 [RIVAL_Dara,Dara,3]
 LoseText = Aw man...
 Pokemon = BUNEARY,10
- Shiny = true
+	Shiny = true
 Pokemon = CHIMCHAR,11
 #-------------------------------
 [RIVAL_Dara,Dara,4]
@@ -28,6 +28,36 @@ LoseText = Aw man...
 Pokemon = BUNEARY,10
 Pokemon = TURTWIG,11
 #-------------------------------
+[RIVAL_Hiro,Hiro]
+LoseText = 
+Pokemon = STARYU,11
+	Moves = TACKLE,HARDEN,WATERGUN,CONFUSERAY
+Pokemon = GIBLE,12
+	Moves = TACKLE,SANDTOMB,SANDATTACK,DRAGONBREATH
+#-------------------------------
+[LEADER_Aaron,Aaron]
+LoseText = 
+Items = POTION
+Pokemon = COMBEE,14
+	Moves = SWEETSCENT,GUST,STRUGGLEBUG,BUGBITE
+Pokemon = DEWPIDER,14
+	#AbilityIndex = 2
+	Moves = BUBBLEBEAM,BUGBITE,STICKYWEB,INFESTATION
+Pokemon = SKORUPI,15
+	Item = BERRYJUICE
+	Moves = POUNCE,POISONTAIL,HONECLAWS,SCREECH
+#-------------------------------
+[ADMIN_Somnia,Somnia]
+LoseText = 
+Items = SUPERPOTION
+Pokemon = HOUNDOUR,17
+	AbilityIndex = 0
+	Moves = BITE,EMBER,THUNDERFANG,HOWL
+Pokemon = HOOTHOOT,17
+	Moves = ECHOEDVOICE,REFLECT,WINGATTACK,CONFUSION
+Pokemon = CHIMECHO,18
+	Moves = CONFUSION,CHARGEBEAM,HYPNOSIS,RECOVER
+#-------------------------------Route 212
 [YOUNGSTER,Timmy]
 LoseText = Wow, you're already pretty good!
 Pokemon = CHINGLING,5
@@ -64,4 +94,12 @@ Pokemon = MACHOP,7
 LoseText = Well I guess that's yours now!
 Pokemon = QUAGSIRE,24
 Pokemon = ARAQUANID,24
+#-------------------------------Pastoria Gym
+[BUGCATCHER_F,Shannon]
+LoseText = They're all so pretty!
+Pokemon = BEAUTIFLY,10
 #-------------------------------
+[BUGCATCHER_M,Caleb]
+LoseText = I wish I could stay here forever!
+Pokemon = DUSTOX,10
+#-------------------------------Route 213

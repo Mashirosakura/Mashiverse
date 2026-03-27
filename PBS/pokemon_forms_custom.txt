@@ -9,6 +9,24 @@ Generation = 8
 [GOOMY,1]
 Generation = 8
 #-------------------------------
+[ROWLET,1]
+Generation = 8
+#-------------------------------
+[DARTRIX,1]
+Generation = 8
+#-------------------------------
+[CYNDAQUIL,1]
+Generation = 8
+#-------------------------------
+[QUILAVA,1]
+Generation = 8
+#-------------------------------
+[OSHAWOTT,1]
+Generation = 8
+#-------------------------------
+[DEWOTT,1]
+Generation = 8
+#-------------------------------
 [NIDORAN,1]
 FormName = Female
 Types = POISON
@@ -35,3 +53,168 @@ Category = Poison Pin
 Pokedex = Its highly toxic barbs are thought to have developed as protection for this small-bodied Pokémon. When enraged, it releases a horrible toxin from its horn.
 Generation = 1
 Evolutions = NIDORINA,Level,16
+#-------------------------------
+[TORTERRA,1]
+FormName = Mega Torterra
+MegaStone = TORTERRITE
+BaseStats = 95,149,125,75,75,115
+BaseExp = 313
+Abilities = THICKFAT
+HiddenAbilities = THICKFAT
+Height = 2.4
+Weight = 155.5
+Pokedex = 
+#-------------------------------
+[INFERNAPE,1]
+FormName = Mega Infernape
+MegaStone = INFERNAPITE
+BaseStats = 76,136,81,128,134,81
+BaseExp = 313
+Abilities = DEFIANT
+HiddenAbilities = DEFIANT
+Height = 2.4
+Weight = 155.5
+Pokedex = 
+#-------------------------------
+[EMPOLEON,1]
+FormName = Mega Empoleon
+MegaStone = EMPOLEONITE
+BaseStats = 84,86,118,70,141,121
+BaseExp = 313
+Abilities = DRIZZLE
+HiddenAbilities = DRIZZLE
+Height = 2.4
+Weight = 155.5
+Pokedex = 
+#-------------------------------
+[MIMIKYU,2] #NEED TO CODE FORM0 IN HANDLER
+FormName = Mega Mimikyu
+MegaStone = MIMIKITE
+BaseStats = 55,115,90,101,100,115
+BaseExp = 313
+Abilities = REVEALED
+HiddenAbilities = REVEALED
+Height = 2.4
+Weight = 155.5
+Pokedex = 
+#-------------------------------
+[RAMPARDOS,1]
+FormName = Mega Rampardos
+MegaStone = RAMPARDOSITE
+BaseStats = 97,170,80,108,65,75
+BaseExp = 313
+Abilities = ROCKHEAD
+HiddenAbilities = ROCKHEAD
+Height = 2.4
+Weight = 155.5
+Pokedex = 
+#-------------------------------
+[BASTIODON,1]
+FormName = Mega Bastiodon
+MegaStone = BASTIODONITE
+BaseStats = 60,112,170,30,83,140
+BaseExp = 313
+Abilities = EARTHEATER
+HiddenAbilities = EARTHEATER
+Height = 2.4
+Weight = 155.5
+Pokedex = 
+#-------------------------------
+[MUSHARNA,1]
+FormName = Mega Musharna
+MegaStone = MUSHARNITE
+BaseStats = 116,55,115,29,147,115
+BaseExp = 313
+Abilities = DREAMMIST
+HiddenAbilities = DREAMMIST
+Height = 2.4
+Weight = 155.5
+Pokedex = 
+#-------------------------------
+[TOXTRICITY,3]
+FormName = Mega Toxtricity
+MegaStone = TOXTRICITITE
+BaseStats = 84,86,118,70,141,121
+BaseExp = 313
+Abilities = DUALTONE
+HiddenAbilities = DUALTONE
+Height = 2.4
+Weight = 155.5
+Pokedex = 
+#-------------------------------
+[TOXTRICITY,4]
+FormName = Mega Toxtricity
+MegaStone = TOXTRICITITE
+BaseStats = 84,86,118,70,141,121
+BaseExp = 313
+Abilities = DUALTONE
+HiddenAbilities = DUALTONE
+Height = 2.4
+Weight = 155.5
+Pokedex = 
+#-------------------------------
+[LOKIX,1]
+FormName = Mega Lokix
+MegaStone = LOKIXITE
+BaseStats = 71,132,98,132,52,65
+BaseExp = 313
+Abilities = SHOWDOWNMODE
+HiddenAbilities = SHOWDOWNMODE
+Height = 2.4
+Weight = 155.5
+Pokedex = 
+#-------------------------------
+[LUXRAY,1]
+FormName = Mega Luxray
+MegaStone = LUXRITE
+BaseStats = 80,140,89,115,110,89
+BaseExp = 313
+Abilities = NOGUARD
+HiddenAbilities = NOGUARD
+Height = 2.4
+Weight = 155.5
+Pokedex = 
+#-------------------------------
+[HONCHKROW,1]
+FormName = Mega Honchkrow
+MegaStone = HONCHKROWITE
+BaseStats = 100,145,102,71,105,92
+BaseExp = 313
+Abilities = INTIMIDATE
+HiddenAbilities = INTIMIDATE
+Height = 2.4
+Weight = 155.5
+Pokedex = 
+#-------------------------------
+[MISMAGIUS,1]
+FormName = Mega Mismagius
+MegaStone = MISMAGITE
+BaseStats = 60,60,60,145,145,135
+BaseExp = 313
+Abilities = INCANTATION
+HiddenAbilities = INCANTATION
+Height = 2.4
+Weight = 155.5
+Pokedex = 
+#-------------------------------
+[LICKILICKY,1]
+FormName = Mega Lickilicky
+MegaStone = LICKILICKITE
+BaseStats = 110,125,115,50,100,115
+BaseExp = 313
+Abilities = ADAPTABILITY
+HiddenAbilities = ADAPTABILITY
+Height = 2.4
+Weight = 155.5
+Pokedex = 
+#-------------------------------
+[CRESSELIA,1]
+FormName = Mega Cresselia
+MegaStone = CRESSELITE
+BaseStats = 120,120,130,55,125,130
+BaseExp = 313
+Abilities = LEVITATE
+HiddenAbilities = LEVITATE
+Height = 2.4
+Weight = 155.5
+Pokedex = 

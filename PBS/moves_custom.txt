@@ -1,0 +1,46 @@
+#-------------------------------
+[ENSNARINGCLAMP]
+Name = Ensnaring Clamp
+Type = FAIRY
+Category = Physical
+Power = 80
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = TrapUserAndTargetInBattle
+Flags = Contact,CanProtect,CanMirrorMove
+Description = The user clamps down on the target leaving them immobilized. The target cannot be switched out of battle for 5 turns.
+#-------------------------------
+[CHARREDSMOKE]
+Name = Charred Smoke
+Type = FIRE
+Category = Special
+Power = 80
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = LowerTargetEvasion1
+Flags = CanProtect,CanMirrorMove
+Description = The user attacks the target by blowing a large amount of smoke. This lowers the foe's evasiveness by one-stage. 
+#-------------------------------
+[RAINBOWGLIDE]
+Name = Rainbow Glide
+Type = FLYING
+Category = Physical
+Power = 90
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = TrapUserAndTargetInBattle #needs adding
+Flags = Contact,CanProtect,CanMirrorMove
+Description = The user glides at the target leaving behind a rainbow trail. Has a higher chance to crit the more this move is used.
+#-------------------------------
+[STEPPINGBLOCKS]
+Name = Stepping Blocks
+Type = NORMAL
+Category = Status
+Accuracy = 0
+TotalPP = 20
+Target = FoeSide
+FunctionCode = AddStealthRocksToFoeSide
+Description = The user lays a trap of blocks at the target's feet. The blocks will damage the opposing Pokemon depending on how fast they are.

@@ -104,9 +104,9 @@ IntroBGM = DPPT 086 Trainers_ Eyes Meet (Black Belt)
 #-------------------------------
 [BUGCATCHER_F]
 Name = Bug Catcher
-Gender = Male
+Gender = Female
 BaseMoney = 16
-IntroBGM = DPPT 021 Trainers_ Eyes Meet (Lass)
+IntroBGM = DPPT 022 Trainers_ Eyes Meet (Lass)
 #-------------------------------
 [BUGCATCHER_M]
 Name = Bug Catcher
@@ -486,6 +486,34 @@ Name = Youngster
 Gender = Male
 BaseMoney = 16
 IntroBGM = DPPT 021 Trainers_ Eyes Meet (Youngster)
+#-------------------------------
+[ADMIN_Somnia]
+Name = Lucid Admin
+Gender = Female
+BaseMoney = 100
+BattleBGM = 
+VictoryBGM = 
+#-------------------------------
+[ADMIN_Cauchemar]
+Name = Lucid Admin
+Gender = Male
+BaseMoney = 100
+BattleBGM = 
+VictoryBGM = 
+#-------------------------------
+[ADMIN_Chumu]
+Name = Lucid Admin
+Gender = Female
+BaseMoney = 100
+BattleBGM = 
+VictoryBGM = 
+#-------------------------------
+[LLEADER_Yume]
+Name = Lucid Leader
+Gender = Female
+BaseMoney = 100
+BattleBGM = 
+VictoryBGM = 
 #-------------------------------
 [LEADER_Aaron]
 Name = Gym Leader

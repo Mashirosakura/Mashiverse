@@ -34,26 +34,16 @@ MapPosition = 0,13,11
 #-------------------------------
 [007]
 Name = Cedolan City
-Outdoor = true
-ShowArea = true
-MapPosition = 0,13,10
-MapSize = 2,11
 #-------------------------------
 [008]
-Name = Lappet Town
-MapPosition = 0,13,12
+Name = Pastoria City
 #-------------------------------
 [009]
-Name = Cedolan City
-HealingSpot = 8,17,11
-MapPosition = 0,14,10
+Name = Pastoria City
 #-------------------------------
 [010]
-Name = Cedolan City
-MapPosition = 0,13,10
-BattleBack = indoor3
-Environment = Rock
-Flags = DisableBoxLink
+Name = Pastoria City Gym
+BattleBack = arena4
 #-------------------------------
 [011]
 Name = Cedolan City
