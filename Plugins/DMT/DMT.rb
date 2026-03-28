@@ -179,6 +179,7 @@ def pbStuckTile(event=nil)
   event = $game_player if !event
   return if !event
   $PokemonGlobal.stuck=true
+  $game_player.instance_variable_set(:@shows_shadow, false)
   event.straighten
   event.calculate_bush_depth
   olddir=event.direction
@@ -205,6 +206,7 @@ def pbStuckTile(event=nil)
   event.center(event.x,event.y)
   event.straighten
   $PokemonGlobal.stuck=false
+  $game_player.instance_variable_set(:@shows_shadow, true)
   $PokemonGlobal.mudfree=true
   event.jump(0,0)
   pbSEPlay(Deep_Marsh_Tiles::MARSHTILES_JUMP_SOUND)
