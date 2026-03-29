@@ -1,220 +1,70 @@
 ﻿# See the documentation on the wiki to learn how to edit this file.
 #-------------------------------
-[PETILIL,1]
-Generation = 8
+[SUNKERN,1]
+FormName = Marie
+Types = GRASS
+BaseStats = 30,75,30,75,75,30
+Moves = 1,TACKLE,1,GROWTH,6,ABSORB,10,TRAILBLAZE,14,BULLETSEED,14,GRASSPLEDGE,22,SUNNYDAY,26,SAPPYSEED,30,ENCORE,30,CHLOROBLAST
 #-------------------------------
-[RUFFLET,1]
-Generation = 8
+[SUNFLORA,1]
+FormName = Marie
+Types = GRASS
+BaseStats = 75,85,55,75,105,85
+Moves = 0,SOLARBEAM,1,SOLARBEAM,1,TACKLE,1,GROWTH,6,ABSORB,10,TRAILBLAZE,14,BULLETSEED,14,GRASSPLEDGE,22,SUNNYDAY,26,SAPPYSEED,30,ENCORE,30,CHLOROBLAST
 #-------------------------------
-[GOOMY,1]
-Generation = 8
+[DUCKLETT,1]
+FormName = Quinn
+Abilities = HYDRATION
+Moves = 1,WATERSPORT,1,WATERGUN,6,GUST,10,AQUAJET,14,AIRCUTTER,14,WATERPLEDGE,22,RAINDANCE,26,BOUNCYBUBBLE,30,TAILWIND,30,AIRSLASH
+Evolutions = SWANNA,Level,24
 #-------------------------------
-[ROWLET,1]
-Generation = 8
+[SWANNA,1]
+FormName = Quinn
+Abilities = HYDRATION
+Moves = 0,ROOST,1,ROOST,1,WATERSPORT,1,WATERGUN,6,GUST,10,AQUAJET,14,AIRCUTTER,14,WATERPLEDGE,22,RAINDANCE,26,BOUNCYBUBBLE,30,TAILWIND,30,AIRSLASH
 #-------------------------------
-[DARTRIX,1]
-Generation = 8
+[NACLI,1]
+FormName = Sally
+BaseStats = 75,55,75,25,35,40
+Abilities = CLEARBODY
+Moves = 1,TACKLE,1,HARDEN,6,ROCKTHROW,10,HEADBUTT,14,MUDSHOT,14,SMACKDOWN,22,SANDSTORM,26,ROCKYRUBBLE,30,IRONDEFENSE,30,BODYPRESS
 #-------------------------------
-[CYNDAQUIL,1]
-Generation = 8
+[NACLSTACK,1]
+FormName = Sally
+Types = ROCK
+BaseStats = 85,85,100,35,35,70
+Moves = 0,SALTCURE,1,SALTCURE,1,TACKLE,1,HARDEN,6,ROCKTHROW,10,HEADBUTT,14,MUDSHOT,14,SMACKDOWN,22,SANDSTORM,26,ROCKYRUBBLE,30,IRONDEFENSE,30,BODYPRESS
 #-------------------------------
-[QUILAVA,1]
-Generation = 8
+[RELLOR,1]
+FormName = Ray
+Abilities = COMPOUNDEYES
+Moves = 1,TACKLE,1,DEFENSECURL,6,POUNCE,10,ROLLOUT,14,THIEF,14,PROTECT,22,STRUGGLEBUG,26,SANDATTACK,30,SUBSTITUTE,30,LUNGE
+Evolutions = RABSCA,Happiness,
 #-------------------------------
-[OSHAWOTT,1]
-Generation = 8
+[RABSCA,1]
+FormName = Ray
+Abilities = SYNCHRONIZE
+Moves = 0,EXTRASENSORY,1,EXTRASENSORY,1,TACKLE,1,DEFENSECURL,6,POUNCE,10,ROLLOUT,14,THIEF,14,PROTECT,22,TELEPORT,26,GLITZYGLOW,30,REVIVALBLESSING,30,BUGBUZZ
 #-------------------------------
-[DEWOTT,1]
-Generation = 8
+[SINISTEA,1]
+FormName = Chai
+Moves = 1,ASTONISH,1,WITHDRAW,6,ABSORB,10,NIGHTSHADE,14,CONFUSERAY,14,PROTECT,22,HEX,26,BADDYBAD,30,SHELLSMASH,30,SHADOWBALL
+Evolutions = POLTEAGEIST,Item,CHIPPEDPOT
 #-------------------------------
-[NIDORAN,1]
-FormName = Female
-Types = POISON
-BaseStats = 55,47,52,41,40,40
-GenderRatio = AlwaysFemale
-GrowthRate = Parabolic
-BaseExp = 55
-EVs = HP,1
-CatchRate = 235
-Happiness = 50
-Abilities = POISONPOINT,RIVALRY
-HiddenAbilities = HUSTLE
-Moves = 1,GROWL,1,POISONSTING,5,SCRATCH,10,TAILWHIP,15,FURYSWIPES,20,TOXICSPIKES,25,DOUBLEKICK,30,BITE,35,HELPINGHAND,40,TOXIC,45,FLATTER,50,CRUNCH,55,EARTHPOWER
-TutorMoves = AERIALACE,ATTRACT,BEATUP,BLIZZARD,BODYSLAM,CAPTIVATE,CHARM,CONFIDE,COUNTER,CRUNCH,CUT,DEFENSECURL,DIG,DOUBLEEDGE,DOUBLETEAM,EARTHPOWER,ECHOEDVOICE,ENDURE,FACADE,FOCUSENERGY,FRUSTRATION,HEADBUTT,HELPINGHAND,HIDDENPOWER,HONECLAWS,ICEBEAM,IRONTAIL,MIMIC,MUDSLAP,NATURALGIFT,POISONJAB,PROTECT,RAINDANCE,REST,RETURN,ROCKSMASH,ROUND,SECRETPOWER,SHADOWCLAW,SHOCKWAVE,SLEEPTALK,SLUDGEBOMB,SNORE,STRENGTH,SUBSTITUTE,SUNNYDAY,SUPERFANG,SWAGGER,THIEF,THUNDER,THUNDERBOLT,TOXIC,TOXICSPIKES,VENOMDRENCH,VENOSHOCK,WATERPULSE
-EggMoves = BEATUP,CHARM,COUNTER,DISABLE,FOCUSENERGY,POISONFANG,POISONTAIL,SKULLBASH,SUPERSONIC,TAKEDOWN,VENOMDRENCH
-EggGroups = Monster,Field
-HatchSteps = 5120
-Height = 0.4
-Weight = 7.0
-Color = Blue
-Shape = Quadruped
-Habitat = Grassland
-Category = Poison Pin
-Pokedex = Its highly toxic barbs are thought to have developed as protection for this small-bodied Pokémon. When enraged, it releases a horrible toxin from its horn.
-Generation = 1
-Evolutions = NIDORINA,Level,16
+[POLTEAGEIST,1]
+FormName = Chai
+Moves = 0,STRENGTHSAP,1,STRENGTHSAP,1,ASTONISH,1,WITHDRAW,6,ABSORB,10,NIGHTSHADE,14,CONFUSERAY,14,PROTECT,22,HEX,26,BADDYBAD,30,SHELLSMASH,30,SHADOWBALL
 #-------------------------------
-[TORTERRA,1]
-FormName = Mega Torterra
-MegaStone = TORTERRITE
-BaseStats = 95,149,125,75,75,115
-BaseExp = 313
-Abilities = THICKFAT
-HiddenAbilities = THICKFAT
-Height = 2.4
-Weight = 155.5
-Pokedex = 
+[MELTAN,1]
+FormName = Mella
+Moves = 1,THUNDERSHOCK,1,HARDEN,6,HEADBUTT,10,BULLETPUNCH,14,THUNDERWAVE,14,MAGNETBOMB,22,ACIDARMOR,26,GYROBALL,30,ENDURE,30,STEELBEAM
+Evolutions = MELMETAL,CollectItems,MYSTERYMETAL
 #-------------------------------
-[INFERNAPE,1]
-FormName = Mega Infernape
-MegaStone = INFERNAPITE
-BaseStats = 76,136,81,128,134,81
-BaseExp = 313
-Abilities = DEFIANT
-HiddenAbilities = DEFIANT
-Height = 2.4
-Weight = 155.5
-Pokedex = 
+[MELMETAL,1]
+FormName = Mella
+Moves = 0,DOUBLEIRONBASH,1,DOUBLEIRONBASH,1,THUNDERSHOCK,1,HARDEN,6,HEADBUTT,10,BULLETPUNCH,14,THUNDERWAVE,14,MAGNETBOMB,22,ACIDARMOR,26,GYROBALL,30,THUNDERPUNCH,30,STEELBEAM
 #-------------------------------
-[EMPOLEON,1]
-FormName = Mega Empoleon
-MegaStone = EMPOLEONITE
-BaseStats = 84,86,118,70,141,121
-BaseExp = 313
-Abilities = DRIZZLE
-HiddenAbilities = DRIZZLE
-Height = 2.4
-Weight = 155.5
-Pokedex = 
-#-------------------------------
-[MIMIKYU,2] #NEED TO CODE FORM0 IN HANDLER
-FormName = Mega Mimikyu
-MegaStone = MIMIKITE
-BaseStats = 55,115,90,101,100,115
-BaseExp = 313
-Abilities = REVEALED
-HiddenAbilities = REVEALED
-Height = 2.4
-Weight = 155.5
-Pokedex = 
-#-------------------------------
-[RAMPARDOS,1]
-FormName = Mega Rampardos
-MegaStone = RAMPARDOSITE
-BaseStats = 97,170,80,108,65,75
-BaseExp = 313
-Abilities = ROCKHEAD
-HiddenAbilities = ROCKHEAD
-Height = 2.4
-Weight = 155.5
-Pokedex = 
-#-------------------------------
-[BASTIODON,1]
-FormName = Mega Bastiodon
-MegaStone = BASTIODONITE
-BaseStats = 60,112,170,30,83,140
-BaseExp = 313
-Abilities = EARTHEATER
-HiddenAbilities = EARTHEATER
-Height = 2.4
-Weight = 155.5
-Pokedex = 
-#-------------------------------
-[MUSHARNA,1]
-FormName = Mega Musharna
-MegaStone = MUSHARNITE
-BaseStats = 116,55,115,29,147,115
-BaseExp = 313
-Abilities = DREAMMIST
-HiddenAbilities = DREAMMIST
-Height = 2.4
-Weight = 155.5
-Pokedex = 
-#-------------------------------
-[TOXTRICITY,3]
-FormName = Mega Toxtricity
-MegaStone = TOXTRICITITE
-BaseStats = 84,86,118,70,141,121
-BaseExp = 313
-Abilities = DUALTONE
-HiddenAbilities = DUALTONE
-Height = 2.4
-Weight = 155.5
-Pokedex = 
-#-------------------------------
-[TOXTRICITY,4]
-FormName = Mega Toxtricity
-MegaStone = TOXTRICITITE
-BaseStats = 84,86,118,70,141,121
-BaseExp = 313
-Abilities = DUALTONE
-HiddenAbilities = DUALTONE
-Height = 2.4
-Weight = 155.5
-Pokedex = 
-#-------------------------------
-[LOKIX,1]
-FormName = Mega Lokix
-MegaStone = LOKIXITE
-BaseStats = 71,132,98,132,52,65
-BaseExp = 313
-Abilities = SHOWDOWNMODE
-HiddenAbilities = SHOWDOWNMODE
-Height = 2.4
-Weight = 155.5
-Pokedex = 
-#-------------------------------
-[LUXRAY,1]
-FormName = Mega Luxray
-MegaStone = LUXRITE
-BaseStats = 80,140,89,115,110,89
-BaseExp = 313
-Abilities = NOGUARD
-HiddenAbilities = NOGUARD
-Height = 2.4
-Weight = 155.5
-Pokedex = 
-#-------------------------------
-[HONCHKROW,1]
-FormName = Mega Honchkrow
-MegaStone = HONCHKROWITE
-BaseStats = 100,145,102,71,105,92
-BaseExp = 313
-Abilities = INTIMIDATE
-HiddenAbilities = INTIMIDATE
-Height = 2.4
-Weight = 155.5
-Pokedex = 
-#-------------------------------
-[MISMAGIUS,1]
-FormName = Mega Mismagius
-MegaStone = MISMAGITE
-BaseStats = 60,60,60,145,145,135
-BaseExp = 313
-Abilities = INCANTATION
-HiddenAbilities = INCANTATION
-Height = 2.4
-Weight = 155.5
-Pokedex = 
-#-------------------------------
-[LICKILICKY,1]
-FormName = Mega Lickilicky
-MegaStone = LICKILICKITE
-BaseStats = 110,125,115,50,100,115
-BaseExp = 313
+[EEVEE,1]
+FormName = Hana
+BaseStats = 65,75,70,75,65,85
 Abilities = ADAPTABILITY
-HiddenAbilities = ADAPTABILITY
-Height = 2.4
-Weight = 155.5
-Pokedex = 
-#-------------------------------
-[CRESSELIA,1]
-FormName = Mega Cresselia
-MegaStone = CRESSELITE
-BaseStats = 120,120,130,55,125,130
-BaseExp = 313
-Abilities = LEVITATE
-HiddenAbilities = LEVITATE
-Height = 2.4
-Weight = 155.5
-Pokedex = 

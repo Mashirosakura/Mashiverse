@@ -1,46 +1,86 @@
+# See the documentation on the wiki to learn how to edit this file.
 #-------------------------------
-[ENSNARINGCLAMP]
-Name = Ensnaring Clamp
-Type = FAIRY
+[SAPPYSEED]
+Name = Sappy Seed
+Type = GRASS
 Category = Physical
-Power = 80
-Accuracy = 100
+Power = 60
+Accuracy = 90
 TotalPP = 10
 Target = NearOther
-FunctionCode = TrapUserAndTargetInBattle
-Flags = Contact,CanProtect,CanMirrorMove
-Description = The user clamps down on the target leaving them immobilized. The target cannot be switched out of battle for 5 turns.
+FunctionCode = StartLeechSeedTarget
+Flags = CanProtect,CanMirrorMove
+Description = The user grows a gigantic stalk that scatters seeds to attack the target. The seeds drain the target’s HP every turn.
 #-------------------------------
-[CHARREDSMOKE]
-Name = Charred Smoke
-Type = FIRE
+[BOUNCYBUBBLE]
+Name = Bouncy Bubble
+Type = WATER
+Category = Special
+Power = 60
+Accuracy = 90
+TotalPP = 10
+Target = NearOther
+FunctionCode = HealUserByHalfOfDamageDone
+Flags = CanProtect,CanMirrorMove
+Description = The user attacks by shooting water bubbles at the target. It then absorbs water and restores its HP by half the damage taken by the target.
+#-------------------------------
+[ROCKYRUBBLE]
+Name = Rocky Rubble
+Type = ROCK
+Category = Physical
+Power = 60
+Accuracy = 90
+TotalPP = 10
+Target = NearOther
+FunctionCode = FlinchTarget
+Flags = Contact,CanProtect,CanMirrorMove
+EffectChance = 50
+Description = The user attacks whilst throwing pebbles at the target. The impact can cause the target to flinch.
+#-------------------------------
+[GLITZYGLOW]
+Name = Glitzy Glow
+Type = PSYCHIC
+Category = Special
+Power = 60
+Accuracy = 90
+TotalPP = 10
+Target = NearOther
+FunctionCode = StartWeakenSpecialDamageAgainstUserSide
+Flags = CanProtect,CanMirrorMove
+Description = The user bombards the target with telekinetic force. A wondrous wall of light is put up to weaken the power of the opposing Pokémon's special moves.
+#-------------------------------
+[BADDYBAD]
+Name = Baddy Bad
+Type = DARK
+Category = Special
+Power = 60
+Accuracy = 90
+TotalPP = 10
+Target = NearOther
+FunctionCode = StartWeakenPhysicalDamageAgainstUserSide
+Flags = CanProtect,CanMirrorMove
+Description = The user acts bad and attacks the target. A wondrous wall of light is put up to weaken the power of the opposing Pokémon's physical moves.
+#-------------------------------
+[FREEZYFROST]
+Name = Freezy Frost
+Type = ICE
 Category = Special
 Power = 80
-Accuracy = 100
+Accuracy = 90
 TotalPP = 10
 Target = NearOther
-FunctionCode = LowerTargetEvasion1
+FunctionCode = ResetAllBattlersStatStages
 Flags = CanProtect,CanMirrorMove
-Description = The user attacks the target by blowing a large amount of smoke. This lowers the foe's evasiveness by one-stage. 
+Description = The user attacks with a crystal made of cold frozen haze. It eliminates every stat change among all the Pokémon engaged in battle.
 #-------------------------------
-[RAINBOWGLIDE]
-Name = Rainbow Glide
-Type = FLYING
-Category = Physical
-Power = 90
-Accuracy = 100
+[SWIRLYSWIRL]
+Name = Swirly Swirl
+Type = FAIRY
+Category = Special
+Power = 60
+Accuracy = 90
 TotalPP = 10
 Target = NearOther
-FunctionCode = TrapUserAndTargetInBattle #needs adding
-Flags = Contact,CanProtect,CanMirrorMove
-Description = The user glides at the target leaving behind a rainbow trail. Has a higher chance to crit the more this move is used.
-#-------------------------------
-[STEPPINGBLOCKS]
-Name = Stepping Blocks
-Type = NORMAL
-Category = Status
-Accuracy = 0
-TotalPP = 20
-Target = FoeSide
-FunctionCode = AddStealthRocksToFoeSide
-Description = The user lays a trap of blocks at the target's feet. The blocks will damage the opposing Pokemon depending on how fast they are.
+FunctionCode = CureUserPartyStatus
+Flags = CanProtect,CanMirrorMove
+Description = The user attacks the target by wrapping it with a whirlwind of an overpowering scent. This also heals all status conditions of the user's party.

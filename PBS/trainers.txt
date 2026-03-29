@@ -1,105 +1,194 @@
 ﻿# See the documentation on the wiki to learn how to edit this file.
-#-------------------------------Bosses
-[RIVAL_Dara,Dara]
-LoseText = Aww man I think I'm losing $10 million...
-Pokemon = CHIMCHAR,5
 #-------------------------------
-[RIVAL_Dara,Dara,1]
-LoseText = Aww man I think I'm losing $10 million...
-Pokemon = PIPLUP,5
-#-------------------------------
-[RIVAL_Dara,Dara,2]
-LoseText = Aww man I think I'm losing $10 million...
-Pokemon = TURTWIG,5
-#-------------------------------
-[RIVAL_Dara,Dara,3]
-LoseText = Aw man...
-Pokemon = BUNEARY,10
-	Shiny = true
-Pokemon = CHIMCHAR,11
-#-------------------------------
-[RIVAL_Dara,Dara,4]
-LoseText = Aw man...
-Pokemon = BUNEARY,10
-Pokemon = PIPLUP,11
-#-------------------------------
-[RIVAL_Dara,Dara,5]
-LoseText = Aw man...
-Pokemon = BUNEARY,10
-Pokemon = TURTWIG,11
-#-------------------------------
-[RIVAL_Hiro,Hiro]
+[_Mira,Mira]
 LoseText = 
-Pokemon = STARYU,11
-	Moves = TACKLE,HARDEN,WATERGUN,CONFUSERAY
-Pokemon = GIBLE,12
-	Moves = TACKLE,SANDTOMB,SANDATTACK,DRAGONBREATH
+Pokemon = EEVEE,12
+    Moves = SWIRLYSWIRL,QUICKATTACK,DOUBLEKICK,TAILWHIP
+    Gender = female
+	Name = Hana
+	Form = 1
+	Nature = ADAMANT
+    IV = 20,20,20,20,20,20
 #-------------------------------
-[LEADER_Aaron,Aaron]
+[_Mira,Mira,1]
 LoseText = 
-Items = POTION
-Pokemon = COMBEE,14
-	Moves = SWEETSCENT,GUST,STRUGGLEBUG,BUGBITE
-Pokemon = DEWPIDER,14
-	#AbilityIndex = 2
-	Moves = WATERGUN,BUGBITE,STICKYWEB,INFESTATION
-Pokemon = SKORUPI,15
-	Item = BERRYJUICE
-	Moves = POUNCE,POISONTAIL,HONECLAWS,SCREECH
+Pokemon = EEVEE,20
+    Moves = SWIRLYSWIRL,QUICKATTACK,DOUBLEKICK,BITE
+    Gender = female
+	Name = Hana
+	Form = 1
+	Nature = ADAMANT
+    IV = 20,20,20,20,20,20
 #-------------------------------
-[ADMIN_Somnia,Somnia]
+[_Mira,Mira,2]
 LoseText = 
-Items = SUPERPOTION
-Pokemon = HOUNDOUR,17
-	AbilityIndex = 0
-	Moves = BITE,EMBER,THUNDERFANG,HOWL
-Pokemon = HOOTHOOT,17
-	Moves = ECHOEDVOICE,REFLECT,WINGATTACK,CONFUSION
-Pokemon = CHIMECHO,18
-	Moves = CONFUSION,CHARGEBEAM,HYPNOSIS,RECOVER
-#-------------------------------Route 212
-[YOUNGSTER,Timmy]
-LoseText = Wow, you're already pretty good!
-Pokemon = CHINGLING,5
+Pokemon = EEVEE,25
+    Moves = SWIRLYSWIRL,HEADBUTT,DOUBLEKICK,BITE
+    Gender = female
+	Name = Hana
+	Form = 1
+	Nature = ADAMANT
+    IV = 20,20,20,20,20,20
 #-------------------------------
-[LASS,Julia]
-LoseText = Oh, my Budew!
-Pokemon = BUDEW,6
+[_Mira,Mira,3]
+LoseText = No! I can't let you do this!
+Pokemon = POIPOLE,30
+    Moves = TOXICSPIKES,VENOSHOCK,PROTECT,VENOMDRENCH
+	Item = SITRUSBERRY
+	Nature = TIMID
+	Shiny = yes
+	Name = Poipoi
+    IV = 31,31,31,31,20,31
+Pokemon = PONYTA,30
+    Moves = PSYBEAM,STOMP,MYSTICALFIRE,ALLYSWITCH
+    AbilityIndex = 1
+    Gender = male
+	Item = SITRUSBERRY
+	Nature = HASTY
+	Form = 1
+	Name = Delon
+    IV = 31,31,31,31,31,31
+Pokemon = DELCATTY,30
+    Moves = FAKEOUT,RETURN,WISH,HELPINGHAND
+    AbilityIndex = 1
+    Gender = female
+	Nature = ADAMANT
+	Happiness = 180
+	Name = Nyanya
+    IV = 31,31,31,31,31,31
+Pokemon = VESPIQUEN,30
+    Moves = CONFUSERAY,AIRSLASH,POLLENPUFF,UTURN
+	Nature = HASTY
+	Item = CHARTIBERRY
+	Happiness = 180
+	Name = Queenie
+    IV = 31,31,31,31,31,31
+Pokemon = BRIONNE,30
+    Moves = SING,HYPERVOICE,LIFEDEW,DRAININGKISS
+	Item = THROATSPRAY
+    AbilityIndex = 1
+    Gender = female
+	Nature = TIMID
+	Name = Marina
+    IV = 31,31,31,31,31,31
+Pokemon = EEVEE,30
+    Moves = SWIRLYSWIRL,FREEZYFROST,DOUBLEKICK,BITE
+    Ability = PROTEAN
+	Item = LEFTOVERS
+    Gender = female
+	Nature = HASTY
+	Form = 1
+	Name = Hana
+    IV = 31,31,31,31,31,31
 #-------------------------------
-[BUGCATCHER_M,Brent]
-LoseText = You netted a victory this time!
-Pokemon = KRICKETOT,6
+[LEADER_Brock,Brock]
+Items = FULLRESTORE,FULLRESTORE
+LoseText = Very good.
+Pokemon = GEODUDE,12
+    Moves = DEFENSECURL,HEADSMASH,ROCKPOLISH,ROCKTHROW
+    AbilityIndex = 0
+    Gender = male
+    IV = 20,20,20,20,20,20
+Pokemon = ONIX,14
+    Name = Rocky
+    Moves = HEADSMASH,ROCKTHROW,RAGE,ROCKTOMB
+    AbilityIndex = 0
+    Item = SITRUSBERRY
+    Gender = male
+    IV = 20,20,20,20,20,20
+    Shiny = true
+    Ball = HEAVYBALL
 #-------------------------------
-[LASS,Nina]
-LoseText = The item is yours...
-Pokemon = NIDORAN,6
-    Gender = F
+[TEAMROCKET_M,Grunt,1]
+LoseText = You're too good for me!
+Pokemon = WEEPINBELL,21
+    Shadow = true
 #-------------------------------
-[FISHERMAN,Garren]
-LoseText = Reeled up a good fight this time!
-Pokemon = MAGIKARP,4
-#-------------------------------
-[BUGCATCHER_M,Shan]
-LoseText = No, my evolved bugs!
-Pokemon = WURMPLE,6
-Pokemon = CASCOON,7
-Pokemon = SILCOON,7
+[TEAMROCKET_F,Grunt,1]
+LoseText = You're too good for me!
+Pokemon = BURMY,19
+Pokemon = WINGULL,19
+Pokemon = ELECTABUZZ,20
+    Shadow = true
 #-------------------------------
 [YOUNGSTER,Ben]
-LoseText = You can go on ahead...
-Pokemon = EKANS,7
-Pokemon = MACHOP,7
+LoseText = Aww, I lost.
+Pokemon = RATTATA,3
+Pokemon = EKANS,3
 #-------------------------------
-[ACETRAINER_F,Rebecca]
-LoseText = Well I guess that's yours now!
-Pokemon = QUAGSIRE,24
-Pokemon = ARAQUANID,24
-#-------------------------------Pastoria Gym
-[BUGCATCHER_F,Shannon]
-LoseText = They're all so pretty!
-Pokemon = BEAUTIFLY,10
+[CAMPER,Jeff]
+LoseText = A very good battle, indeed!
+Pokemon = SPEAROW,16
+Pokemon = SENTRET,16
 #-------------------------------
-[BUGCATCHER_M,Caleb]
-LoseText = I wish I could stay here forever!
-Pokemon = DUSTOX,10
-#-------------------------------Route 213
+[CAMPER,Jeff,1]
+LoseText = You beat me again!
+Pokemon = FEAROW,29
+Pokemon = FURRET,29
+#-------------------------------
+[PICNICKER,Susie]
+LoseText = Defeated! Oh my!
+Pokemon = MEOWTH,18
+#-------------------------------
+[PICNICKER,Susie,1]
+LoseText = Defeated! Oh my!
+Pokemon = PERSIAN,32
+#-------------------------------
+[HIKER,Ford]
+LoseText = You're too good for me!
+Pokemon = MACHOP,19
+#-------------------------------
+[FISHERMAN,Andrew]
+LoseText = Washed out!
+Pokemon = MAGIKARP,14
+Pokemon = MAGIKARP,18
+#-------------------------------
+[BEAUTY,Bridget]
+LoseText = My Skitty!
+Pokemon = SKITTY,18
+#-------------------------------
+[LASS,Crissy]
+LoseText = You didn't have to win so convincingly!
+Pokemon = PLUSLE,17
+Pokemon = MINUN,17
+#-------------------------------
+[COOLCOUPLE,Alice & Bob]
+LoseText = Our teamwork failed!
+Pokemon = TURTWIG,19
+Pokemon = CHIMCHAR,19
+#-------------------------------
+[POKEMONTRAINER_May,May]
+LoseText = ...
+Pokemon = COMBUSKEN,19
+#-------------------------------
+[SWIMMER2_F,Ariel]
+LoseText = Washed out!
+Pokemon = STARYU,15
+Pokemon = GOLDEEN,11
+#-------------------------------
+[RIVAL1,Blue]
+LoseText = Not too shabby.
+Pokemon = PIDGEOTTO,17
+Pokemon = RATTATA,15
+Pokemon = BULBASAUR,18
+#-------------------------------
+[RIVAL1,Blue,1]
+LoseText = Not too shabby.
+Pokemon = PIDGEOTTO,17
+Pokemon = RATTATA,15
+Pokemon = CHARMANDER,18
+#-------------------------------
+[RIVAL1,Blue,2]
+LoseText = Not too shabby.
+Pokemon = PIDGEOTTO,17
+Pokemon = RATTATA,15
+Pokemon = SQUIRTLE,18
+#-------------------------------
+[CHAMPION,Blue]
+LoseText = A good battle indeed!
+Pokemon = VENUSAUR,63
+    Item = SITRUSBERRY
+Pokemon = CHARIZARD,63
+    Item = SITRUSBERRY
+Pokemon = BLASTOISE,63
+    Item = SITRUSBERRY
