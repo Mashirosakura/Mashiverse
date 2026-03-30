@@ -2046,6 +2046,15 @@ Moves = 0,SPARK,1,EERIEIMPULSE,1,BELCH,1,TEARFULLOOK,1,NUZZLE,1,GROWL,1,FLAIL,1,
 TutorMoves = ATTRACT,CAPTIVATE,CONFIDE,DOUBLEEDGE,DOUBLETEAM,DRAINPUNCH,EERIEIMPULSE,ELECTROBALL,ENCORE,ENDURE,FACADE,FIREPUNCH,FLING,FRUSTRATION,GIGAIMPACT,GUNKSHOT,HEX,HIDDENPOWER,HYPERBEAM,HYPERVOICE,MEGAKICK,MEGAPUNCH,MIMIC,NATURALGIFT,PAYBACK,POISONJAB,PROTECT,REST,RETURN,RISINGVOLTAGE,ROUND,SCARYFACE,SCREECH,SECRETPOWER,SLEEPTALK,SLUDGEBOMB,SLUDGEWAVE,SNARL,SNORE,STOREDPOWER,SUBSTITUTE,SWAGGER,SWIFT,TAUNT,THROATCHOP,THUNDER,THUNDERBOLT,THUNDERPUNCH,THUNDERWAVE,TOXIC,UPROAR,VENOMDRENCH,VOLTSWITCH,WILDCHARGE
 Pokedex = Capable of generating 15,000 volts of electricity, this Pokémon looks down on all that would challenge it.
 #-------------------------------
+[SINISTEA,1]
+FormName = Antique Form
+Pokedex = The swirl pattern in this Pokémon's body is its weakness. If it gets stirred, the swirl loses its shape, and Sinistea gets dizzy.
+Evolutions = POLTEAGEIST,Item,CHIPPEDPOT
+#-------------------------------
+[POLTEAGEIST,1]
+FormName = Antique Form
+Pokedex = Trainers Polteageist trusts will be allowed to experience its distinctive flavor and aroma firsthand by sampling just a tiny bit of its tea.
+#-------------------------------
 [ALCREMIE,7]
 FormName = Ruby Cream
 Pokedex = The cells that compose its cream fluctuated suddenly during evolution, giving the cream a sweet and tart flavor.

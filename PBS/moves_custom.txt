@@ -84,3 +84,61 @@ Target = NearOther
 FunctionCode = CureUserPartyStatus
 Flags = CanProtect,CanMirrorMove
 Description = The user attacks the target by wrapping it with a whirlwind of an overpowering scent. This also heals all status conditions of the user's party.
+#-------------------------------
+[ENSNARINGCLAMP]
+Name = Ensnaring Clamp
+Type = FAIRY
+Category = Physical
+Power = 80
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = TrapUserAndTargetInBattle #needschange
+Flags = Contact,CanProtect,CanMirrorMove
+Description = The user clamps down on the target leaving them immobilized. The target cannot be switched out of battle for 5 turns.
+#-------------------------------
+[CHARREDSMOKE]
+Name = Charred Smoke
+Type = FIRE
+Category = Special
+Power = 80
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = LowerTargetEvasion1
+Flags = CanProtect,CanMirrorMove
+Description = The user attacks the target by blowing a large amount of smoke. This lowers the foe's evasiveness by one-stage. 
+#-------------------------------
+[RAINBOWGLIDE]
+Name = Rainbow Glide
+Type = FLYING
+Category = Physical
+Power = 90
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = TrapUserAndTargetInBattle #needschange
+Flags = Contact,CanProtect,CanMirrorMove
+Description = The user glides at the target leaving behind a rainbow trail. Has a higher chance to crit the more this move is used.
+#-------------------------------
+[STEPPINGBLOCKS]
+Name = Ensnaring Clamp
+Type = FAIRY
+Category = Status
+Accuracy = 0
+TotalPP = 20
+Target = FoeSide
+FunctionCode = AddStealthRocksToFoeSide #needschange
+Description = The user lays a trap of blocks at the target's feet. These will damage faster opposing Pokemon.
+#-------------------------------
+[SHOCKINGDELIVERY]
+Name = Shocking Delivery
+Type = ELECTRIC
+Category = Special
+Power = 80
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = UseTargetDefenseInsteadOfTargetSpDef
+Flags = CanProtect,CanMirrorMove
+Description = The user throws an electric gift to attack the target. This attack does physical damage.

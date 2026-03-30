@@ -4,8 +4,12 @@ https://docs.google.com/spreadsheets/d/1uBk_Fbubx5O1iiobEpojx_8LCD_x_r9hxDDi3j7g
 To do:
 
 - PreGym1:
-	- Fisherman Sprite
 	- Aaron Sprite (needs design)
 	- Generic overworlds for npcs
 	- Design interiors for train stations, Ramanos/Pastoria
 	- Add npcs/wild pkmn
+	- PBS stuff because mashi is dumb and reverted some of it by accident
+	 - trainers
+	 - trainertypes
+	 - 
+	- window skin again

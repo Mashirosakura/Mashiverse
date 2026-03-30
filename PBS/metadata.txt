@@ -5,39 +5,29 @@ StartMoney = 3000
 StartItemStorage = POTION
 Home = 3,7,5,8
 StorageCreator = Bill
-WildBattleBGM = cooperative operation - Atelier Ryza Anime
-TrainerBattleBGM = Balmy Summer Breeze - Atelier Ryza 2
-WildVictoryBGM = Battle victory wild
-TrainerVictoryBGM = Battle victory trainer
-SurfBGM = Surfing
-BicycleBGM = Bicycle
+WildBattleBGM = DPPT 011 Battle! (Wild Pokemon)
+TrainerBattleBGM = DPPT 023 Battle! (Trainer Battle)
+WildVictoryBGM = DPPT 012 Victory! (Wild Pokemon)
+TrainerVictoryBGM = DPPT 024 Victory! (Trainer Battle)
+SurfBGM = DPPT 084 Surf
+BicycleBGM = DPPT 052 Bicycle
 #-------------------------------
 [1]
 TrainerType = POKEMONTRAINER_Red
-WalkCharset = _Cleo
-RunCharset = _Cleo_run
+WalkCharset = trainer_POKEMONTRAINER_Red
+RunCharset = boy_run
 CycleCharset = boy_bike
 SurfCharset = boy_surf
 DiveCharset = boy_surf
-FishCharset = _Cleo_fish_offset
+FishCharset = boy_fish_offset
 SurfFishCharset = boy_fish_offset
 #-------------------------------
 [2]
-TrainerType = _Cleo
-WalkCharset = _Cleo
-RunCharset = _Cleo_run
-CycleCharset = boy_bike
-SurfCharset = boy_surf
-DiveCharset = boy_surf
-FishCharset = _Cleo_fish_offset
-SurfFishCharset = boy_fish_offset
-#-------------------------------
-[3]
-TrainerType = _Mira
-WalkCharset = _Mira
-RunCharset = _Mira_run
+TrainerType = POKEMONTRAINER_Leaf
+WalkCharset = trainer_POKEMONTRAINER_Leaf
+RunCharset = girl_run
 CycleCharset = girl_bike
 SurfCharset = girl_surf
 DiveCharset = girl_surf
-FishCharset = _Mira_fish_offset
+FishCharset = girl_fish_offset
 SurfFishCharset = girl_fish_offset

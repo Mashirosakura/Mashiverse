@@ -872,7 +872,7 @@ Power = 150
 Accuracy = 90
 TotalPP = 5
 Target = NearOther
-FunctionCode = AttackAndSkipNextTurn
+FunctionCode = CantSelectConsecutiveTurns
 Flags = CanProtect,CanMirrorMove
 Description = The user blasts the target with power that distorts even time. The user must rest on the next turn.
 #-------------------------------
@@ -2407,7 +2407,7 @@ Power = 150
 Accuracy = 90
 TotalPP = 5
 Target = NearOther
-FunctionCode = AttackAndSkipNextTurn
+FunctionCode = CantSelectConsecutiveTurns
 Flags = CanProtect,CanMirrorMove
 Description = The target is razed by a fiery explosion. The user must rest on the next turn, however.
 #-------------------------------
@@ -3440,7 +3440,7 @@ Power = 150
 Accuracy = 90
 TotalPP = 5
 Target = NearOther
-FunctionCode = AttackAndSkipNextTurn
+FunctionCode = CantSelectConsecutiveTurns
 Flags = CanProtect,CanMirrorMove
 Description = The user slams the target with an enormous tree. The user can't move on the next turn.
 #-------------------------------
@@ -4643,7 +4643,7 @@ Power = 150
 Accuracy = 90
 TotalPP = 5
 Target = NearOther
-FunctionCode = AttackAndSkipNextTurn
+FunctionCode = CantSelectConsecutiveTurns
 Flags = Contact,CanProtect,CanMirrorMove
 Description = The user charges at the target using every bit of its power. The user must rest on the next turn.
 #-------------------------------
@@ -4655,7 +4655,7 @@ Power = 150
 Accuracy = 90
 TotalPP = 5
 Target = NearOther
-FunctionCode = AttackAndSkipNextTurn
+FunctionCode = CantSelectConsecutiveTurns
 Flags = CanProtect,CanMirrorMove
 Description = The foe is attacked with a powerful beam. The user must rest on the next turn to regain its energy.
 #-------------------------------
@@ -8284,7 +8284,7 @@ Power = 150
 Accuracy = 90
 TotalPP = 5
 Target = NearOther
-FunctionCode = AttackAndSkipNextTurn
+FunctionCode = CantSelectConsecutiveTurns
 Flags = CanProtect,CanMirrorMove
 Description = The target is hit with a watery blast. The user must rest on the next turn, however.
 #-------------------------------

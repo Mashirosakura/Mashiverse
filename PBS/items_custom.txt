@@ -1,9 +1,174 @@
 ﻿# See the documentation on the wiki to learn how to edit this file.
 #-------------------------------
-[MYSTERYMETAL]
-Name = Mystery Metal
-NamePlural = Mystery Metals
+[RAINBOWPOFFIN]
+Name = Rainbow Poffin
+NamePlural = Rainbow Poffins
+Pocket = 1
+Price = 3000
+BPPrice = 5
+FieldUse = OnPokemon
+Flags = EvolutionStone,Fling_30
+Description = A peculiar biscuit that makes certain species of Pokémon evolve. It is rainbow coloured.
+#-------------------------------
+[]
+Name = Rainbow Poffin
+NamePlural = Rainbow Poffins
+Pocket = 1
+Price = 3000
+BPPrice = 5
+FieldUse = OnPokemon
+Flags = EvolutionStone,Fling_30
+Description = A peculiar biscuit that makes certain species of Pokémon evolve. It is rainbow coloured.
+#-------------------------------
+[COURIERPOUCH]
+Name = Courier Pouch
+NamePlural = Courier Pouches
+Pocket = 1
+Price = 3000
+BPPrice = 5
+Flags = Fling_80
+Description = A peculiar pouch that's loved by a very friendly species of Pokémon. It's light and smooth.
+#-------------------------------
+[TORTERRITE]
+Name = Torterrite
+NamePlural = Torterrites
 Pocket = 1
 Price = 0
-Flags = Fling_30
-Description = A mysterious metal found hidden around Solgira. It's durable but very flexible.
+BPPrice = 50
+Flags = MegaStone,Fling_80
+Description = One of a variety of mysterious Mega Stones. Have Torterra hold it, and it will be able to Mega Evolve.
+#-------------------------------
+[INFERNAPITE]
+Name = Infernapite
+NamePlural = Infernapites
+Pocket = 1
+Price = 0
+BPPrice = 50
+Flags = MegaStone,Fling_80
+Description = One of a variety of mysterious Mega Stones. Have Infernape hold it, and it will be able to Mega Evolve.
+#-------------------------------
+[EMPOLEONITE]
+Name = Empoleonite
+NamePlural = Empoleonites
+Pocket = 1
+Price = 0
+BPPrice = 50
+Flags = MegaStone,Fling_80
+Description = One of a variety of mysterious Mega Stones. Have Empoleon hold it, and it will be able to Mega Evolve.
+#-------------------------------
+[MIMIKITE]
+Name = Mimikite
+NamePlural = Mimikites
+Pocket = 1
+Price = 0
+BPPrice = 50
+Flags = MegaStone,Fling_80
+Description = One of a variety of mysterious Mega Stones. Have Mimikyu hold it, and it will be able to Mega Evolve.
+#-------------------------------
+[RAMPARDOSITE]
+Name = Rampardosite
+NamePlural = Rampardosites
+Pocket = 1
+Price = 0
+BPPrice = 50
+Flags = MegaStone,Fling_80
+Description = One of a variety of mysterious Mega Stones. Have Rampardos hold it, and it will be able to Mega Evolve.
+#-------------------------------
+[BASTIODONITE]
+Name = Bastiodonite
+NamePlural = Bastiodonites
+Pocket = 1
+Price = 0
+BPPrice = 50
+Flags = MegaStone,Fling_80
+Description = One of a variety of mysterious Mega Stones. Have Bastiodon hold it, and it will be able to Mega Evolve.
+#-------------------------------
+[MUSHARNITE]
+Name = Musharnite
+NamePlural = Musharnites
+Pocket = 1
+Price = 0
+BPPrice = 50
+Flags = MegaStone,Fling_80
+Description = One of a variety of mysterious Mega Stones. Have Musharna hold it, and it will be able to Mega Evolve.
+#-------------------------------
+[CLAYDOLITE]
+Name = Claydolite
+NamePlural = Claydolites
+Pocket = 1
+Price = 0
+BPPrice = 50
+Flags = MegaStone,Fling_80
+Description = One of a variety of mysterious Mega Stones. Have Claydol hold it, and it will be able to Mega Evolve.
+#-------------------------------
+[KINGDRITE]
+Name = Kingdrite
+NamePlural = Kingdrites
+Pocket = 1
+Price = 0
+BPPrice = 50
+Flags = MegaStone,Fling_80
+Description = One of a variety of mysterious Mega Stones. Have Kingdra hold it, and it will be able to Mega Evolve.
+#-------------------------------
+[TOXTRICITITE]
+Name = Toxtricitite
+NamePlural = Toxtricitites
+Pocket = 1
+Price = 0
+BPPrice = 50
+Flags = MegaStone,Fling_80
+Description = One of a variety of mysterious Mega Stones. Have Toxtricity hold it, and it will be able to Mega Evolve.
+#-------------------------------
+[LOKIXITE]
+Name = Lokixite
+NamePlural = Lokixites
+Pocket = 1
+Price = 0
+BPPrice = 50
+Flags = MegaStone,Fling_80
+Description = One of a variety of mysterious Mega Stones. Have Lokix hold it, and it will be able to Mega Evolve.
+#-------------------------------
+[LUXRITE]
+Name = Luxrite
+NamePlural = Luxrites
+Pocket = 1
+Price = 0
+BPPrice = 50
+Flags = MegaStone,Fling_80
+Description = One of a variety of mysterious Mega Stones. Have Luxray hold it, and it will be able to Mega Evolve.
+#-------------------------------
+[HONCHROWITE]
+Name = Honchkrowite
+NamePlural = Honchkrowites
+Pocket = 1
+Price = 0
+BPPrice = 50
+Flags = MegaStone,Fling_80
+Description = One of a variety of mysterious Mega Stones. Have Honchkrow hold it, and it will be able to Mega Evolve.
+#-------------------------------
+[MISMAGITE]
+Name = Mismagite
+NamePlural = Mismagites
+Pocket = 1
+Price = 0
+BPPrice = 50
+Flags = MegaStone,Fling_80
+Description = One of a variety of mysterious Mega Stones. Have Mismagius hold it, and it will be able to Mega Evolve.
+#-------------------------------
+[LICKILICKITE]
+Name = Lickilickite
+NamePlural = Lickilickites
+Pocket = 1
+Price = 0
+BPPrice = 50
+Flags = MegaStone,Fling_80
+Description = One of a variety of mysterious Mega Stones. Have Lickilicky hold it, and it will be able to Mega Evolve.
+#-------------------------------
+[CRESSELITE]
+Name = Cresselite
+NamePlural = Cresselites
+Pocket = 1
+Price = 0
+BPPrice = 50
+Flags = MegaStone,Fling_80
+Description = One of a variety of mysterious Mega Stones. Have Cresselia hold it, and it will be able to Mega Evolve.

@@ -77,6 +77,7 @@ Habitat = Grassland
 Category = Seed
 Pokedex = Venusaur's flower is said to take on vivid colors if it gets plenty of nutrition and sunlight. The flower's aroma soothes the emotions of people.
 Generation = 1
+Flags = HasGenderedSprites
 #-------------------------------
 [CHARMANDER]
 Name = Charmander
@@ -309,6 +310,7 @@ Habitat = Forest
 Category = Butterfly
 Pokedex = It has a superior ability to search for delicious honey from flowers. It can seek, extract, and carry honey from flowers blooming over six miles away.
 Generation = 1
+Flags = HasGenderedSprites
 WildItemUncommon = SILVERPOWDER
 #-------------------------------
 [WEEDLE]
@@ -491,6 +493,7 @@ Habitat = Grassland
 Category = Mouse
 Pokedex = A Rattata is cautious in the extreme. Even while it is asleep, it constantly moves its ears and listens for danger. It will make its nest anywhere.
 Generation = 1
+Flags = HasGenderedSprites
 WildItemUncommon = CHILANBERRY
 Evolutions = RATICATE,Level,20
 #-------------------------------
@@ -518,6 +521,7 @@ Habitat = Grassland
 Category = Mouse
 Pokedex = A Raticate's sturdy fangs grow steadily. To keep them ground down, it gnaws on rocks and logs. It may even chew on the walls of houses.
 Generation = 1
+Flags = HasGenderedSprites
 WildItemUncommon = CHILANBERRY
 #-------------------------------
 [SPEAROW]
@@ -650,6 +654,7 @@ Habitat = Forest
 Category = Mouse
 Pokedex = It stores electricity in the electric sacs on its cheeks. When it releases pent-up energy in a burst, the electric power is equal to a lightning bolt.
 Generation = 1
+Flags = HasGenderedSprites
 WildItemUncommon = LIGHTBALL
 Evolutions = RAICHU,Item,THUNDERSTONE
 #-------------------------------
@@ -677,6 +682,7 @@ Habitat = Forest
 Category = Mouse
 Pokedex = If it stores too much electricity, its behavior turns aggressive. To avoid this, it occasionally discharges excess energy and calms itself down.
 Generation = 1
+Flags = HasGenderedSprites
 #-------------------------------
 [SANDSHREW]
 Name = Sandshrew
@@ -732,90 +738,11 @@ Pokedex = It curls up in a ball to protect itself from enemy attacks. It also cu
 Generation = 1
 WildItemUncommon = GRIPCLAW
 #-------------------------------
-[NIDORANfE]
-Name = Nidoran♀
-Types = POISON
-BaseStats = 55,47,52,41,40,40
-GenderRatio = AlwaysFemale
-GrowthRate = Parabolic
-BaseExp = 55
-EVs = HP,1
-CatchRate = 235
-Happiness = 50
-Abilities = POISONPOINT,RIVALRY
-HiddenAbilities = HUSTLE
-Moves = 1,GROWL,1,POISONSTING,5,SCRATCH,10,TAILWHIP,15,FURYSWIPES,20,TOXICSPIKES,25,DOUBLEKICK,30,BITE,35,HELPINGHAND,40,TOXIC,45,FLATTER,50,CRUNCH,55,EARTHPOWER
-TutorMoves = AERIALACE,ATTRACT,BEATUP,BLIZZARD,BODYSLAM,CAPTIVATE,CHARM,CONFIDE,COUNTER,CRUNCH,CUT,DEFENSECURL,DIG,DOUBLEEDGE,DOUBLETEAM,EARTHPOWER,ECHOEDVOICE,ENDURE,FACADE,FOCUSENERGY,FRUSTRATION,HEADBUTT,HELPINGHAND,HIDDENPOWER,HONECLAWS,ICEBEAM,IRONTAIL,MIMIC,MUDSLAP,NATURALGIFT,POISONJAB,PROTECT,RAINDANCE,REST,RETURN,ROCKSMASH,ROUND,SECRETPOWER,SHADOWCLAW,SHOCKWAVE,SLEEPTALK,SLUDGEBOMB,SNORE,STRENGTH,SUBSTITUTE,SUNNYDAY,SUPERFANG,SWAGGER,THIEF,THUNDER,THUNDERBOLT,TOXIC,TOXICSPIKES,VENOMDRENCH,VENOSHOCK,WATERPULSE
-EggMoves = BEATUP,CHARM,COUNTER,DISABLE,FOCUSENERGY,POISONFANG,POISONTAIL,SKULLBASH,SUPERSONIC,TAKEDOWN,VENOMDRENCH
-EggGroups = Monster,Field
-HatchSteps = 5120
-Offspring = NIDORANfE,NIDORANmA
-Height = 0.4
-Weight = 7.0
-Color = Blue
-Shape = Quadruped
-Habitat = Grassland
-Category = Poison Pin
-Pokedex = Its highly toxic barbs are thought to have developed as protection for this small-bodied Pokémon. When enraged, it releases a horrible toxin from its horn.
-Generation = 1
-Evolutions = NIDORINA,Level,16
-#-------------------------------
-[NIDORINA]
-Name = Nidorina
-Types = POISON
-BaseStats = 70,62,67,56,55,55
-GenderRatio = AlwaysFemale
-GrowthRate = Parabolic
-BaseExp = 128
-EVs = HP,2
-CatchRate = 120
-Happiness = 50
-Abilities = POISONPOINT,RIVALRY
-HiddenAbilities = HUSTLE
-Moves = 1,GROWL,1,POISONSTING,1,SCRATCH,1,TAILWHIP,15,FURYSWIPES,22,TOXICSPIKES,29,DOUBLEKICK,36,BITE,43,HELPINGHAND,50,TOXIC,57,FLATTER,64,CRUNCH,71,EARTHPOWER
-TutorMoves = AERIALACE,ATTRACT,BEATUP,BLIZZARD,BODYSLAM,CAPTIVATE,CHARM,CONFIDE,COUNTER,CRUNCH,CUT,DEFENSECURL,DIG,DOUBLEEDGE,DOUBLETEAM,EARTHPOWER,ECHOEDVOICE,ENDURE,FACADE,FOCUSENERGY,FRUSTRATION,HEADBUTT,HELPINGHAND,HIDDENPOWER,HONECLAWS,ICEBEAM,IRONTAIL,MIMIC,MUDSLAP,NATURALGIFT,POISONJAB,PROTECT,RAINDANCE,REST,RETURN,ROCKSMASH,ROUND,SECRETPOWER,SHADOWCLAW,SHOCKWAVE,SLEEPTALK,SLUDGEBOMB,SNORE,STOMPINGTANTRUM,STRENGTH,SUBSTITUTE,SUNNYDAY,SUPERFANG,SWAGGER,THIEF,THUNDER,THUNDERBOLT,TOXIC,TOXICSPIKES,VENOMDRENCH,VENOSHOCK,WATERPULSE
-EggGroups = Monster,Field
-HatchSteps = 5120
-Height = 0.8
-Weight = 20.0
-Color = Blue
-Shape = Quadruped
-Habitat = Grassland
-Category = Poison Pin
-Pokedex = When it is with its friends or family, its barbs are tucked away to prevent injury. It appears to become nervous if separated from the others.
-Generation = 1
-Evolutions = NIDOQUEEN,Item,MOONSTONE
-#-------------------------------
-[NIDOQUEEN]
-Name = Nidoqueen
-Types = POISON,GROUND
-BaseStats = 90,92,87,76,75,85
-GenderRatio = AlwaysFemale
-GrowthRate = Parabolic
-BaseExp = 253
-EVs = HP,3
-CatchRate = 45
-Happiness = 50
-Abilities = POISONPOINT,RIVALRY
-HiddenAbilities = SHEERFORCE
-Moves = 0,SUPERPOWER,1,SLUDGEWAVE,1,FURYSWIPES,1,TOXICSPIKES,1,DOUBLEKICK,1,BITE,1,HELPINGHAND,1,TOXIC,1,FLATTER,1,CRUNCH,1,EARTHPOWER,1,GROWL,1,POISONSTING,1,SCRATCH,1,TAILWHIP
-TutorMoves = AERIALACE,AQUATAIL,ATTRACT,AVALANCHE,BEATUP,BLIZZARD,BODYPRESS,BODYSLAM,BRICKBREAK,BULLDOZE,CAPTIVATE,CHARM,CONFIDE,COUNTER,CRUNCH,CUT,DEFENSECURL,DIG,DOUBLEEDGE,DOUBLETEAM,DRAGONPULSE,DRAGONTAIL,DRILLRUN,DYNAMICPUNCH,EARTHPOWER,EARTHQUAKE,ECHOEDVOICE,ENDURE,FACADE,FIREBLAST,FIREPUNCH,FLAMETHROWER,FLING,FOCUSBLAST,FOCUSENERGY,FOCUSPUNCH,FRUSTRATION,FURYCUTTER,GIGAIMPACT,HEADBUTT,HELPINGHAND,HEX,HIDDENPOWER,HIGHHORSEPOWER,HONECLAWS,HYPERBEAM,ICEBEAM,ICEPUNCH,ICYWIND,INCINERATE,IRONTAIL,MEGAKICK,MEGAPUNCH,MIMIC,MUDSHOT,MUDSLAP,NATURALGIFT,OUTRAGE,PAYDAY,POISONJAB,POWERUPPUNCH,PROTECT,QUASH,RAINDANCE,REST,RETURN,ROAR,ROCKBLAST,ROCKCLIMB,ROCKSLIDE,ROCKSMASH,ROCKTOMB,ROUND,SANDSTORM,SANDTOMB,SCORCHINGSANDS,SECRETPOWER,SEISMICTOSS,SHADOWBALL,SHADOWCLAW,SHOCKWAVE,SLEEPTALK,SLUDGEBOMB,SLUDGEWAVE,SMACKDOWN,SNORE,STEALTHROCK,STOMPINGTANTRUM,STONEEDGE,STRENGTH,SUBSTITUTE,SUNNYDAY,SUPERFANG,SUPERPOWER,SURF,SWAGGER,TAUNT,THIEF,THROATCHOP,THUNDER,THUNDERBOLT,THUNDERPUNCH,TORMENT,TOXIC,TOXICSPIKES,UPROAR,VENOMDRENCH,VENOSHOCK,WATERPULSE,WHIRLPOOL
-EggGroups = Monster,Field
-HatchSteps = 5120
-Height = 1.3
-Weight = 60.0
-Color = Blue
-Shape = BipedalTail
-Habitat = Grassland
-Category = Drill
-Pokedex = It is adept at sending foes flying with harsh tackles using its tough, scaly body. This Pokémon is at its strongest when it is defending its young.
-Generation = 1
-#-------------------------------
-[NIDORANmA]
-Name = Nidoran♂
+[NIDORAN]
+Name = Nidoran
 Types = POISON
 BaseStats = 46,57,40,50,40,40
-GenderRatio = AlwaysMale
+GenderRatio = Female50Percent
 GrowthRate = Parabolic
 BaseExp = 55
 EVs = ATTACK,1
@@ -828,7 +755,6 @@ TutorMoves = AMNESIA,ATTRACT,BEATUP,BLIZZARD,BODYSLAM,CAPTIVATE,CONFIDE,COUNTER,
 EggMoves = AMNESIA,BEATUP,CONFUSION,COUNTER,DISABLE,HEADSMASH,HORNDRILL,POISONTAIL,SUCKERPUNCH,SUPERSONIC,TAKEDOWN,THRASH,VENOMDRENCH
 EggGroups = Monster,Field
 HatchSteps = 5120
-Offspring = NIDORANfE,NIDORANmA
 Height = 0.5
 Weight = 9.0
 Color = Purple
@@ -888,6 +814,57 @@ Shape = BipedalTail
 Habitat = Grassland
 Category = Drill
 Pokedex = A Nidoking's thick tail packs enormously destructive power capable of toppling a metal transmission tower. Once it goes on a rampage, there is no stopping it.
+Generation = 1
+#-------------------------------
+[NIDORINA]
+Name = Nidorina
+Types = POISON
+BaseStats = 70,62,67,56,55,55
+GenderRatio = AlwaysFemale
+GrowthRate = Parabolic
+BaseExp = 128
+EVs = HP,2
+CatchRate = 120
+Happiness = 50
+Abilities = POISONPOINT,RIVALRY
+HiddenAbilities = HUSTLE
+Moves = 1,GROWL,1,POISONSTING,1,SCRATCH,1,TAILWHIP,15,FURYSWIPES,22,TOXICSPIKES,29,DOUBLEKICK,36,BITE,43,HELPINGHAND,50,TOXIC,57,FLATTER,64,CRUNCH,71,EARTHPOWER
+TutorMoves = AERIALACE,ATTRACT,BEATUP,BLIZZARD,BODYSLAM,CAPTIVATE,CHARM,CONFIDE,COUNTER,CRUNCH,CUT,DEFENSECURL,DIG,DOUBLEEDGE,DOUBLETEAM,EARTHPOWER,ECHOEDVOICE,ENDURE,FACADE,FOCUSENERGY,FRUSTRATION,HEADBUTT,HELPINGHAND,HIDDENPOWER,HONECLAWS,ICEBEAM,IRONTAIL,MIMIC,MUDSLAP,NATURALGIFT,POISONJAB,PROTECT,RAINDANCE,REST,RETURN,ROCKSMASH,ROUND,SECRETPOWER,SHADOWCLAW,SHOCKWAVE,SLEEPTALK,SLUDGEBOMB,SNORE,STOMPINGTANTRUM,STRENGTH,SUBSTITUTE,SUNNYDAY,SUPERFANG,SWAGGER,THIEF,THUNDER,THUNDERBOLT,TOXIC,TOXICSPIKES,VENOMDRENCH,VENOSHOCK,WATERPULSE
+EggGroups = Monster,Field
+HatchSteps = 5120
+Height = 0.8
+Weight = 20.0
+Color = Blue
+Shape = Quadruped
+Habitat = Grassland
+Category = Poison Pin
+Pokedex = When it is with its friends or family, its barbs are tucked away to prevent injury. It appears to become nervous if separated from the others.
+Generation = 1
+Evolutions = NIDOQUEEN,Item,MOONSTONE
+#-------------------------------
+[NIDOQUEEN]
+Name = Nidoqueen
+Types = POISON,GROUND
+BaseStats = 90,92,87,76,75,85
+GenderRatio = AlwaysFemale
+GrowthRate = Parabolic
+BaseExp = 253
+EVs = HP,3
+CatchRate = 45
+Happiness = 50
+Abilities = POISONPOINT,RIVALRY
+HiddenAbilities = SHEERFORCE
+Moves = 0,SUPERPOWER,1,SLUDGEWAVE,1,FURYSWIPES,1,TOXICSPIKES,1,DOUBLEKICK,1,BITE,1,HELPINGHAND,1,TOXIC,1,FLATTER,1,CRUNCH,1,EARTHPOWER,1,GROWL,1,POISONSTING,1,SCRATCH,1,TAILWHIP
+TutorMoves = AERIALACE,AQUATAIL,ATTRACT,AVALANCHE,BEATUP,BLIZZARD,BODYPRESS,BODYSLAM,BRICKBREAK,BULLDOZE,CAPTIVATE,CHARM,CONFIDE,COUNTER,CRUNCH,CUT,DEFENSECURL,DIG,DOUBLEEDGE,DOUBLETEAM,DRAGONPULSE,DRAGONTAIL,DRILLRUN,DYNAMICPUNCH,EARTHPOWER,EARTHQUAKE,ECHOEDVOICE,ENDURE,FACADE,FIREBLAST,FIREPUNCH,FLAMETHROWER,FLING,FOCUSBLAST,FOCUSENERGY,FOCUSPUNCH,FRUSTRATION,FURYCUTTER,GIGAIMPACT,HEADBUTT,HELPINGHAND,HEX,HIDDENPOWER,HIGHHORSEPOWER,HONECLAWS,HYPERBEAM,ICEBEAM,ICEPUNCH,ICYWIND,INCINERATE,IRONTAIL,MEGAKICK,MEGAPUNCH,MIMIC,MUDSHOT,MUDSLAP,NATURALGIFT,OUTRAGE,PAYDAY,POISONJAB,POWERUPPUNCH,PROTECT,QUASH,RAINDANCE,REST,RETURN,ROAR,ROCKBLAST,ROCKCLIMB,ROCKSLIDE,ROCKSMASH,ROCKTOMB,ROUND,SANDSTORM,SANDTOMB,SCORCHINGSANDS,SECRETPOWER,SEISMICTOSS,SHADOWBALL,SHADOWCLAW,SHOCKWAVE,SLEEPTALK,SLUDGEBOMB,SLUDGEWAVE,SMACKDOWN,SNORE,STEALTHROCK,STOMPINGTANTRUM,STONEEDGE,STRENGTH,SUBSTITUTE,SUNNYDAY,SUPERFANG,SUPERPOWER,SURF,SWAGGER,TAUNT,THIEF,THROATCHOP,THUNDER,THUNDERBOLT,THUNDERPUNCH,TORMENT,TOXIC,TOXICSPIKES,UPROAR,VENOMDRENCH,VENOSHOCK,WATERPULSE,WHIRLPOOL
+EggGroups = Monster,Field
+HatchSteps = 5120
+Height = 1.3
+Weight = 60.0
+Color = Blue
+Shape = BipedalTail
+Habitat = Grassland
+Category = Drill
+Pokedex = It is adept at sending foes flying with harsh tackles using its tough, scaly body. This Pokémon is at its strongest when it is defending its young.
 Generation = 1
 #-------------------------------
 [CLEFAIRY]
@@ -1075,6 +1052,7 @@ Habitat = Cave
 Category = Bat
 Pokedex = While living in pitch-black caverns, their eyes gradually grew shut and deprived them of vision. They use ultrasonic waves to detect obstacles.
 Generation = 1
+Flags = HasGenderedSprites
 Evolutions = GOLBAT,Level,22
 #-------------------------------
 [GOLBAT]
@@ -1101,6 +1079,7 @@ Habitat = Cave
 Category = Bat
 Pokedex = Its fangs easily puncture even thick animal hide. It loves to feast on the blood of people and Pokémon. It flits about in darkness and strikes from behind.
 Generation = 1
+Flags = HasGenderedSprites
 Evolutions = CROBAT,Happiness,
 #-------------------------------
 [ODDISH]
@@ -1155,6 +1134,7 @@ Habitat = Grassland
 Category = Weed
 Pokedex = A horribly noxious honey drools from its mouth. One whiff of the honey can result in memory loss. Some fans are said to enjoy this overwhelming stink, however.
 Generation = 1
+Flags = HasGenderedSprites
 WildItemUncommon = ABSORBBULB
 Evolutions = VILEPLUME,Item,LEAFSTONE,BELLOSSOM,Item,SUNSTONE
 #-------------------------------
@@ -1182,6 +1162,7 @@ Habitat = Grassland
 Category = Flower
 Pokedex = In seasons when it produces more pollen, the air around a Vileplume turns yellow with the powder as it walks. The pollen is highly toxic and causes paralysis.
 Generation = 1
+Flags = HasGenderedSprites
 WildItemUncommon = ABSORBBULB
 #-------------------------------
 [PARAS]
@@ -1689,8 +1670,9 @@ Habitat = Urban
 Category = Psi
 Pokedex = It is rumored that a boy with psychic abilities suddenly transformed into Kadabra while he was assisting research into extrasensory powers.
 Generation = 1
+Flags = HasGenderedSprites
 WildItemUncommon = TWISTEDSPOON
-Evolutions = ALAKAZAM,Trade,
+Evolutions = ALAKAZAM,Item,LINKINGCORD
 #-------------------------------
 [ALAKAZAM]
 Name = Alakazam
@@ -1716,6 +1698,7 @@ Habitat = Urban
 Category = Psi
 Pokedex = While it has strong psychic abilities and high intelligence, an Alakazam's muscles are very weak. It uses psychic power to move its body.
 Generation = 1
+Flags = HasGenderedSprites
 WildItemUncommon = TWISTEDSPOON
 #-------------------------------
 [MACHOP]
@@ -1771,7 +1754,7 @@ Category = Superpower
 Pokedex = A belt is worn by a Machoke to keep its overwhelming power under control. Because it is so dangerous, no one has ever removed the belt.
 Generation = 1
 WildItemUncommon = FOCUSBAND
-Evolutions = MACHAMP,Trade,
+Evolutions = MACHAMP,Item,LINKINGCORD
 #-------------------------------
 [MACHAMP]
 Name = Machamp
@@ -1891,7 +1874,7 @@ Abilities = CLEARBODY,LIQUIDOOZE
 HiddenAbilities = RAINDISH
 Moves = 1,POISONSTING,1,WATERGUN,4,ACID,8,WRAP,12,SUPERSONIC,16,WATERPULSE,20,SCREECH,24,BUBBLEBEAM,28,HEX,32,ACIDARMOR,36,POISONJAB,40,SURF,44,SLUDGEWAVE,48,HYDROPUMP
 TutorMoves = ATTRACT,BIND,BLIZZARD,BRINE,BRUTALSWING,CAPTIVATE,CONFIDE,CROSSPOISON,CUT,DAZZLINGGLEAM,DIVE,DOUBLEEDGE,DOUBLETEAM,ENDURE,FACADE,FRUSTRATION,GIGADRAIN,HAIL,HEX,HIDDENPOWER,HYDROPUMP,ICEBEAM,ICYWIND,INFESTATION,KNOCKOFF,MAGICCOAT,MIMIC,MUDDYWATER,NATURALGIFT,PAYBACK,POISONJAB,PROTECT,RAINDANCE,REST,RETURN,ROUND,SAFEGUARD,SCALD,SCREECH,SECRETPOWER,SLEEPTALK,SLUDGEBOMB,SLUDGEWAVE,SNORE,SUBSTITUTE,SURF,SWAGGER,SWORDSDANCE,THIEF,TOXICSPIKES,VENOSHOCK,WATERFALL,WATERPULSE,WHIRLPOOL
-EggMoves = ACUPRESSURE,AQUARING,AURORABEAM,CONFUSERAY,HAZE,KNOCKOFF,MIRRORCOAT,MUDDYWATER,RAPIDSPIN,TICKLE
+EggMoves = ACUPRESSURE,AQUARING,AURORABEAM,CONFUSERAY,HAZE,KNOCKOFF,MIRRORCOAT,MUDDYWATER,RAPIDSPIN,TICKLE,TOXICSPIKES
 EggGroups = Water3
 HatchSteps = 5120
 Height = 0.9
@@ -1984,7 +1967,7 @@ Category = Rock
 Pokedex = They descend from mountains by tumbling down steep slopes. They are so brutal, they smash aside obstructing trees and huge boulders with thunderous tackles.
 Generation = 1
 WildItemUncommon = EVERSTONE
-Evolutions = GOLEM,Trade,
+Evolutions = GOLEM,Item,LINKINGCORD
 #-------------------------------
 [GOLEM]
 Name = Golem
@@ -2225,6 +2208,7 @@ Habitat = Grassland
 Category = Twin Bird
 Pokedex = Even while eating or sleeping, one of the heads remains always vigilant for any sign of danger. When threatened, it flees at over 60 miles per hour.
 Generation = 1
+Flags = HasGenderedSprites
 WildItemUncommon = SHARPBEAK
 Evolutions = DODRIO,Level,31
 #-------------------------------
@@ -2252,6 +2236,7 @@ Habitat = Grassland
 Category = Triple Bird
 Pokedex = A peculiar Pokémon species with three heads. It vigorously races across grassy plains even in arid seasons with little rainfall.
 Generation = 1
+Flags = HasGenderedSprites
 WildItemUncommon = SHARPBEAK
 #-------------------------------
 [SEEL]
@@ -2465,7 +2450,7 @@ Habitat = Cave
 Category = Gas
 Pokedex = If a Haunter beckons you while it is floating in darkness, don't approach it. This Pokémon will try to lick you with its tongue and steal your life away.
 Generation = 1
-Evolutions = GENGAR,Trade,
+Evolutions = GENGAR,Item,LINKINGCORD
 #-------------------------------
 [GENGAR]
 Name = Gengar
@@ -2516,7 +2501,7 @@ Habitat = Cave
 Category = Rock Snake
 Pokedex = There is a magnet in its brain that prevents an Onix from losing direction while tunneling. As it grows older, its body becomes steadily rounder and smoother.
 Generation = 1
-Evolutions = STEELIX,TradeItem,METALCOAT
+Evolutions = STEELIX,Item,METALCOAT
 #-------------------------------
 [DROWZEE]
 Name = Drowzee
@@ -2569,6 +2554,7 @@ Habitat = Grassland
 Category = Hypnosis
 Pokedex = The arcing movement and glitter of the pendulum in a Hypno's hand lull the foe into deep hypnosis. While searching for prey, it polishes the pendulum.
 Generation = 1
+Flags = HasGenderedSprites
 #-------------------------------
 [KRABBY]
 Name = Krabby
@@ -2937,6 +2923,7 @@ Habitat = RoughTerrain
 Category = Spikes
 Pokedex = Once it starts running, it doesn't stop. Its tiny brain makes it so stupid that it can't remember why it started running in the first place.
 Generation = 1
+Flags = HasGenderedSprites
 Evolutions = RHYDON,Level,42
 #-------------------------------
 [RHYDON]
@@ -2963,6 +2950,7 @@ Habitat = RoughTerrain
 Category = Drill
 Pokedex = Its horn, which rotates like a drill, destroys tall buildings with one strike. It stands on its hind legs, and its brain is well developed.
 Generation = 1
+Flags = HasGenderedSprites
 Evolutions = RHYPERIOR,TradeItem,PROTECTOR
 #-------------------------------
 [CHANSEY]
@@ -3126,6 +3114,7 @@ Habitat = WatersEdge
 Category = Goldfish
 Pokedex = In the springtime, schools of Goldeen can be seen swimming up falls and rivers. It metes out staggering damage with its single horn.
 Generation = 1
+Flags = HasGenderedSprites
 WildItemUncommon = MYSTICWATER
 Evolutions = SEAKING,Level,33
 #-------------------------------
@@ -3153,6 +3142,7 @@ Habitat = WatersEdge
 Category = Goldfish
 Pokedex = It punches holes in boulders on stream- beds. This is a clever innovation that prevents its eggs from being attacked or washed away by the current.
 Generation = 1
+Flags = HasGenderedSprites
 WildItemUncommon = MYSTICWATER
 #-------------------------------
 [STARYU]
@@ -3262,7 +3252,8 @@ Habitat = Grassland
 Category = Mantis
 Pokedex = Its blindingly fast speed adds to the sharpness of its twin forearm scythes. The scythes can slice through thick logs in one wicked stroke.
 Generation = 1
-Evolutions = SCIZOR,TradeItem,METALCOAT
+Flags = HasGenderedSprites
+Evolutions = SCIZOR,Item,METALCOAT,KLEAVOR,Item,BLACKAUGURITE
 #-------------------------------
 [JYNX]
 Name = Jynx
@@ -3418,6 +3409,7 @@ Habitat = WatersEdge
 Category = Fish
 Pokedex = Its swimming muscles are weak, so it is easily washed away by currents. In places where water pools, you can see many Magikarp deposited there by the flow.
 Generation = 1
+Flags = HasGenderedSprites
 Evolutions = GYARADOS,Level,20
 #-------------------------------
 [GYARADOS]
@@ -3444,6 +3436,7 @@ Habitat = WatersEdge
 Category = Atrocious
 Pokedex = It is an extremely vicious and violent Pokémon. When humans begin to fight, it will appear and burn everything to the ground with intensely hot flames.
 Generation = 1
+Flags = HasGenderedSprites
 #-------------------------------
 [LAPRAS]
 Name = Lapras
@@ -3525,6 +3518,7 @@ Habitat = Urban
 Category = Evolution
 Pokedex = An Eevee has an unstable genetic makeup that suddenly mutates due to its environment. Radiation from various stones causes this Pokémon to evolve.
 Generation = 1
+Flags = HasGenderedSprites
 Evolutions = VAPOREON,Item,WATERSTONE,JOLTEON,Item,THUNDERSTONE,FLAREON,Item,FIRESTONE,LEAFEON,Item,LEAFSTONE,LEAFEON,LocationFlag,MossRock,GLACEON,Item,ICESTONE,GLACEON,LocationFlag,IceRock,SYLVEON,HappinessMoveType,FAIRY,ESPEON,HappinessDay,,UMBREON,HappinessNight,
 #-------------------------------
 [VAPOREON]
@@ -4077,6 +4071,7 @@ Habitat = Grassland
 Category = Herb
 Pokedex = The fragrance of a Meganium's flower soothes and calms emotions. In battle, it gives off more of its becalming scent to blunt the foe's fighting spirit.
 Generation = 2
+Flags = HasGenderedSprites
 #-------------------------------
 [CYNDAQUIL]
 Name = Cyndaquil
@@ -4103,7 +4098,7 @@ Habitat = Grassland
 Category = Fire Mouse
 Pokedex = It flares flames from its back to protect itself. The fire burns vigorously if the Pokémon is angry. When it is tired, it sputters with incomplete combustion.
 Generation = 2
-Evolutions = QUILAVA,Level,14
+Evolutions = QUILAVA,Level,17
 #-------------------------------
 [QUILAVA]
 Name = Quilava
@@ -4363,6 +4358,7 @@ Habitat = Forest
 Category = Five Star
 Pokedex = Ledyba communicate using a fluid that they secrete from where the legs join the body. They are said to convey feelings to others by altering the fluid's scent.
 Generation = 2
+Flags = HasGenderedSprites
 Evolutions = LEDIAN,Level,18
 #-------------------------------
 [LEDIAN]
@@ -4389,6 +4385,7 @@ Habitat = Forest
 Category = Five Star
 Pokedex = It is said that in lands with clean air, where the stars fill the sky, there live many Ledian. For good reason, they use the light of the stars as energy.
 Generation = 2
+Flags = HasGenderedSprites
 #-------------------------------
 [SPINARAK]
 Name = Spinarak
@@ -4707,6 +4704,7 @@ Habitat = Forest
 Category = Mystic
 Pokedex = It has the enigmatic power of foreseeing the future. Some people in different lands have long believed that Xatu are emissaries from another world.
 Generation = 2
+Flags = HasGenderedSprites
 #-------------------------------
 [MAREEP]
 Name = Mareep
@@ -4889,11 +4887,12 @@ Habitat = Forest
 Category = Imitation
 Pokedex = It mimics a tree to avoid being attacked by enemies. But since its forelegs remain green throughout the year, it is easily identified as a fake in the winter.
 Generation = 2
+Flags = HasGenderedSprites
 #-------------------------------
 [POLITOED]
 Name = Politoed
 Types = WATER
-BaseStats = 90,75,75,70,90,100
+BaseStats = 90,80,80,70,90,100
 GenderRatio = Female50Percent
 GrowthRate = Parabolic
 BaseExp = 250
@@ -4914,6 +4913,7 @@ Habitat = WatersEdge
 Category = Frog
 Pokedex = The curled hair on its head proves its status as a king. It is said that the longer and curlier the hair, the more respect it earns from its peers.
 Generation = 2
+Flags = HasGenderedSprites
 WildItemUncommon = KINGSROCK
 #-------------------------------
 [HOPPIP]
@@ -5019,6 +5019,7 @@ Habitat = Forest
 Category = Long Tail
 Pokedex = Its tail ends with a dexterous, handlike appendage. However, because it uses the tail so much, Aipom's real hands have become rather clumsy.
 Generation = 2
+Flags = HasGenderedSprites
 Evolutions = AMBIPOM,HasMove,DOUBLEHIT
 #-------------------------------
 [SUNKERN]
@@ -5126,6 +5127,7 @@ Habitat = WatersEdge
 Category = Water Fish
 Pokedex = Wooper usually live in water but come out onto land seeking food occasionally. On land, they coat their bodies with a gooey, toxic film.
 Generation = 2
+Flags = HasGenderedSprites
 Evolutions = QUAGSIRE,Level,20
 #-------------------------------
 [QUAGSIRE]
@@ -5152,6 +5154,7 @@ Habitat = WatersEdge
 Category = Water Fish
 Pokedex = A Quagsire hunts by leaving its mouth wide open in water and waiting for its prey to blunder in. Because it doesn't move, it does not get very hungry.
 Generation = 2
+Flags = HasGenderedSprites
 #-------------------------------
 [ESPEON]
 Name = Espeon
@@ -5228,6 +5231,7 @@ Habitat = Forest
 Category = Darkness
 Pokedex = Murkrow were feared as the alleged bearers of ill fortune. It shows strong interest in anything that sparkles. It will even try to steal rings from women.
 Generation = 2
+Flags = HasGenderedSprites
 Evolutions = HONCHKROW,Item,DUSKSTONE
 #-------------------------------
 [SLOWKING]
@@ -5331,6 +5335,7 @@ Habitat = Cave
 Category = Patient
 Pokedex = Usually docile, a Wobbuffet strikes back ferociously if its black tail is attacked. It makes its lair in caves where it waits for nightfall.
 Generation = 2
+Flags = HasGenderedSprites
 #-------------------------------
 [GIRAFARIG]
 Name = Girafarig
@@ -5357,6 +5362,7 @@ Habitat = Grassland
 Category = Long Neck
 Pokedex = A Girafarig is an herbivore--it eats grass and tree shoots. While it is eating, its tail makes chewing and swallowing motions as if it were also eating.
 Generation = 2
+Flags = HasGenderedSprites
 #-------------------------------
 [PINECO]
 Name = Pineco
@@ -5461,6 +5467,7 @@ Habitat = Mountain
 Category = Fly Scorpion
 Pokedex = It glides without making a single sound. It grasps the face of its foe using its hind and large front claws, then stabs with its poison barb.
 Generation = 2
+Flags = HasGenderedSprites
 Evolutions = GLISCOR,NightHoldItem,RAZORFANG
 #-------------------------------
 [STEELIX]
@@ -5487,6 +5494,7 @@ Habitat = Cave
 Category = Iron Snake
 Pokedex = Steelix live even further underground than Onix. This Pokémon is known to dig toward the earth's core, reaching a depth of over six-tenths of a mile underground.
 Generation = 2
+Flags = HasGenderedSprites
 WildItemUncommon = METALCOAT
 #-------------------------------
 [SNUBBULL]
@@ -5592,6 +5600,7 @@ Habitat = Grassland
 Category = Pincer
 Pokedex = A Scizor has a body with the hardness of steel. It is not easily fazed by ordinary sorts of attacks. It flaps its wings to regulate its body temperature.
 Generation = 2
+Flags = HasGenderedSprites
 #-------------------------------
 [SHUCKLE]
 Name = Shuckle
@@ -5647,6 +5656,7 @@ Habitat = Forest
 Category = Single Horn
 Pokedex = They gather in forests seeking the sweet sap of trees. It is completely clad in a steel-hard shell. It is proud of its horn, which it uses to fling foes.
 Generation = 2
+Flags = HasGenderedSprites
 #-------------------------------
 [SNEASEL]
 Name = Sneasel
@@ -5673,6 +5683,7 @@ Habitat = Forest
 Category = Sharp Claw
 Pokedex = A Sneasel scales trees by punching its hooked claws into the bark. It seeks out unguarded nests and steals eggs for food while the parents are away.
 Generation = 2
+Flags = HasGenderedSprites
 WildItemUncommon = QUICKCLAW
 Evolutions = WEAVILE,NightHoldItem,RAZORCLAW
 #-------------------------------
@@ -5727,6 +5738,7 @@ Habitat = Mountain
 Category = Hibernator
 Pokedex = In forests, it is said that there are many streams and towering trees where an Ursaring gathers food. It walks through its forest collecting food every day.
 Generation = 2
+Flags = HasGenderedSprites
 #-------------------------------
 [SLUGMA]
 Name = Slugma
@@ -5779,6 +5791,7 @@ Habitat = Mountain
 Category = Lava
 Pokedex = The shell on its back is made of hardened magma. Tens of thousands of years spent living in volcanic craters have turned Magcargo's bodies into magma.
 Generation = 2
+Evolutions = MOLTEPHRA,HasMove,ERUPTION
 #-------------------------------
 [SWINUB]
 Name = Swinub
@@ -5831,6 +5844,7 @@ Habitat = Cave
 Category = Swine
 Pokedex = A Piloswine is covered by a thick coat of long hair for enduring freezing cold. It uses its tusks to dig up food that has been buried under ice.
 Generation = 2
+Flags = HasGenderedSprites
 Evolutions = MAMOSWINE,HasMove,ANCIENTPOWER
 #-------------------------------
 [CORSOLA]
@@ -5912,6 +5926,7 @@ Habitat = Sea
 Category = Jet
 Pokedex = It ensnares its foe with its suction- cupped tentacles before delivering the finishing blow. If the foe turns out to be too strong, it spews ink to escape.
 Generation = 2
+Flags = HasGenderedSprites
 #-------------------------------
 [DELIBIRD]
 Name = Delibird
@@ -6043,6 +6058,7 @@ Habitat = RoughTerrain
 Category = Dark
 Pokedex = In a Houndoom pack, the one with its horns raked sharply back serves a leadership role. They choose their leader by fighting among themselves.
 Generation = 2
+Flags = HasGenderedSprites
 #-------------------------------
 [KINGDRA]
 Name = Kingdra
@@ -6121,6 +6137,7 @@ Habitat = RoughTerrain
 Category = Armor
 Pokedex = A Donphan is so strong it can easily haul a dump truck. Its hide has toughened to a rock-hard state. An ordinary sort of attack won't even leave a scratch.
 Generation = 2
+Flags = HasGenderedSprites
 #-------------------------------
 [PORYGON2]
 Name = Porygon2
@@ -6731,6 +6748,7 @@ Habitat = Grassland
 Category = Chick
 Pokedex = If attacked, it strikes back by spitting balls of fire it forms in its stomach. A Torchic dislikes darkness because it can't see its surroundings.
 Generation = 3
+Flags = HasGenderedSprites
 Evolutions = COMBUSKEN,Level,16
 #-------------------------------
 [COMBUSKEN]
@@ -6757,6 +6775,7 @@ Habitat = Grassland
 Category = Young Fowl
 Pokedex = It lashes out with 10 kicks per second. Its strong fighting instinct compels it to keep up its offensive until the opponent gives up.
 Generation = 3
+Flags = HasGenderedSprites
 Evolutions = BLAZIKEN,Level,36
 #-------------------------------
 [BLAZIKEN]
@@ -6783,6 +6802,7 @@ Habitat = Grassland
 Category = Blaze
 Pokedex = It learns martial arts that use punches and kicks. Every several years, its old feathers burn off, and new, supple feathers grow back in their place.
 Generation = 3
+Flags = HasGenderedSprites
 #-------------------------------
 [MUDKIP]
 Name = Mudkip
@@ -7048,6 +7068,7 @@ Habitat = Forest
 Category = Butterfly
 Pokedex = Its colorfully patterned wings are its most prominent feature. It flies through flower-covered fields collecting pollen. It attacks ferociously when angered.
 Generation = 3
+Flags = HasGenderedSprites
 WildItemUncommon = SHEDSHELL
 #-------------------------------
 [CASCOON]
@@ -7078,7 +7099,7 @@ Evolutions = DUSTOX,Level,10
 [DUSTOX]
 Name = Dustox
 Types = BUG,POISON
-BaseStats = 60,50,70,65,50,90
+BaseStats = 60,50,70,65,50,100
 GenderRatio = Female50Percent
 GrowthRate = Medium
 BaseExp = 193
@@ -7099,6 +7120,7 @@ Habitat = Forest
 Category = Poison Moth
 Pokedex = It is a nocturnal Pokémon that flies from fields and mountains to the attraction of streetlights at night. It looses highly toxic powder from its wings.
 Generation = 3
+Flags = HasGenderedSprites
 WildItemUncommon = SHEDSHELL
 #-------------------------------
 [LOTAD]
@@ -7180,6 +7202,7 @@ Habitat = WatersEdge
 Category = Carefree
 Pokedex = When it hears festive music, all the cells in its body become stimulated, and it begins moving in rhythm. It does not quail even when it faces a tough opponent.
 Generation = 3
+Flags = HasGenderedSprites
 WildItemUncommon = MENTALHERB
 #-------------------------------
 [SEEDOT]
@@ -7234,6 +7257,7 @@ Habitat = Forest
 Category = Wily
 Pokedex = A forest-dwelling Pokémon that is skilled at climbing trees. Its long and pointed nose is its weak point. It loses power if the nose is gripped.
 Generation = 3
+Flags = HasGenderedSprites
 WildItemUncommon = POWERHERB
 Evolutions = SHIFTRY,Item,LEAFSTONE
 #-------------------------------
@@ -7261,6 +7285,7 @@ Habitat = Forest
 Category = Wicked
 Pokedex = It is said to arrive on chilly, wintry winds. Feared from long ago as the guardian of forests, this Pokémon lives in a deep forest where people do not venture.
 Generation = 3
+Flags = HasGenderedSprites
 WildItemUncommon = POWERHERB
 #-------------------------------
 [TAILLOW]
@@ -8109,6 +8134,7 @@ Habitat = Mountain
 Category = Meditate
 Pokedex = It continually meditates for hours every day. As a result of rigorous and dedicated yoga training, it has tempered its spiritual power so much it can fly.
 Generation = 3
+Flags = HasGenderedSprites
 Evolutions = MEDICHAM,Level,37
 #-------------------------------
 [MEDICHAM]
@@ -8135,6 +8161,7 @@ Habitat = Mountain
 Category = Meditate
 Pokedex = Through crushingly harsh yoga training, it gained the power to foretell its foe's actions. It battles with elegant, dance- like movement.
 Generation = 3
+Flags = HasGenderedSprites
 #-------------------------------
 [ELECTRIKE]
 Name = Electrike
@@ -8323,6 +8350,7 @@ Habitat = Grassland
 Category = Thorn
 Pokedex = A Roselia that drinks nutritionally rich springwater blooms with lovely flowers. The fragrance of its flowers has the effect of making its foes careless.
 Generation = 3
+Flags = HasGenderedSprites
 WildItemUncommon = POISONBARB
 Evolutions = ROSERADE,Item,SHINYSTONE
 #-------------------------------
@@ -8351,6 +8379,7 @@ Habitat = Grassland
 Category = Stomach
 Pokedex = This Pokémon's stomach fluid can even digest scrap iron. In one gulp, it can swallow something that is as large as itself.
 Generation = 3
+Flags = HasGenderedSprites
 WildItemCommon = ORANBERRY
 WildItemUncommon = SITRUSBERRY
 Evolutions = SWALOT,Level,26
@@ -8379,6 +8408,7 @@ Habitat = Grassland
 Category = Poison Bag
 Pokedex = Its powerful stomach acid is capable of digesting almost anything. The one thing in the whole world a Swalot can't digest is its own stomach.
 Generation = 3
+Flags = HasGenderedSprites
 WildItemCommon = ORANBERRY
 WildItemUncommon = SITRUSBERRY
 #-------------------------------
@@ -8513,6 +8543,7 @@ Habitat = Mountain
 Category = Numb
 Pokedex = A Numel stores boiling magma in the hump on its back. It is a hardy Pokémon that can transport a 220-pound load. It has served humans at work since long ago.
 Generation = 3
+Flags = HasGenderedSprites
 Evolutions = CAMERUPT,Level,33
 #-------------------------------
 [CAMERUPT]
@@ -8539,6 +8570,7 @@ Habitat = Mountain
 Category = Eruption
 Pokedex = A Pokémon that lives in the crater of a volcano. Every 10 years, the volcanoes on its back erupt violently. Research is under way on the cause of eruption.
 Generation = 3
+Flags = HasGenderedSprites
 #-------------------------------
 [TORKOAL]
 Name = Torkoal
@@ -8774,6 +8806,7 @@ Habitat = RoughTerrain
 Category = Scarecrow
 Pokedex = After spending thousands of years in harsh deserts, its blood transformed into the same substances as sand. It is nocturnal, so it hunts at night.
 Generation = 3
+Flags = HasGenderedSprites
 WildItemUncommon = STICKYBARB
 #-------------------------------
 [SWABLU]
@@ -9220,7 +9253,7 @@ Habitat = WatersEdge
 Category = Fish
 Pokedex = Feebas live in ponds that are heavily infested with weeds. Because of its hopelessly shabby appearance, it seems as if few trainers raise it.
 Generation = 3
-Evolutions = MILOTIC,TradeItem,PRISMSCALE,MILOTIC,Beauty,170
+Evolutions = MILOTIC,Item,PRISMSCALE,MILOTIC,Item,RAINBOWPOFFIN
 #-------------------------------
 [MILOTIC]
 Name = Milotic
@@ -9246,6 +9279,7 @@ Habitat = WatersEdge
 Category = Tender
 Pokedex = It is said to live at the bottom of large lakes. Considered to be the most beautiful of all Pokémon, it has been depicted in paintings and statues.
 Generation = 3
+Flags = HasGenderedSprites
 #-------------------------------
 [CASTFORM]
 Name = Castform
@@ -9753,6 +9787,7 @@ Habitat = Sea
 Category = Longevity
 Pokedex = A Pokémon that was once believed to be extinct. The species has not changed its form for 100 million years. It walks on the seafloor using its pectoral fins.
 Generation = 3
+Flags = HasGenderedSprites
 WildItemUncommon = DEEPSEASCALE
 #-------------------------------
 [LUVDISC]
@@ -10449,6 +10484,7 @@ Shape = Winged
 Category = Starling
 Pokedex = They flock in great numbers. Though small, they flap their wings with great power.
 Generation = 4
+Flags = HasGenderedSprites
 Evolutions = STARAVIA,Level,14
 #-------------------------------
 [STARAVIA]
@@ -10474,6 +10510,7 @@ Shape = Winged
 Category = Starling
 Pokedex = It flies around forests and fields in search of bug Pokémon. It stays within a huge flock.
 Generation = 4
+Flags = HasGenderedSprites
 Evolutions = STARAPTOR,Level,34
 #-------------------------------
 [STARAPTOR]
@@ -10499,6 +10536,7 @@ Shape = Winged
 Category = Predator
 Pokedex = It has a savage nature. It will courageously challenge foes that are much larger.
 Generation = 4
+Flags = HasGenderedSprites
 #-------------------------------
 [BIDOOF]
 Name = Bidoof
@@ -10524,6 +10562,7 @@ Shape = Quadruped
 Category = Plump Mouse
 Pokedex = With nerves of steel, nothing can perturb it. It is more agile and active than it appears.
 Generation = 4
+Flags = HasGenderedSprites
 Evolutions = BIBAREL,Level,15
 #-------------------------------
 [BIBAREL]
@@ -10549,6 +10588,7 @@ Shape = BipedalTail
 Category = Beaver
 Pokedex = It makes its nest by damming streams with bark and mud. It is known as an industrious worker.
 Generation = 4
+Flags = HasGenderedSprites
 #-------------------------------
 [KRICKETOT]
 Name = Kricketot
@@ -10573,6 +10613,7 @@ Shape = Bipedal
 Category = Cricket
 Pokedex = It shakes its head back to front, causing its antennae to hit each other and sound like a xylophone.
 Generation = 4
+Flags = HasGenderedSprites
 WildItemUncommon = METRONOME
 Evolutions = KRICKETUNE,Level,10
 #-------------------------------
@@ -10599,6 +10640,7 @@ Shape = MultiWinged
 Category = Cricket
 Pokedex = It crosses its knifelike arms in front of its chest when it cries. It can compose melodies ad lib.
 Generation = 4
+Flags = HasGenderedSprites
 WildItemUncommon = METRONOME
 #-------------------------------
 [SHINX]
@@ -10625,6 +10667,7 @@ Shape = Quadruped
 Category = Flash
 Pokedex = All of its fur dazzles if danger is sensed. It flees while the foe is momentarily blinded.
 Generation = 4
+Flags = HasGenderedSprites
 Evolutions = LUXIO,Level,15
 #-------------------------------
 [LUXIO]
@@ -10650,6 +10693,7 @@ Shape = Quadruped
 Category = Spark
 Pokedex = Its claws loose electricity with enough amperage to cause fainting. They live in small groups.
 Generation = 4
+Flags = HasGenderedSprites
 Evolutions = LUXRAY,Level,30
 #-------------------------------
 [LUXRAY]
@@ -10675,6 +10719,7 @@ Shape = Quadruped
 Category = Gleam Eyes
 Pokedex = It has eyes that can see through anything. It spots and captures prey hiding behind objects.
 Generation = 4
+Flags = HasGenderedSprites
 #-------------------------------
 [BUDEW]
 Name = Budew
@@ -10727,6 +10772,7 @@ Shape = Bipedal
 Category = Bouquet
 Pokedex = It attracts prey with a sweet aroma, then downs it with thorny whips hidden in its arms.
 Generation = 4
+Flags = HasGenderedSprites
 WildItemUncommon = POISONBARB
 #-------------------------------
 [CRANIDOS]
@@ -10932,6 +10978,7 @@ Shape = MultiBody
 Category = Tiny Bee
 Pokedex = A Pokémon formed by three others. It busily carries sweet floral honey to Vespiquen.
 Generation = 4
+Flags = HasGenderedSprites
 WildItemUncommon = HONEY
 Evolutions = VESPIQUEN,LevelFemale,21
 #-------------------------------
@@ -10984,6 +11031,8 @@ Shape = Quadruped
 Category = EleSquirrel
 Pokedex = It makes fur balls that crackle with static electricity. It stores them with berries in tree holes.
 Generation = 4
+Flags = HasGenderedSprites
+Evolutions = COURIPACHI,HappinessItem,COURIERPOUCH
 #-------------------------------
 [BUIZEL]
 Name = Buizel
@@ -11009,6 +11058,7 @@ Shape = Quadruped
 Category = Sea Weasel
 Pokedex = It has a flotation sac that is like an inflatable collar. It floats on water with its head out.
 Generation = 4
+Flags = HasGenderedSprites
 Evolutions = FLOATZEL,Level,26
 #-------------------------------
 [FLOATZEL]
@@ -11034,6 +11084,7 @@ Shape = Quadruped
 Category = Sea Weasel
 Pokedex = It floats using its well-developed flotation sac. It assists in the rescues of drowning people.
 Generation = 4
+Flags = HasGenderedSprites
 #-------------------------------
 [CHERUBI]
 Name = Cherubi
@@ -11163,6 +11214,7 @@ Shape = BipedalTail
 Category = Long Tail
 Pokedex = To eat, it deftly shucks nuts with its two tails. It rarely uses its arms now.
 Generation = 4
+Flags = HasGenderedSprites
 #-------------------------------
 [DRIFLOON]
 Name = Drifloon
@@ -11276,7 +11328,7 @@ CatchRate = 45
 Happiness = 35
 Abilities = LEVITATE
 Moves = 1,MYSTICALFIRE,1,POWERGEM,1,PHANTOMFORCE,1,MAGICALLEAF,1,GROWL,1,SPITE,1,ASTONISH,1,CONFUSERAY,1,MEANLOOK,1,HEX,1,PSYBEAM,1,PAINSPLIT,1,PAYBACK,1,SHADOWBALL,1,PERISHSONG,1,GRUDGE,1,CONFUSION
-TutorMoves = AERIALACE,ALLYSWITCH,ATTRACT,CALMMIND,CAPTIVATE,CHARGEBEAM,CONFIDE,DARKPULSE,DAZZLINGGLEAM,DEFENSECURL,DOUBLEEDGE,DOUBLETEAM,DREAMEATER,ECHOEDVOICE,EMBARGO,ENDURE,ENERGYBALL,FACADE,FLASH,FOULPLAY,FRUSTRATION,GIGAIMPACT,HEADBUTT,HEALBELL,HIDDENPOWER,HYPERBEAM,HYPERVOICE,ICYWIND,LASERFOCUS,MAGICCOAT,MAGICROOM,MIMIC,NASTYPLOT,NATURALGIFT,OMINOUSWIND,PAINSPLIT,PAYBACK,PROTECT,PSYCHIC,PSYCHUP,RAINDANCE,REST,RETURN,ROUND,SECRETPOWER,SHADOWBALL,SHOCKWAVE,SKILLSWAP,SLEEPTALK,SNATCH,SNORE,SPITE,SUBSTITUTE,SUCKERPUNCH,SUNNYDAY,SWAGGER,SWIFT,TAUNT,TELEKINESIS,THIEF,THUNDER,THUNDERBOLT,THUNDERWAVE,TORMENT,TRICK,TRICKROOM,UPROAR,WILLOWISP,WONDERROOM
+TutorMoves = AERIALACE,ALLURINGVOICE,ALLYSWITCH,ATTRACT,CALMMIND,CAPTIVATE,CHARGEBEAM,CONFIDE,DARKPULSE,DAZZLINGGLEAM,DEFENSECURL,DOUBLEEDGE,DOUBLETEAM,DREAMEATER,ECHOEDVOICE,EMBARGO,ENDURE,ENERGYBALL,FACADE,FLASH,FOULPLAY,FRUSTRATION,GIGAIMPACT,HEADBUTT,HEALBELL,HIDDENPOWER,HYPERBEAM,HYPERVOICE,ICYWIND,LASERFOCUS,MAGICCOAT,MAGICROOM,MIMIC,NASTYPLOT,NATURALGIFT,OMINOUSWIND,PAINSPLIT,PAYBACK,PROTECT,PSYCHIC,PSYCHUP,RAINDANCE,REST,RETURN,ROUND,SECRETPOWER,SHADOWBALL,SHOCKWAVE,SKILLSWAP,SLEEPTALK,SNATCH,SNORE,SPITE,SUBSTITUTE,SUCKERPUNCH,SUNNYDAY,SWAGGER,SWIFT,TAUNT,TELEKINESIS,THIEF,THUNDER,THUNDERBOLT,THUNDERWAVE,TORMENT,TRICK,TRICKROOM,UPROAR,WILLOWISP,WONDERROOM
 EggGroups = Amorphous
 HatchSteps = 6400
 Height = 0.9
@@ -11646,6 +11698,7 @@ Shape = BipedalTail
 Category = Land Shark
 Pokedex = It nests in small, horizontal holes in cave walls. It pounces to catch prey that stray too close.
 Generation = 4
+Flags = HasGenderedSprites
 Evolutions = GABITE,Level,24
 #-------------------------------
 [GABITE]
@@ -11671,6 +11724,7 @@ Shape = BipedalTail
 Category = Cave
 Pokedex = There is a long-held belief that medicine made from its scales will heal even incurable illnesses.
 Generation = 4
+Flags = HasGenderedSprites
 Evolutions = GARCHOMP,Level,48
 #-------------------------------
 [GARCHOMP]
@@ -11696,6 +11750,7 @@ Shape = BipedalTail
 Category = Mach
 Pokedex = When it folds up its body and extends its wings, it looks like a jet plane. It flies at sonic speed.
 Generation = 4
+Flags = HasGenderedSprites
 #-------------------------------
 [MUNCHLAX]
 Name = Munchlax
@@ -11801,6 +11856,7 @@ Shape = Quadruped
 Category = Hippo
 Pokedex = It lives in arid places. Instead of perspiration, it expels grainy sand from its body.
 Generation = 4
+Flags = HasGenderedSprites
 Evolutions = HIPPOWDON,Level,34
 #-------------------------------
 [HIPPOWDON]
@@ -11826,6 +11882,7 @@ Shape = Quadruped
 Category = Heavyweight
 Pokedex = It blasts internally stored sand from ports on its body to create a towering twister for attack.
 Generation = 4
+Flags = HasGenderedSprites
 #-------------------------------
 [SKORUPI]
 Name = Skorupi
@@ -11840,7 +11897,7 @@ Happiness = 50
 Abilities = BATTLEARMOR,SNIPER
 HiddenAbilities = KEENEYE
 Moves = 1,POISONSTING,1,LEER,3,HONECLAWS,6,FELLSTINGER,9,POISONFANG,12,BITE,15,TOXICSPIKES,18,BUGBITE,21,VENOSHOCK,24,KNOCKOFF,27,SCARYFACE,30,PINMISSILE,33,TOXIC,36,NIGHTSLASH,39,CROSSPOISON,42,XSCISSOR,45,ACUPRESSURE,48,CRUNCH
-TutorMoves = AERIALACE,AGILITY,AQUATAIL,ASSURANCE,ATTRACT,BRICKBREAK,BUGBITE,BUGBUZZ,CAPTIVATE,CONFIDE,CROSSPOISON,CRUNCH,CUT,DARKPULSE,DIG,DOUBLETEAM,ENDURE,FACADE,FALSESWIPE,FLASH,FLING,FRUSTRATION,FURYCUTTER,HEADBUTT,HIDDENPOWER,HONECLAWS,INFESTATION,IRONTAIL,KNOCKOFF,MIMIC,MUDSLAP,NATURALGIFT,PAYBACK,PINMISSILE,POISONJAB,PROTECT,RAINDANCE,REST,RETURN,ROCKSMASH,ROCKTOMB,ROUND,SCARYFACE,SCREECH,SECRETPOWER,SHADOWBALL,SKITTERSMACK,SLEEPTALK,SLUDGEBOMB,SNORE,STRENGTH,STRUGGLEBUG,SUBSTITUTE,SUNNYDAY,SWAGGER,SWORDSDANCE,TAUNT,THIEF,TORMENT,TOXIC,TOXICSPIKES,VENOSHOCK,XSCISSOR
+TutorMoves = AERIALACE,AGILITY,AQUATAIL,ASSURANCE,ATTRACT,BRICKBREAK,BUGBITE,BUGBUZZ,CAPTIVATE,CONFIDE,CROSSPOISON,CRUNCH,CUT,DARKPULSE,DIG,DOUBLETEAM,ENDURE,FACADE,FALSESWIPE,FLASH,FLING,FRUSTRATION,FURYCUTTER,HEADBUTT,HIDDENPOWER,HONECLAWS,INFESTATION,IRONTAIL,KNOCKOFF,MIMIC,MUDSLAP,NATURALGIFT,PAYBACK,PINMISSILE,POISONJAB,POUNCE,PROTECT,RAINDANCE,REST,RETURN,ROCKSMASH,ROCKTOMB,ROUND,SCARYFACE,SCREECH,SECRETPOWER,SHADOWBALL,SKITTERSMACK,SLEEPTALK,SLUDGEBOMB,SNORE,STRENGTH,STRUGGLEBUG,SUBSTITUTE,SUNNYDAY,SWAGGER,SWORDSDANCE,TAUNT,THIEF,TORMENT,TOXIC,TOXICSPIKES,VENOSHOCK,XSCISSOR
 EggMoves = AGILITY,CONFUSERAY,NIGHTSLASH,POISONTAIL,SANDATTACK,SCREECH,SLASH,WHIRLWIND
 EggGroups = Bug,Water3
 HatchSteps = 5120
@@ -11867,7 +11924,7 @@ Happiness = 50
 Abilities = BATTLEARMOR,SNIPER
 HiddenAbilities = KEENEYE
 Moves = 1,THUNDERFANG,1,ICEFANG,1,FIREFANG,1,POISONSTING,1,LEER,1,HONECLAWS,1,FELLSTINGER,9,POISONFANG,12,BITE,15,TOXICSPIKES,18,BUGBITE,21,VENOSHOCK,24,KNOCKOFF,27,SCARYFACE,30,PINMISSILE,33,TOXIC,36,NIGHTSLASH,39,CROSSPOISON,44,XSCISSOR,49,ACUPRESSURE,54,CRUNCH
-TutorMoves = AERIALACE,AGILITY,AQUATAIL,ASSURANCE,ATTRACT,BRICKBREAK,BRUTALSWING,BUGBITE,BUGBUZZ,BULLDOZE,CAPTIVATE,CONFIDE,CROSSPOISON,CRUNCH,CUT,DARKPULSE,DIG,DOUBLETEAM,EARTHQUAKE,ENDURE,FACADE,FALSESWIPE,FIREFANG,FLASH,FLING,FRUSTRATION,FURYCUTTER,GIGAIMPACT,HEADBUTT,HIDDENPOWER,HONECLAWS,HYPERBEAM,ICEFANG,INFESTATION,IRONDEFENSE,IRONTAIL,KNOCKOFF,LASHOUT,LEECHLIFE,MIMIC,MUDSLAP,NATURALGIFT,PAYBACK,PINMISSILE,POISONJAB,PROTECT,RAINDANCE,REST,RETALIATE,RETURN,ROAR,ROCKCLIMB,ROCKSLIDE,ROCKSMASH,ROCKTOMB,ROUND,SANDTOMB,SCARYFACE,SCREECH,SECRETPOWER,SHADOWBALL,SKITTERSMACK,SLEEPTALK,SLUDGEBOMB,SNARL,SNORE,STOMPINGTANTRUM,STRENGTH,STRUGGLEBUG,SUBSTITUTE,SUNNYDAY,SWAGGER,SWORDSDANCE,TAUNT,THIEF,THROATCHOP,THUNDERFANG,TORMENT,TOXIC,TOXICSPIKES,VENOMDRENCH,VENOSHOCK,XSCISSOR
+TutorMoves = AERIALACE,AGILITY,AQUATAIL,ASSURANCE,ATTRACT,BRICKBREAK,BRUTALSWING,BUGBITE,BUGBUZZ,BULLDOZE,CAPTIVATE,CONFIDE,CROSSPOISON,CRUNCH,CUT,DARKPULSE,DIG,DOUBLETEAM,EARTHQUAKE,ENDURE,FACADE,FALSESWIPE,FIREFANG,FLASH,FLING,FRUSTRATION,FURYCUTTER,GIGAIMPACT,HEADBUTT,HIDDENPOWER,HONECLAWS,HYPERBEAM,ICEFANG,INFESTATION,IRONDEFENSE,IRONTAIL,KNOCKOFF,LASHOUT,LEECHLIFE,MIMIC,MUDSLAP,NATURALGIFT,PAYBACK,PINMISSILE,POISONJAB,POUNCE,PROTECT,RAINDANCE,REST,RETALIATE,RETURN,ROAR,ROCKCLIMB,ROCKSLIDE,ROCKSMASH,ROCKTOMB,ROUND,SANDTOMB,SCARYFACE,SCREECH,SECRETPOWER,SHADOWBALL,SKITTERSMACK,SLEEPTALK,SLUDGEBOMB,SNARL,SNORE,STOMPINGTANTRUM,STRENGTH,STRUGGLEBUG,SUBSTITUTE,SUNNYDAY,SWAGGER,SWORDSDANCE,TAUNT,THIEF,THROATCHOP,THUNDERFANG,TORMENT,TOXIC,TOXICSPIKES,VENOMDRENCH,VENOSHOCK,XSCISSOR
 EggGroups = Bug,Water3
 HatchSteps = 5120
 Height = 1.3
@@ -11903,6 +11960,7 @@ Shape = Bipedal
 Category = Toxic Mouth
 Pokedex = Its cheeks hold poison sacs. It tries to catch foes off guard to jab them with toxic fingers.
 Generation = 4
+Flags = HasGenderedSprites
 WildItemUncommon = BLACKSLUDGE
 Evolutions = TOXICROAK,Level,37
 #-------------------------------
@@ -11929,6 +11987,7 @@ Shape = Bipedal
 Category = Toxic Mouth
 Pokedex = Its knuckle claws secrete a toxin so vile that even a scratch could prove fatal.
 Generation = 4
+Flags = HasGenderedSprites
 WildItemUncommon = BLACKSLUDGE
 #-------------------------------
 [CARNIVINE]
@@ -11942,7 +12001,7 @@ EVs = ATTACK,2
 CatchRate = 200
 Happiness = 50
 Abilities = LEVITATE
-Moves = 1,BIND,1,GROWTH,7,BITE,11,VINEWHIP,17,SWEETSCENT,21,INGRAIN,27,GRASSKNOT,31,LEAFTORNADO,37,STOCKPILE,37,SPITUP,37,SWALLOW,41,CRUNCH,47,SEEDBOMB,50,POWERWHIP
+Moves = 1,BIND,1,GROWTH,7,BITE,11,VINEWHIP,17,SWEETSCENT,21,INGRAIN,27,GRASSKNOT,31,LEAFTORNADO,34,ENSNARINGCLAMP,37,STOCKPILE,37,SPITUP,37,SWALLOW,41,CRUNCH,47,SEEDBOMB,50,POWERWHIP
 TutorMoves = ATTRACT,BIND,BUGBITE,BULLETSEED,CAPTIVATE,CONFIDE,CUT,DOUBLETEAM,ENDURE,ENERGYBALL,FACADE,FLASH,FLING,FRUSTRATION,FURYCUTTER,GASTROACID,GIGADRAIN,GIGAIMPACT,GRASSKNOT,HIDDENPOWER,HYPERBEAM,INFESTATION,KNOCKOFF,MIMIC,MUDSLAP,NATURALGIFT,NATUREPOWER,PAYBACK,PROTECT,REST,RETURN,ROUND,SECRETPOWER,SEEDBOMB,SLEEPTALK,SLUDGEBOMB,SNORE,SOLARBEAM,SUBSTITUTE,SUNNYDAY,SWAGGER,SWORDSDANCE,SYNTHESIS,THIEF,THROATCHOP,WORRYSEED
 EggMoves = ACIDSPRAY,LEECHSEED,MAGICALLEAF,RAGEPOWDER,RAZORLEAF,SLAM,SLEEPPOWDER,STUNSPORE,SYNTHESIS,WORRYSEED
 EggGroups = Grass
@@ -11954,6 +12013,7 @@ Shape = Multiped
 Category = Bug Catcher
 Pokedex = It attracts prey with its sweet-smelling saliva, then chomps down. It takes a whole day to eat prey.
 Generation = 4
+Evolutions = CARNIVISERA,HasMove,ENSNARINGCLAMP
 #-------------------------------
 [FINNEON]
 Name = Finneon
@@ -11979,6 +12039,7 @@ Shape = Finned
 Category = Wing Fish
 Pokedex = After long exposure to sunlight, the patterns on its tail fins shine vividly when darkness arrives.
 Generation = 4
+Flags = HasGenderedSprites
 Evolutions = LUMINEON,Level,31
 #-------------------------------
 [LUMINEON]
@@ -12004,6 +12065,8 @@ Shape = Finned
 Category = Neon
 Pokedex = It lives on the deep-sea floor. It attracts prey by flashing the patterns on its four tail fins.
 Generation = 4
+Flags = HasGenderedSprites
+Evolutions = PHOSPHEON,Item,LUMINOUSMOSS
 #-------------------------------
 [MANTYKE]
 Name = Mantyke
@@ -12056,6 +12119,7 @@ Shape = BipedalTail
 Category = Frost Tree
 Pokedex = It lives on snowy mountains. Having had little contact with humans, it is boldly inquisitive.
 Generation = 4
+Flags = HasGenderedSprites
 WildItemUncommon = NEVERMELTICE
 Evolutions = ABOMASNOW,Level,40
 #-------------------------------
@@ -12082,6 +12146,7 @@ Shape = BipedalTail
 Category = Frost Tree
 Pokedex = It whips up blizzards in mountains that are always buried in snow. It is the abominable snowman.
 Generation = 4
+Flags = HasGenderedSprites
 WildItemUncommon = NEVERMELTICE
 #-------------------------------
 [WEAVILE]
@@ -12107,6 +12172,7 @@ Shape = BipedalTail
 Category = Sharp Claw
 Pokedex = They live in cold regions, forming groups of four or five that hunt prey with impressive coordination.
 Generation = 4
+Flags = HasGenderedSprites
 WildItemUncommon = QUICKCLAW
 #-------------------------------
 [MAGNEZONE]
@@ -12147,7 +12213,7 @@ Happiness = 50
 Abilities = OWNTEMPO,OBLIVIOUS
 HiddenAbilities = CLOUDNINE
 Moves = 1,LICK,1,DEFENSECURL,1,ROLLOUT,1,SUPERSONIC,18,WRAP,24,DISABLE,30,STOMP,36,KNOCKOFF,42,SCREECH,48,SLAM,54,POWERWHIP,60,BELLYDRUM
-TutorMoves = AMNESIA,AQUATAIL,ATTRACT,BIND,BLIZZARD,BLOCK,BODYPRESS,BODYSLAM,BRICKBREAK,BRUTALSWING,BULLDOZE,CAPTIVATE,CONFIDE,COUNTER,CUT,DEFENSECURL,DIG,DOUBLEEDGE,DOUBLETEAM,DRAGONTAIL,DREAMEATER,DYNAMICPUNCH,EARTHQUAKE,ENDURE,EXPLOSION,FACADE,FIREBLAST,FIREPUNCH,FLAMETHROWER,FLING,FOCUSBLAST,FOCUSPUNCH,FRUSTRATION,GIGAIMPACT,GYROBALL,HEADBUTT,HELPINGHAND,HIDDENPOWER,HYDROPUMP,HYPERBEAM,ICEBEAM,ICEPUNCH,ICYWIND,INCINERATE,IRONTAIL,KNOCKOFF,MEGAKICK,MEGAPUNCH,MIMIC,MUDDYWATER,MUDSLAP,NATURALGIFT,POWERUPPUNCH,POWERWHIP,PROTECT,PSYCHUP,RAINDANCE,REST,RETALIATE,RETURN,ROCKCLIMB,ROCKSLIDE,ROCKSMASH,ROCKTOMB,ROLLOUT,ROUND,SANDSTORM,SCREECH,SECRETPOWER,SEISMICTOSS,SELFDESTRUCT,SHADOWBALL,SHOCKWAVE,SLEEPTALK,SNORE,SOLARBEAM,STEELROLLER,STOMPINGTANTRUM,STRENGTH,SUBSTITUTE,SUNNYDAY,SURF,SWAGGER,SWORDSDANCE,TERRAINPULSE,THIEF,THUNDER,THUNDERBOLT,THUNDERPUNCH,WATERPULSE,WHIRLPOOL,WORKUP,ZENHEADBUTT
+TutorMoves = AMNESIA,AQUATAIL,ATTRACT,BIND,BLIZZARD,BLOCK,BODYPRESS,BODYSLAM,BRICKBREAK,BRUTALSWING,BULLDOZE,CAPTIVATE,CONFIDE,COUNTER,CUT,DEFENSECURL,DIG,DOUBLEEDGE,DOUBLETEAM,DRAGONTAIL,DREAMEATER,DYNAMICPUNCH,EARTHQUAKE,ENDURE,EXPLOSION,FACADE,FIREBLAST,FIREPUNCH,FLAMETHROWER,FLING,FOCUSBLAST,FOCUSPUNCH,FRUSTRATION,GIGAIMPACT,GUNKSHOT,GYROBALL,HEADBUTT,HELPINGHAND,HIDDENPOWER,HYDROPUMP,HYPERBEAM,ICEBEAM,ICEPUNCH,ICYWIND,INCINERATE,IRONTAIL,KNOCKOFF,MEGAKICK,MEGAPUNCH,MIMIC,MUDDYWATER,MUDSLAP,NATURALGIFT,POISONJAB,POWERUPPUNCH,POWERWHIP,PROTECT,PSYCHUP,RAINDANCE,REST,RETALIATE,RETURN,ROCKCLIMB,ROCKSLIDE,ROCKSMASH,ROCKTOMB,ROLLOUT,ROUND,SANDSTORM,SCREECH,SECRETPOWER,SEISMICTOSS,SELFDESTRUCT,SHADOWBALL,SHOCKWAVE,SLEEPTALK,SLUDGEBOMB,SNORE,SOLARBEAM,STEELROLLER,STOMPINGTANTRUM,STRENGTH,SUBSTITUTE,SUNNYDAY,SURF,SWAGGER,SWORDSDANCE,TERRAINPULSE,THIEF,THUNDER,THUNDERBOLT,THUNDERPUNCH,WATERPULSE,WHIRLPOOL,WORKUP,ZENHEADBUTT
 EggGroups = Monster
 HatchSteps = 5120
 Height = 1.7
@@ -12182,6 +12248,7 @@ Shape = BipedalTail
 Category = Drill
 Pokedex = It puts rocks in holes in its palms and uses its muscles to shoot them. Geodude are shot at rare times.
 Generation = 4
+Flags = HasGenderedSprites
 #-------------------------------
 [TANGROWTH]
 Name = Tangrowth
@@ -12206,6 +12273,7 @@ Shape = Bipedal
 Category = Vine
 Pokedex = It ensnares prey by extending arms made of vines. Losing arms to predators does not trouble it.
 Generation = 4
+Flags = HasGenderedSprites
 #-------------------------------
 [ELECTIVIRE]
 Name = Electivire
@@ -12401,6 +12469,7 @@ Shape = Quadruped
 Category = Twin Tusk
 Pokedex = Its impressive tusks are made of ice. The population thinned when it turned warm after the ice age.
 Generation = 4
+Flags = HasGenderedSprites
 #-------------------------------
 [PORYGONZ]
 Name = Porygon-Z
@@ -13593,6 +13662,7 @@ Shape = Winged
 Category = Proud
 Pokedex = Males have plumage on their heads. They will never let themselves feel close to anyone other than their Trainers.
 Generation = 5
+Flags = HasGenderedSprites
 #-------------------------------
 [BLITZLE]
 Name = Blitzle
@@ -13697,7 +13767,7 @@ Pokedex = Because its energy was too great to be contained, the energy leaked an
 Generation = 5
 WildItemCommon = EVERSTONE
 WildItemUncommon = HARDSTONE
-Evolutions = GIGALITH,Trade,
+Evolutions = GIGALITH,Item,LINKINGCORD
 #-------------------------------
 [GIGALITH]
 Name = Gigalith
@@ -13901,7 +13971,7 @@ Shape = Bipedal
 Category = Muscular
 Pokedex = They strengthen their bodies by carrying steel beams. They show off their big muscles to their friends.
 Generation = 5
-Evolutions = CONKELDURR,Trade,
+Evolutions = CONKELDURR,Item,LINKINGCORD
 #-------------------------------
 [CONKELDURR]
 Name = Conkeldurr
@@ -15406,6 +15476,7 @@ Shape = Multiped
 Category = Floating
 Pokedex = They paralyze prey with poison, then drag them down to their lairs, five miles below the surface.
 Generation = 5
+Flags = HasGenderedSprites
 Evolutions = JELLICENT,Level,40
 #-------------------------------
 [JELLICENT]
@@ -15431,6 +15502,7 @@ Shape = Multiped
 Category = Floating
 Pokedex = They propel themselves by expelling absorbed seawater from their bodies. Their favorite food is life energy.
 Generation = 5
+Flags = HasGenderedSprites
 #-------------------------------
 [ALOMOMOLA]
 Name = Alomomola
@@ -15581,7 +15653,7 @@ Shape = MultiBody
 Category = Gear
 Pokedex = Interlocking two bodies and spinning around generates the energy they need to live.
 Generation = 5
-Evolutions = KLANG,Level,38
+Evolutions = KLANG,Level,25
 #-------------------------------
 [KLANG]
 Name = Klang
@@ -15606,7 +15678,7 @@ Shape = MultiBody
 Category = Gear
 Pokedex = Spinning minigears are rotated at high speed and repeatedly fired away. It is dangerous if the gears don't return.
 Generation = 5
-Evolutions = KLINKLANG,Level,49
+Evolutions = KLINKLANG,Level,35
 #-------------------------------
 [KLINKLANG]
 Name = Klinklang
@@ -16278,7 +16350,7 @@ Shape = Winged
 Category = Eaglet
 Pokedex = They will challenge anything, even strong opponents, without fear. Their frequent fights help them become stronger.
 Generation = 5
-Evolutions = BRAVIARY,Level,54
+Evolutions = BRAVIARY,Level,38
 #-------------------------------
 [BRAVIARY]
 Name = Braviary
@@ -16500,7 +16572,7 @@ Shape = Insectoid
 Category = Torch
 Pokedex = The base of volcanoes is where they make their homes. They shoot fire from their five horns to repel attacking enemies.
 Generation = 5
-Evolutions = VOLCARONA,Level,59
+Evolutions = VOLCARONA,Level,50
 #-------------------------------
 [VOLCARONA]
 Name = Volcarona
@@ -17304,6 +17376,7 @@ Shape = Quadruped
 Category = Royal
 Pokedex = With fiery breath of more than 6,000 degrees Celsius, they viciously threaten any challenger. The females protect the pride's cubs.
 Generation = 6
+Flags = HasGenderedSprites
 #-------------------------------
 [FLABEBE]
 Name = Flabébé
@@ -17563,6 +17636,7 @@ Shape = BipedalTail
 Category = Constraint
 Pokedex = Revealing the eyelike patterns on the insides of its ears will unleash its psychic powers. It normally keeps the patterns hidden, however.
 Generation = 6
+Flags = HasGenderedSprites
 #-------------------------------
 [HONEDGE]
 Name = Honedge
@@ -17861,7 +17935,7 @@ Shape = HeadBase
 Category = Mock Kelp
 Pokedex = Camouflaged as rotten kelp, they spray liquid poison on prey that approaches unawares and then finish it off.
 Generation = 6
-Evolutions = DRAGALGE,Level,48
+Evolutions = DRAGALGE,Level,37
 #-------------------------------
 [DRAGALGE]
 Name = Dragalge
@@ -18310,7 +18384,7 @@ Shape = HeadArms
 Category = Stump
 Pokedex = These Pokémon are stumps possessed by the spirits of children who died in the forest. Their cries sound like eerie screams.
 Generation = 6
-Evolutions = TREVENANT,Trade,
+Evolutions = TREVENANT,Item,LINKINGCORD
 #-------------------------------
 [TREVENANT]
 Name = Trevenant
@@ -18361,7 +18435,7 @@ Category = Pumpkin
 Pokedex = When taking spirits to the afterlife, small Pumpkaboo prefer the spirits of children to those of adults.
 Generation = 6
 Flags = InheritFormFromMother
-Evolutions = GOURGEIST,Trade,
+Evolutions = GOURGEIST,Item,LINKINGCORD
 #-------------------------------
 [GOURGEIST]
 Name = Gourgeist
@@ -21326,6 +21400,7 @@ Shape = Quadruped
 Category = Fox
 Pokedex = It secretly marks potential targets with a scent. By following the scent, it stalks its targets and steals from them when they least expect it.
 Generation = 8
+Evolutions = ARSUNE,HappinessNight
 #-------------------------------
 [GOSSIFLEUR]
 Name = Gossifleur
@@ -22457,6 +22532,7 @@ Shape = MultiWinged
 Category = Frost Moth
 Pokedex = It shows no mercy to any who desecrate fields and mountains. It will fly around on its icy wings, causing a blizzard to chase offenders away.
 Generation = 8
+Evolutions = SHIMOSHO,Item,RAINBOWPOFFIN
 #-------------------------------
 [STONJOURNER]
 Name = Stonjourner
@@ -22532,6 +22608,7 @@ Shape = BipedalTail
 Category = Emotion
 Pokedex = It uses the horns on its head to sense the emotions of others. Males will act as valets for those they serve, looking after their every need.
 Generation = 8
+Flags = HasGenderedSprites
 #-------------------------------
 [MORPEKO]
 Name = Morpeko
@@ -22755,7 +22832,7 @@ Shape = Serpentine
 Category = Lingering
 Pokedex = After being reborn as a ghost Pokémon, Dreepy wanders the areas it used to inhabit back when it was alive in prehistoric seas.
 Generation = 8
-Evolutions = DRAKLOAK,Level,50
+Evolutions = DRAKLOAK,Level,40
 #-------------------------------
 [DRAKLOAK]
 Name = Drakloak
@@ -22780,7 +22857,7 @@ Shape = HeadArms
 Category = Caretaker
 Pokedex = It's capable of flying faster than 120 mph. It battles alongside Dreepy and dotes on them until they successfully evolve.
 Generation = 8
-Evolutions = DRAGAPULT,Level,60
+Evolutions = DRAGAPULT,Level,50
 #-------------------------------
 [DRAGAPULT]
 Name = Dragapult

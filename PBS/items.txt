@@ -1126,8 +1126,9 @@ PortionNamePlural = clumps of Luminous Moss
 Pocket = 1
 Price = 4000
 BPPrice = 10
-Flags = Fling_30
-Description = An item to be held by a Pokémon. It boosts Sp. Def if hit by a Water-type attack. It can only be used once.
+FieldUse = OnPokemon
+Flags = EvolutionStone,Fling_30
+Description = An item to be held by or used on a Pokémon. It boosts Sp. Def if hit by a Water-type attack. It can only be used once.
 #-------------------------------
 [SNOWBALL]
 Name = Snowball
@@ -1715,8 +1716,9 @@ NamePlural = Metal Coats
 Pocket = 1
 Price = 3000
 SellPrice = 1000
-Flags = Fling_30
-Description = An item to be held by a Pokémon. It is a special metallic film that ups the power of Steel-type moves.
+FieldUse = OnPokemon
+Flags = Fling_30,EvolutionStone
+Description = An item to be held by or used on a Pokémon. It is a special metallic film that ups the power of Steel-type moves.
 #-------------------------------
 [SILKSCARF]
 Name = Silk Scarf
