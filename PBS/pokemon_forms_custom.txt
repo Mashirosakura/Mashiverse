@@ -13,7 +13,6 @@ Generation = 8
 FormName = Female
 Types = POISON
 BaseStats = 55,47,52,41,40,40
-GenderRatio = AlwaysFemale
 GrowthRate = Parabolic
 BaseExp = 55
 EVs = HP,1
@@ -34,7 +33,7 @@ Habitat = Grassland
 Category = Poison Pin
 Pokedex = Its highly toxic barbs are thought to have developed as protection for this small-bodied Pokémon. When enraged, it releases a horrible toxin from its horn.
 Generation = 1
-Evolutions = NIDORINA,Level,16
+Evolutions = NIDORINA,LevelFemale,16
 #-------------------------------
 [TORTERRA,1]
 FormName = Mega Torterra
@@ -171,6 +170,7 @@ Pokedex =
 [MISMAGIUS,1]
 FormName = Mega Mismagius
 MegaStone = MISMAGITE
+Types = GHOST,DARK
 BaseStats = 60,60,60,135,145,135
 BaseExp = 313
 Abilities = INCANTATION

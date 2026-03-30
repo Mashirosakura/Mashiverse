@@ -10,16 +10,6 @@ FieldUse = OnPokemon
 Flags = EvolutionStone,Fling_30
 Description = A peculiar biscuit that makes certain species of Pokémon evolve. It is rainbow coloured.
 #-------------------------------
-[]
-Name = Rainbow Poffin
-NamePlural = Rainbow Poffins
-Pocket = 1
-Price = 3000
-BPPrice = 5
-FieldUse = OnPokemon
-Flags = EvolutionStone,Fling_30
-Description = A peculiar biscuit that makes certain species of Pokémon evolve. It is rainbow coloured.
-#-------------------------------
 [COURIERPOUCH]
 Name = Courier Pouch
 NamePlural = Courier Pouches
@@ -137,7 +127,7 @@ BPPrice = 50
 Flags = MegaStone,Fling_80
 Description = One of a variety of mysterious Mega Stones. Have Luxray hold it, and it will be able to Mega Evolve.
 #-------------------------------
-[HONCHROWITE]
+[HONCHKROWITE]
 Name = Honchkrowite
 NamePlural = Honchkrowites
 Pocket = 1

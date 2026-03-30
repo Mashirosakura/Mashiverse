@@ -43,21 +43,14 @@ MapSize = 2,11
 Name = Lappet Town
 MapPosition = 0,13,12
 #-------------------------------
-[009]
-Name = Cedolan City
-HealingSpot = 8,17,11
-MapPosition = 0,14,10
+[009] # Pastoria City
+Name = Pastoria City
 #-------------------------------
-[010]
-Name = Cedolan City
-MapPosition = 0,13,10
-BattleBack = indoor3
-Environment = Rock
-Flags = DisableBoxLink
+[010] # Pastoria City
+Name = Pastoria City Gym
 #-------------------------------
-[011]
-Name = Cedolan City
-MapPosition = 0,14,10
+[011] # Pastoria City
+Name = Pokémon Center
 #-------------------------------
 [012]
 Name = Cedolan City

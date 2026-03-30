@@ -1,34 +1,34 @@
 ﻿# See the documentation on the wiki to learn how to edit this file.
 #-------------------------------Bosses
-[RIVAL_Dara,Dara]
+[RIVALDara,Dara]
 LoseText = Aww man I think I'm losing $10 million...
 Pokemon = CHIMCHAR,5
 #-------------------------------
-[RIVAL_Dara,Dara,1]
+[RIVALDara,Dara,1]
 LoseText = Aww man I think I'm losing $10 million...
 Pokemon = PIPLUP,5
 #-------------------------------
-[RIVAL_Dara,Dara,2]
+[RIVALDara,Dara,2]
 LoseText = Aww man I think I'm losing $10 million...
 Pokemon = TURTWIG,5
 #-------------------------------
-[RIVAL_Dara,Dara,3]
+[RIVALDara,Dara,3]
 LoseText = Aw man...
 Pokemon = BUNEARY,10
 	Shiny = true
 Pokemon = CHIMCHAR,11
 #-------------------------------
-[RIVAL_Dara,Dara,4]
+[RIVALDara,Dara,4]
 LoseText = Aw man...
 Pokemon = BUNEARY,10
 Pokemon = PIPLUP,11
 #-------------------------------
-[RIVAL_Dara,Dara,5]
+[RIVALDara,Dara,5]
 LoseText = Aw man...
 Pokemon = BUNEARY,10
 Pokemon = TURTWIG,11
 #-------------------------------
-[RIVAL_Hiro,Hiro]
+[RIVALHiro,Hiro]
 LoseText = 
 Pokemon = STARYU,11
 	Moves = TACKLE,HARDEN,WATERGUN,CONFUSERAY

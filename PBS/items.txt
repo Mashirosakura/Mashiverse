@@ -2330,7 +2330,8 @@ Pocket = 1
 Price = 3000
 SellPrice = 1000
 BPPrice = 5
-Flags = Fling_30
+FieldUse = OnPokemon
+Flags = EvolutionStone,Fling_30
 Description = A thick and tough scale. Dragon-type Pokémon may be holding this item when caught.
 #-------------------------------
 [UPGRADE]
@@ -2350,7 +2351,8 @@ Pocket = 1
 Price = 3000
 SellPrice = 1000
 BPPrice = 5
-Flags = Fling_50
+FieldUse = OnPokemon
+Flags = EvolutionStone,Fling_50
 Description = A transparent device overflowing with dubious data.  Its producer is unknown.
 #-------------------------------
 [PROTECTOR]
@@ -2360,7 +2362,8 @@ Pocket = 1
 Price = 3000
 SellPrice = 1000
 BPPrice = 5
-Flags = Fling_80
+FieldUse = OnPokemon
+Flags = EvolutionStone,Fling_80
 Description = A protective item of some sort. It is extremely stiff and heavy. It is loved by a certain Pokémon.
 #-------------------------------
 [ELECTIRIZER]
@@ -2370,7 +2373,8 @@ Pocket = 1
 Price = 3000
 SellPrice = 1000
 BPPrice = 5
-Flags = Fling_80
+FieldUse = OnPokemon
+Flags = EvolutionStone,Fling_80
 Description = A box packed with a tremendous amount of electric energy. It is loved by a certain Pokémon.
 #-------------------------------
 [MAGMARIZER]
@@ -2380,7 +2384,8 @@ Pocket = 1
 Price = 3000
 SellPrice = 1000
 BPPrice = 5
-Flags = Fling_80
+FieldUse = OnPokemon
+Flags = EvolutionStone,Fling_80
 Description = A box packed with a tremendous amount of magma energy. It is loved by a certain Pokémon.
 #-------------------------------
 [REAPERCLOTH]
@@ -2392,7 +2397,8 @@ Pocket = 1
 Price = 3000
 SellPrice = 1000
 BPPrice = 5
-Flags = Fling_10
+FieldUse = OnPokemon
+Flags = EvolutionStone,Fling_10
 Description = A cloth imbued with horrifyingly strong spiritual energy. It is loved by a certain Pokémon.
 #-------------------------------
 [PRISMSCALE]
