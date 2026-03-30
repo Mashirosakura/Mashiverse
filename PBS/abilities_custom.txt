@@ -34,3 +34,7 @@ Description = Increase all stats once. After 4 turns, -2 stats.
 [INCANTATION]
 Name = Incantation
 Description = Its sound-based moves become Ghost-type.
+#-------------------------------
+[AILMENTLICK]
+Name = Ailment Lick
+Description = Its contact moves can status 15% of the time.

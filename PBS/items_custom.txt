@@ -1,14 +1,33 @@
+﻿# See the documentation on the wiki to learn how to edit this file.
 #-------------------------------
 [RAINBOWPOFFIN]
 Name = Rainbow Poffin
 NamePlural = Rainbow Poffins
 Pocket = 1
 Price = 3000
-SellPrice = 750
 BPPrice = 5
 FieldUse = OnPokemon
 Flags = EvolutionStone,Fling_30
-Description = A peculiar Poffin that makes certain species of Pokémon evolve. It is colored like a rainbow.
+Description = A peculiar biscuit that makes certain species of Pokémon evolve. It is rainbow coloured.
+#-------------------------------
+[]
+Name = Rainbow Poffin
+NamePlural = Rainbow Poffins
+Pocket = 1
+Price = 3000
+BPPrice = 5
+FieldUse = OnPokemon
+Flags = EvolutionStone,Fling_30
+Description = A peculiar biscuit that makes certain species of Pokémon evolve. It is rainbow coloured.
+#-------------------------------
+[COURIERPOUCH]
+Name = Courier Pouch
+NamePlural = Courier Pouches
+Pocket = 1
+Price = 3000
+BPPrice = 5
+Flags = Fling_80
+Description = A peculiar pouch that's loved by a very friendly species of Pokémon. It's light and smooth.
 #-------------------------------
 [TORTERRITE]
 Name = Torterrite
@@ -118,7 +137,7 @@ BPPrice = 50
 Flags = MegaStone,Fling_80
 Description = One of a variety of mysterious Mega Stones. Have Luxray hold it, and it will be able to Mega Evolve.
 #-------------------------------
-[HONCHKROWITE]
+[HONCHROWITE]
 Name = Honchkrowite
 NamePlural = Honchkrowites
 Pocket = 1

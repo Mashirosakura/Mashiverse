@@ -9,24 +9,6 @@ Generation = 8
 [GOOMY,1]
 Generation = 8
 #-------------------------------
-[ROWLET,1]
-Generation = 8
-#-------------------------------
-[DARTRIX,1]
-Generation = 8
-#-------------------------------
-[CYNDAQUIL,1]
-Generation = 8
-#-------------------------------
-[QUILAVA,1]
-Generation = 8
-#-------------------------------
-[OSHAWOTT,1]
-Generation = 8
-#-------------------------------
-[DEWOTT,1]
-Generation = 8
-#-------------------------------
 [NIDORAN,1]
 FormName = Female
 Types = POISON
@@ -87,7 +69,7 @@ Height = 2.4
 Weight = 155.5
 Pokedex = 
 #-------------------------------
-[MIMIKYU,2] #NEED TO CODE FORM0 IN HANDLER
+[MIMIKYU,2]
 FormName = Mega Mimikyu
 MegaStone = MIMIKITE
 BaseStats = 55,115,90,101,100,115
@@ -129,23 +111,34 @@ Abilities = DREAMMIST
 HiddenAbilities = DREAMMIST
 Height = 2.4
 Weight = 155.5
+Pokedex = Mega Musharna's mist influences the dreams of any who sleep nearby, and they've been reported to be very wacky.
+#-------------------------------
+[CLAYDOL,1]
+FormName = Mega Claydol
+MegaStone = CLAYDOLITE
+BaseStats = 60,100,105,105,70,160
+BaseExp = 313
+Abilities = DIVINESHELL
+HiddenAbilities = DIVINESHELL
+Height = 2.4
+Weight = 155.5
+Pokedex = 
+#-------------------------------
+[KINGDRA,1]
+FormName = Mega Kingdra
+MegaStone = KINGDRITE
+BaseStats = 75,120,105,105,130,105
+BaseExp = 313
+Abilities = SEAMAJESTY
+HiddenAbilities = SEAMAJESTY
+Height = 2.4
+Weight = 155.5
 Pokedex = 
 #-------------------------------
 [TOXTRICITY,3]
 FormName = Mega Toxtricity
 MegaStone = TOXTRICITITE
-BaseStats = 84,86,118,70,141,121
-BaseExp = 313
-Abilities = DUALTONE
-HiddenAbilities = DUALTONE
-Height = 2.4
-Weight = 155.5
-Pokedex = 
-#-------------------------------
-[TOXTRICITY,4]
-FormName = Mega Toxtricity
-MegaStone = TOXTRICITITE
-BaseStats = 84,86,118,70,141,121
+BaseStats = 75,98,90,95,154,90
 BaseExp = 313
 Abilities = DUALTONE
 HiddenAbilities = DUALTONE
@@ -164,21 +157,10 @@ Height = 2.4
 Weight = 155.5
 Pokedex = 
 #-------------------------------
-[LUXRAY,1]
-FormName = Mega Luxray
-MegaStone = LUXRITE
-BaseStats = 80,140,89,115,110,89
-BaseExp = 313
-Abilities = NOGUARD
-HiddenAbilities = NOGUARD
-Height = 2.4
-Weight = 155.5
-Pokedex = 
-#-------------------------------
 [HONCHKROW,1]
 FormName = Mega Honchkrow
 MegaStone = HONCHKROWITE
-BaseStats = 100,145,102,71,105,92
+BaseStats = 100,145,102,71,105,82
 BaseExp = 313
 Abilities = INTIMIDATE
 HiddenAbilities = INTIMIDATE
@@ -189,7 +171,7 @@ Pokedex =
 [MISMAGIUS,1]
 FormName = Mega Mismagius
 MegaStone = MISMAGITE
-BaseStats = 60,60,60,145,145,135
+BaseStats = 60,60,60,135,145,135
 BaseExp = 313
 Abilities = INCANTATION
 HiddenAbilities = INCANTATION
@@ -197,13 +179,26 @@ Height = 2.4
 Weight = 155.5
 Pokedex = 
 #-------------------------------
+[LUXRAY,1]
+FormName = Mega Luxray
+MegaStone = LUXRITE
+Types = ELECTRIC,FAIRY
+BaseStats = 80,140,89,115,110,82
+BaseExp = 317
+Abilities = NOGUARD
+HiddenAbilities = NOGUARD
+Height = 2.4
+Weight = 155.5
+Pokedex = 
+#-------------------------------
 [LICKILICKY,1]
 FormName = Mega Lickilicky
 MegaStone = LICKILICKITE
+Types = NORMAL,POISON
 BaseStats = 110,125,115,50,100,115
-BaseExp = 313
-Abilities = ADAPTABILITY
-HiddenAbilities = ADAPTABILITY
+BaseExp = 317
+Abilities = AILMENTLICK
+HiddenAbilities = AILMENTLICK
 Height = 2.4
 Weight = 155.5
 Pokedex = 
@@ -211,8 +206,9 @@ Pokedex =
 [CRESSELIA,1]
 FormName = Mega Cresselia
 MegaStone = CRESSELITE
+Types = PSYCHIC,FAIRY
 BaseStats = 120,120,130,55,125,130
-BaseExp = 313
+BaseExp = 317
 Abilities = LEVITATE
 HiddenAbilities = LEVITATE
 Height = 2.4

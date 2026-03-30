@@ -2,12 +2,6 @@
 Audio/
 Screenshots/
 
-# Data folder, but not Data/Scripts folder or messages_core.dat
-Data/*
-!Data/Scripts.rxdata
-!Data/Scripts/
-!Data/messages_core.dat
-
 # Files in the main project folder
 errorlog.txt
 Game.rxproj

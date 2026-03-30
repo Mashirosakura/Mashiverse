@@ -34,16 +34,26 @@ MapPosition = 0,13,11
 #-------------------------------
 [007]
 Name = Cedolan City
+Outdoor = true
+ShowArea = true
+MapPosition = 0,13,10
+MapSize = 2,11
 #-------------------------------
 [008]
-Name = Pastoria City
+Name = Lappet Town
+MapPosition = 0,13,12
 #-------------------------------
 [009]
-Name = Pastoria City
+Name = Cedolan City
+HealingSpot = 8,17,11
+MapPosition = 0,14,10
 #-------------------------------
 [010]
-Name = Pastoria City Gym
-BattleBack = arena4
+Name = Cedolan City
+MapPosition = 0,13,10
+BattleBack = indoor3
+Environment = Rock
+Flags = DisableBoxLink
 #-------------------------------
 [011]
 Name = Cedolan City
@@ -1276,8 +1286,7 @@ Name = Route 212
 Outdoor = true
 ShowArea = true
 Bicycle = true
-BattleBack = field
-Weather = Rain,30
+Weather = Rain,100
 #-------------------------------
 [224]   # Route 222
 Name = Route 222

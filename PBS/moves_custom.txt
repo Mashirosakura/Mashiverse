@@ -1,3 +1,89 @@
+# See the documentation on the wiki to learn how to edit this file.
+#-------------------------------
+[SAPPYSEED]
+Name = Sappy Seed
+Type = GRASS
+Category = Physical
+Power = 60
+Accuracy = 90
+TotalPP = 10
+Target = NearOther
+FunctionCode = StartLeechSeedTarget
+Flags = CanProtect,CanMirrorMove
+Description = The user grows a gigantic stalk that scatters seeds to attack the target. The seeds drain the target’s HP every turn.
+#-------------------------------
+[BOUNCYBUBBLE]
+Name = Bouncy Bubble
+Type = WATER
+Category = Special
+Power = 60
+Accuracy = 90
+TotalPP = 10
+Target = NearOther
+FunctionCode = HealUserByHalfOfDamageDone
+Flags = CanProtect,CanMirrorMove
+Description = The user attacks by shooting water bubbles at the target. It then absorbs water and restores its HP by half the damage taken by the target.
+#-------------------------------
+[ROCKYRUBBLE]
+Name = Rocky Rubble
+Type = ROCK
+Category = Physical
+Power = 60
+Accuracy = 90
+TotalPP = 10
+Target = NearOther
+FunctionCode = FlinchTarget
+Flags = Contact,CanProtect,CanMirrorMove
+EffectChance = 50
+Description = The user attacks whilst throwing pebbles at the target. The impact can cause the target to flinch.
+#-------------------------------
+[GLITZYGLOW]
+Name = Glitzy Glow
+Type = PSYCHIC
+Category = Special
+Power = 60
+Accuracy = 90
+TotalPP = 10
+Target = NearOther
+FunctionCode = StartWeakenSpecialDamageAgainstUserSide
+Flags = CanProtect,CanMirrorMove
+Description = The user bombards the target with telekinetic force. A wondrous wall of light is put up to weaken the power of the opposing Pokémon's special moves.
+#-------------------------------
+[BADDYBAD]
+Name = Baddy Bad
+Type = DARK
+Category = Special
+Power = 60
+Accuracy = 90
+TotalPP = 10
+Target = NearOther
+FunctionCode = StartWeakenPhysicalDamageAgainstUserSide
+Flags = CanProtect,CanMirrorMove
+Description = The user acts bad and attacks the target. A wondrous wall of light is put up to weaken the power of the opposing Pokémon's physical moves.
+#-------------------------------
+[FREEZYFROST]
+Name = Freezy Frost
+Type = ICE
+Category = Special
+Power = 80
+Accuracy = 90
+TotalPP = 10
+Target = NearOther
+FunctionCode = ResetAllBattlersStatStages
+Flags = CanProtect,CanMirrorMove
+Description = The user attacks with a crystal made of cold frozen haze. It eliminates every stat change among all the Pokémon engaged in battle.
+#-------------------------------
+[SWIRLYSWIRL]
+Name = Swirly Swirl
+Type = FAIRY
+Category = Special
+Power = 60
+Accuracy = 90
+TotalPP = 10
+Target = NearOther
+FunctionCode = CureUserPartyStatus
+Flags = CanProtect,CanMirrorMove
+Description = The user attacks the target by wrapping it with a whirlwind of an overpowering scent. This also heals all status conditions of the user's party.
 #-------------------------------
 [ENSNARINGCLAMP]
 Name = Ensnaring Clamp
@@ -7,7 +93,7 @@ Power = 80
 Accuracy = 100
 TotalPP = 10
 Target = NearOther
-FunctionCode = TrapUserAndTargetInBattle
+FunctionCode = TrapUserAndTargetInBattle #needschange
 Flags = Contact,CanProtect,CanMirrorMove
 Description = The user clamps down on the target leaving them immobilized. The target cannot be switched out of battle for 5 turns.
 #-------------------------------
@@ -31,16 +117,28 @@ Power = 90
 Accuracy = 100
 TotalPP = 10
 Target = NearOther
-FunctionCode = TrapUserAndTargetInBattle #needs adding
+FunctionCode = TrapUserAndTargetInBattle #needschange
 Flags = Contact,CanProtect,CanMirrorMove
 Description = The user glides at the target leaving behind a rainbow trail. Has a higher chance to crit the more this move is used.
 #-------------------------------
 [STEPPINGBLOCKS]
-Name = Stepping Blocks
-Type = NORMAL
+Name = Ensnaring Clamp
+Type = FAIRY
 Category = Status
 Accuracy = 0
 TotalPP = 20
 Target = FoeSide
-FunctionCode = AddStealthRocksToFoeSide
-Description = The user lays a trap of blocks at the target's feet. The blocks will damage the opposing Pokemon depending on how fast they are.
+FunctionCode = AddStealthRocksToFoeSide #needschange
+Description = The user lays a trap of blocks at the target's feet. These will damage faster opposing Pokemon.
+#-------------------------------
+[SHOCKINGDELIVERY]
+Name = Shocking Delivery
+Type = ELECTRIC
+Category = Special
+Power = 80
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = UseTargetDefenseInsteadOfTargetSpDef
+Flags = CanProtect,CanMirrorMove
+Description = The user throws an electric gift to attack the target. This attack does physical damage.
