@@ -382,14 +382,6 @@ GameData::Evolution.register({
 })
 
 GameData::Evolution.register({
-  :id            => :Feebas,
-  :parameter     => :Item,
-  :use_item_proc => proc { |pkmn, parameter, item|
-    next item == parameter && pkmn.hasItem?(:PRISMSCALE)
-  }
-})
-
-GameData::Evolution.register({
   :id                   => :HoldItemMale,
   :parameter            => :Item,
   :any_level_up         => true,   # Needs any level up
@@ -680,5 +672,13 @@ GameData::Evolution.register({
   },
   :event_proc        => proc { |pkmn, parameter, value|
     next value == parameter && pkmn.ready_to_evolve
+  }
+})
+
+GameData::Evolution.register({
+  :id            => :Feebas,
+  :parameter     => :Item,
+  :use_item_proc => proc { |pkmn, parameter, item|
+    next item == parameter && pkmn.hasItem?(:PRISMSCALE)
   }
 })

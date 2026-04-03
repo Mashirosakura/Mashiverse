@@ -5752,7 +5752,7 @@ Habitat = Mountain
 Category = Lava
 Pokedex = The shell on its back is made of hardened magma. Tens of thousands of years spent living in volcanic craters have turned Magcargo's bodies into magma.
 Generation = 2
-Evolutions = MOLTETHRA,HasMove,ERUPTION
+Evolutions = MOLTEPHRA,HasMove,ERUPTION
 #-------------------------------
 [SWINUB]
 Name = Swinub

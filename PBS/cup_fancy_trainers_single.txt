@@ -365,7 +365,7 @@ EndSpeechLose = YOU'RE KIND AND YOU'RE ALSO STRONG
 Name = PAMELA
 PokemonNos = 1,2,3,4,5,6,8,10,11,12,13,15,16,17,18,19,21,22,23,24,25,26,27,28,33,35,36,37,39,40,41,42,43,44,45,46,47,48,49,51,52,54,56,57,59,61,62,63,65,66,67,68,69,70,71,72,73,75,76,77,78,79,80,81,82,87,98,103,115,117,171,212
 BeginSpeech = ALL POKéMON ADORE A KIND TRAINER
-Type = POKEMONBREEDER
+Type = POKEMONBREEDER_F
 EndSpeechWin = IT'S TOO BAD YOU LOST
 #-------------------------------
 [046]
@@ -373,7 +373,7 @@ EndSpeechLose = OH
 Name = ELIZA
 PokemonNos = 13,48,65,105,108,110,112,123,129,133,148,170,171,174,181,222
 BeginSpeech = I ADORE POKéMON LIKE MY CHILDREN
-Type = POKEMONBREEDER
+Type = POKEMONBREEDER_F
 EndSpeechWin = I AM SO HAPPY FOR MY POKéMON
 #-------------------------------
 [047]
@@ -381,7 +381,7 @@ EndSpeechLose = PROMISE ME ANOTHER BATTLE PLEASE !
 Name = MARISA
 PokemonNos = 4,10,46,57,67,165,171,177,178,190,206,219,222,225,227,231
 BeginSpeech = I PROMISE TO BATTLE SERIOUSLY
-Type = POKEMONBREEDER
+Type = POKEMONBREEDER_F
 EndSpeechWin = PROMISE ME YOU WILL DO BETTER
 #-------------------------------
 [048]
@@ -389,7 +389,7 @@ EndSpeechLose = OH A BUG ISN'T SCARY ...
 Name = LEWIS
 PokemonNos = 9,46,47,48,59,61,62,63,64,65,66,72,79,80,81,82,177
 BeginSpeech = A LITTLE BUG IS SCARY ? HAHAHA
-Type = BUGCATCHER
+Type = BUGCATCHER_M
 EndSpeechWin = LOOK LOOK ! A SCARY BUG
 #-------------------------------
 [049]
@@ -397,7 +397,7 @@ EndSpeechLose = YOU'RE IGNORANT ABOUT BUG POKéMON
 Name = YOSHI
 PokemonNos = 9,32,39,46,47,48,60,62,64,65,66,67,79,80,81,82,89,224
 BeginSpeech = BUG POKéMON MAKE ME FEELING LOVEY-DOVEY
-Type = BUGCATCHER
+Type = BUGCATCHER_M
 EndSpeechWin = BUG POKéMON ARE THE BEST !
 #-------------------------------
 [050]
@@ -405,7 +405,7 @@ EndSpeechLose = PLEASE I NEED SOME WATER
 Name = DESTIN
 PokemonNos = 8,9,46,47,48,59,60,62,63,64,65,66,79,80,81,82,224
 BeginSpeech = IT'S WAY TOO HOT HERE
-Type = BUGCATCHER
+Type = BUGCATCHER_M
 EndSpeechWin = I AM ABOUT TO OVERHEAT
 #-------------------------------
 [051]
@@ -437,7 +437,7 @@ EndSpeechLose = I WILL MEDITATE FOR A CALM MIND
 Name = DERRICK
 PokemonNos = 9,39,46,47,48,59,60,61,63,64,65,66,72,79,80,81,82,86,93,100,102,103,147
 BeginSpeech = LET'S SEE YOU MEDITATE LIKE ME
-Type = BUGCATCHER
+Type = BUGCATCHER_M
 EndSpeechWin = HOW I MEDITATE IS JUST BEAUTIFUL
 #-------------------------------
 [055]
@@ -445,7 +445,7 @@ EndSpeechLose = MY COTTON SPORE WAS USELESS
 Name = BRYSON
 PokemonNos = 38,46,47,48,59,60,61,62,63,64,65,66,71,79,80,82,91,100,127,163,223,225
 BeginSpeech = POISONPOWDER IS IN OUR COTTON SPORE MOVE
-Type = BUGCATCHER
+Type = BUGCATCHER_M
 EndSpeechWin = HOW DO YOU LIKE OUR POISONPOWDER ?
 #-------------------------------
 [056]
@@ -453,7 +453,7 @@ EndSpeechLose = WHERE IS IT? I'VE LOST MY SENSE
 Name = CLAYTON
 PokemonNos = 46,47,48,59,60,61,62,63,64,65,66,73,79,80,81,82,89,91,96,102,103,112,144,146,159,163,223,224
 BeginSpeech = HUH? WHERE IS IT?
-Type = BUGCATCHER
+Type = BUGCATCHER_M
 EndSpeechWin = WHERE IS IT? I'VE LOST MY POKéNAV
 #-------------------------------
 [057]
@@ -605,7 +605,7 @@ EndSpeechLose = GO GO ... JUST FLAIL ABOUT
 Name = ANTONIO
 PokemonNos = 21,23,24,75,77,83,99,101,138,171,177,187,188,190,250
 BeginSpeech = I KNOW HOW TO GO GO
-Type = ROCKER
+Type = GUITARIST
 EndSpeechWin = BUT I DON'T LIKE TO DANCE
 #-------------------------------
 [076]
@@ -613,7 +613,7 @@ EndSpeechLose = THIS IS IT! GOOD-BYE FOREVER !
 Name = JADEN
 PokemonNos = 21,22,23,25,75,76,77,136,137,144,171,188,192
 BeginSpeech = HELLO I THINK I ADORE YOU
-Type = ROCKER
+Type = GUITARIST
 EndSpeechWin = YOU MAKE ME THRASH IN FRUSTRATION
 #-------------------------------
 [077]
@@ -621,7 +621,7 @@ EndSpeechLose = OKAY YOU UNDERSTAND ALL RIGHT !
 Name = DAKOTA
 PokemonNos = 21,22,23,24,25,75,76,77,78,95,100,138,144,147
 BeginSpeech = YOU HAVE TO DANCE WITH POWER
-Type = ROCKER
+Type = GUITARIST
 EndSpeechWin = GOT IT ? DANCE WITH POWER
 #-------------------------------
 [078]
@@ -629,7 +629,7 @@ EndSpeechLose = I ATTRACT COLOR CHANGE VERSION TOYS ...
 Name = BRAYDEN
 PokemonNos = 4,5,6,14,15,16,33,34,36,37,39,40,41,42,43,45,52,53,54,55,57,67,68,70,87,115,117,171,179,189,214
 BeginSpeech = COLOR CHANGE VERSION TOYS ARE USELESS !
-Type = BIRDKEEPER
+Type = BIRDKEEPER_F
 EndSpeechWin = I ONLY COLLECT NORMAL VERSION TOYS
 #-------------------------------
 [079]
@@ -637,7 +637,7 @@ EndSpeechLose = WHY ?! I CURSE YOU
 Name = CORSON
 PokemonNos = 4,5,6,14,16,17,19,20,34,35,37,38,40,42,43,44,52,53,54,56,57,60,61,67,68,69,70,151,189,209
 BeginSpeech = I GET TO BEAT UP ON YOU
-Type = BIRDKEEPER
+Type = BIRDKEEPER_F
 EndSpeechWin = TOO EASY ! I AM SO COOL
 #-------------------------------
 [080]
@@ -645,7 +645,7 @@ EndSpeechLose = SERIOUS ?!
 Name = TREVIN
 PokemonNos = 4,5,6,14,15,17,19,34,35,36,37,39,41,42,43,44,51,55,56,57,61,68,69,115,151,171,178,207,226,239
 BeginSpeech = THERE IS NONE BETTER THAN ME
-Type = BIRDKEEPER
+Type = BIRDKEEPER_F
 EndSpeechWin = YES
 #-------------------------------
 [081]
@@ -701,7 +701,7 @@ EndSpeechLose = I AM TIRED ... IT'S SO HOT
 Name = CADEN
 PokemonNos = 96,97,97,102,174,190
 BeginSpeech = I CAN'T BE DEFEATED !
-Type = ENGINEER
+Type = WORKER
 EndSpeechWin = FIRE ! FIRE !!
 #-------------------------------
 [088]
@@ -709,7 +709,7 @@ EndSpeechLose = IT'S NOT ? IS POKéNAV ?
 Name = MARLON
 PokemonNos = 96,97,98,99,100,206,236
 BeginSpeech = A POKéDEX IS A LITTLE RADIO ?
-Type = ENGINEER
+Type = WORKER
 EndSpeechWin = A LITTLE RADIO HUH? THAT'S TOTALLY COOL
 #-------------------------------
 [089]
@@ -717,7 +717,7 @@ EndSpeechLose = AIYEEH !! NO WATER PLEASE
 Name = NASH
 PokemonNos = 96,97,173,190,191,193
 BeginSpeech = I AM ON FIRE BABY !
-Type = ENGINEER
+Type = WORKER
 EndSpeechWin = I LEFT YOU JUST AN EMBER
 #-------------------------------
 [090]
@@ -725,7 +725,7 @@ EndSpeechLose = I WILL THRASH MY TOYS !
 Name = ROBBY
 PokemonNos = 5,6,14,15,16,17,20,33,34,35,37,40,42,44,51,52,55,56,60,62,67,68,70,115,166,204,205,239
 BeginSpeech = HAHAHA ! HAPPY TO MEET YOU !
-Type = COOLTRAINER_M
+Type = ACETRAINER_M
 EndSpeechWin = I AM THE LEADER WITH REFRESHING SERENE GRACE
 #-------------------------------
 [091]
@@ -733,7 +733,7 @@ EndSpeechLose = I WAS KIDDING ABOUT THAT TELEPORT THING
 Name = REECE
 PokemonNos = 4,14,15,16,19,20,34,35,37,49,50,51,54,55,56,57,68,87,115,205,208
 BeginSpeech = MY QUICK ATTACK CAN BEAT A TELEPORT
-Type = COOLTRAINER_M
+Type = ACETRAINER_M
 EndSpeechWin = LIKE I SAID I AM DARN FAST
 #-------------------------------
 [092]
@@ -741,7 +741,7 @@ EndSpeechLose = WHY COULDN'T I WIN THIS ?
 Name = KATHRYN
 PokemonNos = 4,5,6,14,15,16,17,19,20,33,34,35,36,37,39,41,42,43,44,45,53,54,57,62,63,67,68,113,117,130,179,208,227,239,240
 BeginSpeech = I DON'T TRAIN GOOD ENOUGH ?
-Type = COOLTRAINER_F
+Type = ACETRAINER_F
 EndSpeechWin = DON'T TAUNT ME LIKE THAT OK?
 #-------------------------------
 [093]
@@ -749,7 +749,7 @@ EndSpeechLose = TOO TOUGH TO CRUSH !
 Name = ELLEN
 PokemonNos = 4,6,14,15,16,17,19,20,33,34,36,37,38,40,41,42,43,44,50,51,54,55,56,57,60,61,67,68,153,178,207,210,212,227,249
 BeginSpeech = CRUSH YOU LIKE AN EGG !
-Type = COOLTRAINER_F
+Type = ACETRAINER_F
 EndSpeechWin = THAT WAS A TASTY VICTORY FOR ME
 #-------------------------------
 [094]
@@ -805,7 +805,7 @@ EndSpeechLose = WAAAH !! NO NO !!
 Name = ERIK
 PokemonNos = 14,40,50,51,117,207,212,227,240
 BeginSpeech = I AM THE SPEED BOOST HERO !
-Type = COOLTRAINER_M
+Type = ACETRAINER_M
 EndSpeechWin = THANK YOU FROM THE SPEED BOOST HERO !
 #-------------------------------
 [101]
@@ -813,7 +813,7 @@ EndSpeechLose = BYE-BYE ! I AM GOING TO RUN AWAY
 Name = YAZMIN
 PokemonNos = 4,5,6,51,115,239
 BeginSpeech = I WOULD RATHER RUN THAN BIKE
-Type = COOLTRAINER_F
+Type = ACETRAINER_F
 EndSpeechWin = YES I WOULD MUCH RATHER RUN
 #-------------------------------
 [102]
@@ -893,7 +893,7 @@ EndSpeechLose = I REFUSE TO ACCEPT THAT OUTRAGE
 Name = JOANA
 PokemonNos = 4,5,36,42,87,189
 BeginSpeech = YOU'RE GOING TO LOSE RIGHT AWAY
-Type = CRUSHGIRL
+Type = BATTLEGIRL
 EndSpeechWin = I AM THE WINNER HEAR ME ROAR
 #-------------------------------
 [112]
@@ -901,7 +901,7 @@ EndSpeechLose = THE HOME WORK IS AWFULLY SCARY
 Name = KELLY
 PokemonNos = 5,19,37,50,56,87,116,118,189
 BeginSpeech = MY NIGHT SCHOOL IS REALLY SCARY
-Type = CRUSHGIRL
+Type = BATTLEGIRL
 EndSpeechWin = A LADY GHOST APPEARS THERE
 #-------------------------------
 [113]
@@ -909,7 +909,7 @@ EndSpeechLose = TERRIBLE ... I AM TERRIBLE ...
 Name = RAYNA
 PokemonNos = 4,15,35,118,153,226,239
 BeginSpeech = I AM NO. 1 WHEN IT'S ABOUT POWER
-Type = CRUSHGIRL
+Type = BATTLEGIRL
 EndSpeechWin = UNDERSTAND MY POWER NOW ?
 #-------------------------------
 [114]
@@ -1077,7 +1077,7 @@ EndSpeechLose = YOU'RE SOUNDPROOF ?
 Name = BALEY
 PokemonNos = 7,8,29,60,61,242
 BeginSpeech = SCREECH IS LIKE MUSIC TO ME !
-Type = BUGCATCHER
+Type = BUGCATCHER_M
 EndSpeechWin = MY SCREECH STRATEGY IS THE BEST
 #-------------------------------
 [135]
@@ -1125,7 +1125,7 @@ EndSpeechLose = ALL RIGHT ! I SURRENDER !
 Name = BRADEN
 PokemonNos = 18,49,59,64,83,84
 BeginSpeech = I CHOOSE YOU ! THIS IS IT!
-Type = COOLTRAINER_M
+Type = ACETRAINER_M
 EndSpeechWin = I AM FEELING PRETTY AWESOME ABOUT MYSELF
 #-------------------------------
 [141]
@@ -1133,7 +1133,7 @@ EndSpeechLose = HEY THIS IS PRETTY TASTY
 Name = KAYDEN
 PokemonNos = 4,5,6,14,15,16,17,19
 BeginSpeech = THEY OVERDO THAT GOURMET THING ...
-Type = COOLTRAINER_M
+Type = ACETRAINER_M
 EndSpeechWin = THAT GOURMET THING ISN'T FOR ME
 #-------------------------------
 [142]
@@ -1141,7 +1141,7 @@ EndSpeechLose = PLEASE ! SORRY I AM SORRY
 Name = COOPER
 PokemonNos = 10,11,12,13,158,169
 BeginSpeech = THIS SHOULD ABSOLUTELY BE A PUSHOVER
-Type = COOLTRAINER_M
+Type = ACETRAINER_M
 EndSpeechWin = THAT WAS TOO EXCITING FOR ME ...
 #-------------------------------
 [143]
@@ -1149,7 +1149,7 @@ EndSpeechLose = FOR NOW
 Name = JULIA
 PokemonNos = 18,49,59,91,106,138
 BeginSpeech = SPIRIT ALONE WON'T MAKE YOU WIN
-Type = COOLTRAINER_F
+Type = ACETRAINER_F
 EndSpeechWin = YOU SHOULD ACCEPT THIS WITH SERENE GRACE
 #-------------------------------
 [144]
@@ -1157,7 +1157,7 @@ EndSpeechLose = THAT'S TOO MUCH TO TACKLE !
 Name = AMARA
 PokemonNos = 4,5,6,14,15,16,17,19
 BeginSpeech = WROOOAAR! !! I AM SO READY !!
-Type = COOLTRAINER_F
+Type = ACETRAINER_F
 EndSpeechWin = I LOSE MYSELF IF IT'S EXCITING
 #-------------------------------
 [145]
@@ -1165,7 +1165,7 @@ EndSpeechLose = YOU CAN'T SAFEGUARD YOUR OWN SECRET
 Name = LYNN
 PokemonNos = 10,11,12,13,65,156
 BeginSpeech = YOUR SECRET CAN'T BE HIDDEN FOREVER
-Type = COOLTRAINER_F
+Type = ACETRAINER_F
 EndSpeechWin = I KNOW YOUR SECRET NOW !
 #-------------------------------
 [146]
@@ -1277,7 +1277,7 @@ EndSpeechLose = AN AVANT GARDE POKéDEX WOULD BE AWESOME
 Name = JAZLYN
 PokemonNos = 4,5,6,14,88,136
 BeginSpeech = IS YOUR POKéDEX REALLY AWESOME ?
-Type = POKEMONBREEDER
+Type = POKEMONBREEDER_F
 EndSpeechWin = OH
 #-------------------------------
 [160]
@@ -1381,7 +1381,7 @@ EndSpeechLose = YOUR BATTLE SENSE IS AMUSING
 Name = HOLDEN
 PokemonNos = 4,5,6,14,15,16,17,19
 BeginSpeech = LET'S COMMEMORATE MY COOLNESS IN BATTLE
-Type = BUGCATCHER
+Type = BUGCATCHER_M
 EndSpeechWin = YOU'RE TOO WEAK FOR ANY PRAISE
 #-------------------------------
 [173]
@@ -1389,7 +1389,7 @@ EndSpeechLose = HELLO ? I AM JUST A KID
 Name = LUCA
 PokemonNos = 4,5,6,14,15,116
 BeginSpeech = WE WILL HAVE A COOL BATTLE
-Type = BUGCATCHER
+Type = BUGCATCHER_M
 EndSpeechWin = I WON IN A COOL WAY
 #-------------------------------
 [174]
@@ -1445,7 +1445,7 @@ EndSpeechLose = DON'T YOU LIKE BUG POKéMON ?
 Name = HANK
 PokemonNos = 7,8,29,30,31,32
 BeginSpeech = THERE IS A BUG EVENT SOON
-Type = BUGCATCHER
+Type = BUGCATCHER_M
 EndSpeechWin = IT'S A BUG FASHION SHOW !
 #-------------------------------
 [181]
@@ -1453,7 +1453,7 @@ EndSpeechLose = SEE HOW FAST I RUN AWAY !
 Name = EARL
 PokemonNos = 7,8,29,30,244,248
 BeginSpeech = THE INVINCIBLE BUG TRAINER IS HERE
-Type = BUGCATCHER
+Type = BUGCATCHER_M
 EndSpeechWin = THE INVINCIBLE BUG TRAINER AM I
 #-------------------------------
 [182]
@@ -1509,7 +1509,7 @@ EndSpeechLose = LET'S PARTY UNTIL THE MORNING SUN !
 Name = EDUARDO
 PokemonNos = 58,75,76,77,78,94
 BeginSpeech = OUR MUSIC WILL PLAY ALL NIGHT
-Type = ROCKER
+Type = GUITARIST
 EndSpeechWin = NIGHTTIME IS WHEN I PLAY BEST
 #-------------------------------
 [189]
@@ -1517,7 +1517,7 @@ EndSpeechLose = I AM ALWAYS TRENDY THANK YOU VERY MUCH
 Name = HAL
 PokemonNos = 58,75,76,77,78,234
 BeginSpeech = I AM TRENDY AREN'T I ?
-Type = ROCKER
+Type = GUITARIST
 EndSpeechWin = I AM FEELING HIP AND HAPPENING OH
 #-------------------------------
 [190]
@@ -1525,7 +1525,7 @@ EndSpeechLose = IF I LOSE I JUST FLY AWAY
 Name = GAGE
 PokemonNos = 38,39,40,45,57,172
 BeginSpeech = HERE IT IS A FLYING TYPE HIDDEN MOVE
-Type = BIRDKEEPER
+Type = BIRDKEEPER_F
 EndSpeechWin = IT'S A FLYING TYPE VICTORY !
 #-------------------------------
 [191]
@@ -1533,7 +1533,7 @@ EndSpeechLose = MY INCREDIBLE DREAM WAS SO WEIRD
 Name = ARNOLD
 PokemonNos = 38,39,40,41,45,54
 BeginSpeech = I AM FEELING WEIRD FROM A DREAM
-Type = BIRDKEEPER
+Type = BIRDKEEPER_F
 EndSpeechWin = YOUR SCARY FACE WAS IN MY DREAM
 #-------------------------------
 [192]
@@ -1573,7 +1573,7 @@ EndSpeechLose = YOU DIDN'T FALL FOR MY TRICK
 Name = KAMERON
 PokemonNos = 4,5,6,53,87,211
 BeginSpeech = TAKE THAT ! IT'S MY FIERY TRICK
-Type = ENGINEER
+Type = WORKER
 EndSpeechWin = DID MY FIERY TRICK ASTONISH ?
 #-------------------------------
 [197]
@@ -1581,7 +1581,7 @@ EndSpeechLose = WHAT A DISASTER THAT WAS !
 Name = ALFREDO
 PokemonNos = 4,5,6,14,115,227
 BeginSpeech = A FIERY GOURMET AM I !
-Type = ENGINEER
+Type = WORKER
 EndSpeechWin = IT'S A TASTY GOURMET VICTORY !
 #-------------------------------
 [198]
@@ -1749,7 +1749,7 @@ EndSpeechLose = COOL ! A GENIUS TRAINER !
 Name = CLARE
 PokemonNos = 10,11,12,13,176,216
 BeginSpeech = YAY ! A TOUGH TRAINER !
-Type = POKEMONBREEDER
+Type = POKEMONBREEDER_F
 EndSpeechWin = AWW ! A WIMPY TRAINER !
 #-------------------------------
 [219]
@@ -1757,7 +1757,7 @@ EndSpeechLose = THEY'RE TASTY ! REFRESHING TOO !
 Name = TESS
 PokemonNos = 10,11,12,13,65,66,107
 BeginSpeech = WANT SOME HUNTAIL DESIGN SWEETS ?
-Type = POKEMONBREEDER
+Type = POKEMONBREEDER_F
 EndSpeechWin = THEY'RE A SECRET POKéMON GOURMET ITEM
 #-------------------------------
 [220]
@@ -1765,7 +1765,7 @@ EndSpeechLose = BACK HOME I WILL GO ...
 Name = LEON
 PokemonNos = 10,13,47,49,55,58,75,83,112,117,119,122,131,132,136,142,144,152,164,170,175,181,182,183,190,192,195,207,208,226,241,250,251
 BeginSpeech = I AM BETTER THAN ANY OTHER TRAINER
-Type = COOLTRAINER_M
+Type = ACETRAINER_M
 EndSpeechWin = I DID IT JUMP KICK FOR JOY
 #-------------------------------
 [221]
@@ -1773,7 +1773,7 @@ EndSpeechLose = I DON'T BELIEVE THIS ...
 Name = ALONZO
 PokemonNos = 1,38,44,45,57,68,69,70,80,84,85,110,118,119,121,143,152,156,162,176,178,179,182,191,192,194,196,197,198,202,205,208,210,214,216,217,218,219,220,221,222,238,240,241
 BeginSpeech = I'VE NOT LOST ONCE YET !
-Type = COOLTRAINER_M
+Type = ACETRAINER_M
 EndSpeechWin = YOUR SAD LOOK BECOMES YOU
 #-------------------------------
 [222]
@@ -1781,7 +1781,7 @@ EndSpeechLose = I WILL APPEAL THIS OUTRAGE !
 Name = VINCE
 PokemonNos = 24,37,39,41,44,54,70,85,86,115,127,137,139,159,172,177,179,185,189,211,212,214,238,249,250,251,252,253
 BeginSpeech = THE TOP TRAINER THAT'S ME !
-Type = COOLTRAINER_M
+Type = ACETRAINER_M
 EndSpeechWin = THE TOP RANK BELONGS TO ME !
 #-------------------------------
 [223]
@@ -1789,7 +1789,7 @@ EndSpeechLose = I JUST DON'T GET IT ...
 Name = BRYON
 PokemonNos = 38,41,45,54,60,63,67,69,139,171,172,177,185,192,204,212,213,214,230,238,249
 BeginSpeech = MY BARRAGE WILL SLAM YOU !
-Type = COOLTRAINER_M
+Type = ACETRAINER_M
 EndSpeechWin = YOU DIDN'T COUNT ON ANY LESS ?
 #-------------------------------
 [224]
@@ -1797,7 +1797,7 @@ EndSpeechLose = WHY ARE YOU SO TERRIBLE ?
 Name = AVA
 PokemonNos = 18,37,38,49,54,59,60,61,72,77,88,97,105,130,139,146,171,172,177,189,207,213,243,249,253
 BeginSpeech = I AM A TREASURE OF THIS WORLD
-Type = COOLTRAINER_F
+Type = ACETRAINER_F
 EndSpeechWin = MY WORLD IS FULL OF WONDER
 #-------------------------------
 [225]
@@ -1805,7 +1805,7 @@ EndSpeechLose = AIYEEH ! YOU REALLY ARE SCARY
 Name = MIRIAM
 PokemonNos = 6,14,16,37,43,51,52,55,78,81,84,85,117,118,137,177,189,190,192,206,210,226,227,240,250,252
 BeginSpeech = OH A TRAINER WITH A SCARY FACE
-Type = COOLTRAINER_F
+Type = ACETRAINER_F
 EndSpeechWin = AHAHA YOU ONLY LOOK SCARY !
 #-------------------------------
 [226]
@@ -1813,7 +1813,7 @@ EndSpeechLose = OH NO ... SELFDESTRUCT MODE !
 Name = CARRIE
 PokemonNos = 4,9,20,35,36,37,40,47,51,57,68,69,85,112,117,118,137,147,154,172,177,178,185,204,205,207,227,238,239,250,252,253
 BeginSpeech = I WILL SHOW YOU GUTSY !
-Type = COOLTRAINER_F
+Type = ACETRAINER_F
 EndSpeechWin = IT'S ALL ABOUT GUTS !
 #-------------------------------
 [227]
@@ -1821,7 +1821,7 @@ EndSpeechLose = THAT WAS A LITTLE TOO MUCH TO TAKE
 Name = GILLIAN
 PokemonNos = 57,84,137,172,177,185,204,205,214,217,249
 BeginSpeech = I SEEK A TRULY GREAT BATTLE
-Type = COOLTRAINER_F
+Type = ACETRAINER_F
 EndSpeechWin = I NEED A LOT BETTER BATTLE ...
 #-------------------------------
 [228]
@@ -1925,7 +1925,7 @@ EndSpeechLose = GOOD IT'S OVER AT LAST ...
 Name = KAY
 PokemonNos = 18,49,64,91,106,166
 BeginSpeech = AND YET ANOTHER BATTLE ?
-Type = CRUSHGIRL
+Type = BATTLEGIRL
 EndSpeechWin = I WON BUT I AM TIRED ...
 #-------------------------------
 [241]
@@ -1933,7 +1933,7 @@ EndSpeechLose = YOU DISLIKE A BATTLE GIRL ?
 Name = ELENA
 PokemonNos = 104,129,190,191,192,194
 BeginSpeech = A BATTLE GIRL THAT'S ME !
-Type = CRUSHGIRL
+Type = BATTLEGIRL
 EndSpeechWin = ISN'T A BATTLE GIRL AWESOME ?
 #-------------------------------
 [242]
@@ -1941,7 +1941,7 @@ EndSpeechLose = SO MUCH FOR MY INVINCIBLE ATTACK
 Name = ALANA
 PokemonNos = 83,84,85,130,177,237
 BeginSpeech = EAT MY INVINCIBLE ATTACK YOU !
-Type = CRUSHGIRL
+Type = BATTLEGIRL
 EndSpeechWin = YOU HAVE MUCH TO LEARN
 #-------------------------------
 [243]
@@ -2117,7 +2117,7 @@ EndSpeechLose = I AM DISAPPOINTED ...
 Name = MASON
 PokemonNos = 44,70,177,178,186,189,190,193,207,243,250
 BeginSpeech = PLEASE DON'T MAKE THIS SCARY
-Type = COOLTRAINER_M
+Type = ACETRAINER_M
 EndSpeechWin = THANK YOU ... I AM HAPPY NOW
 #-------------------------------
 [265]
@@ -2125,7 +2125,7 @@ EndSpeechLose = I CAN BEAT YOU AT SMARTNESS
 Name = TOBY
 PokemonNos = 44,51,70,113,166,172,186,202,208,209,243,252
 BeginSpeech = LISTEN UP I ALWAYS WIN
-Type = COOLTRAINER_M
+Type = ACETRAINER_M
 EndSpeechWin = I AM A GENIUS OR WHAT ?
 #-------------------------------
 [266]
@@ -2133,7 +2133,7 @@ EndSpeechLose = THANK YOU ! THAT LOSS WAS REFRESHING
 Name = DOROTHY
 PokemonNos = 14,67,70,113,181,187,189,226,227,243,253
 BeginSpeech = THE SPORTS WORLD SHOULD ACCEPT POKéMON
-Type = COOLTRAINER_F
+Type = ACETRAINER_F
 EndSpeechWin = THANK YOU ! THAT WIN WAS REFRESHING
 #-------------------------------
 [267]
@@ -2141,7 +2141,7 @@ EndSpeechLose = OH YOU !
 Name = PIPER
 PokemonNos = 37,42,53,55,106,115,171,172,177,180,186,209,211,217,238,239,243,245,251,252,253
 BeginSpeech = COME ON YOU NEED A SPEED BOOST ?
-Type = COOLTRAINER_F
+Type = ACETRAINER_F
 EndSpeechWin = YOU NEED TO SHOW MORE GUTS
 #-------------------------------
 [268]
@@ -2213,7 +2213,7 @@ EndSpeechLose = MY BUG POKéMON ARE ALL UPSIDE DOWN
 Name = AVERY
 PokemonNos = 7,8,29,199,235,236
 BeginSpeech = I'VE GOT A LOT OF BUG POKéMON
-Type = BUGCATCHER
+Type = BUGCATCHER_M
 EndSpeechWin = MY BUG POKéMON ARE ALL UNBELIEVABLE
 #-------------------------------
 [277]
@@ -2221,7 +2221,7 @@ EndSpeechLose = YOU KNOW WHAT WE DISLIKE HEY?
 Name = LIAM
 PokemonNos = 7,8,29,30,31,225
 BeginSpeech = WE REALLY DISLIKE FIRE AND FLYING
-Type = BUGCATCHER
+Type = BUGCATCHER_M
 EndSpeechWin = BUG POKéMON AREN'T BAD HEY?
 #-------------------------------
 [278]
@@ -2277,7 +2277,7 @@ EndSpeechLose = I AM GOING DOWN DOWN DOWN !
 Name = CHARLES
 PokemonNos = 45,62,68,69,94,172,186,188,204,212,213,214,245
 BeginSpeech = IT'S HOPELESS TO STRUGGLE WITH ME
-Type = ROCKER
+Type = GUITARIST
 EndSpeechWin = SUBMISSION WAS YOUR ONLY CHOICE
 #-------------------------------
 [285]
@@ -2285,7 +2285,7 @@ EndSpeechLose = SATISFIED IS WHAT I CAN'T BE
 Name = RAYMOND
 PokemonNos = 77,84,177,188,243,253
 BeginSpeech = WANT TO HEAR MY SONG ?
-Type = ROCKER
+Type = GUITARIST
 EndSpeechWin = SATISFIED THAT'S WHAT I AM !
 #-------------------------------
 [286]
@@ -2293,7 +2293,7 @@ EndSpeechLose = AREN'T THERE MORE FLYING POKéMON ?
 Name = DIRK
 PokemonNos = 41,45,57,62,67,68,69,70,171,172,204,205,212,213,214,238,249
 BeginSpeech = FLYING POKéMON ARE ABOVE THE REST
-Type = BIRDKEEPER
+Type = BIRDKEEPER_F
 EndSpeechWin = YOU CAN'T WIN ! FLYING POKéMON RULE
 #-------------------------------
 [287]
@@ -2301,7 +2301,7 @@ EndSpeechLose = SO YOU DISLIKE MY POKéMON ?
 Name = HAROLD
 PokemonNos = 38,39,40,41,54,57,60,67,171,172,204,205,212,213,214,238,249
 BeginSpeech = MY POKéMON APPEAL TO YOU ?
-Type = BIRDKEEPER
+Type = BIRDKEEPER_F
 EndSpeechWin = YOU DO LIKE MY POKéMON ?
 #-------------------------------
 [288]
@@ -2341,7 +2341,7 @@ EndSpeechLose = YOU WANT AN EXPLOSION HERE ?
 Name = ANDRE
 PokemonNos = 45,125,172,190,193,203,205,206,212,243
 BeginSpeech = NOW THIS IS A PERFECT FLAME BODY
-Type = ENGINEER
+Type = WORKER
 EndSpeechWin = LOOK AT MY FIERY DANCE !
 #-------------------------------
 [293]
@@ -2349,7 +2349,7 @@ EndSpeechLose = I AM NOT NO. 1 ANY MORE ...
 Name = FERRIS
 PokemonNos = 39,54,144,171,190,191,192,194,204,206,229,243
 BeginSpeech = I AM NO. 1 IN THE OLD CLASS
-Type = ENGINEER
+Type = WORKER
 EndSpeechWin = NO. 1 THAT'S WHAT I AM !
 #-------------------------------
 [294]

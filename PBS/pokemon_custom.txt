@@ -402,8 +402,8 @@ Habitat = Mountain
 Category = Fashionista
 Pokedex =
 #-------------------------------
-[MOLTETHRA]
-Name = Moltethra
+[MOLTEPHRA]
+Name = Moltephra
 Types = FIRE,ROCK
 BaseStats = 90,50,140,30,125,90
 GenderRatio = Female50Percent

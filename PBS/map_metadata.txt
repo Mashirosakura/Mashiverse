@@ -8,7 +8,7 @@ Name = Lappet Town
 Outdoor = true
 ShowArea = true
 MapPosition = 0,13,12
-BattleBack = field
+BattleBack = grass
 #-------------------------------
 [003]   # Ramanas Town
 Name = Ramanas Town
@@ -16,7 +16,7 @@ Name = Ramanas Town
 [203]   # Ramanas Town (outside)
 Name = Ramanas Town
 ShowArea = true
-BattleBack = field
+BattleBack = grass
 Outdoor = true
 #-------------------------------
 [004]
@@ -48,6 +48,7 @@ Name = Pastoria City
 #-------------------------------
 [010] # Pastoria City
 Name = Pastoria City Gym
+BattleBack = arena11
 #-------------------------------
 [011] # Pastoria City
 Name = Pokémon Center
@@ -94,7 +95,7 @@ Outdoor = true
 ShowArea = true
 Weather = Rain,100
 MapPosition = 0,14,8
-BattleBack = field
+BattleBack = grass
 MapSize = 1,11
 #-------------------------------
 [022]   # Oreburgh City
@@ -132,7 +133,7 @@ Name = Natural Park
 Outdoor = true
 ShowArea = true
 MapPosition = 0,16,8
-BattleBack = field
+BattleBack = grass
 Flags = MossRock,BugContest
 #-------------------------------
 [029]
@@ -151,7 +152,7 @@ Name = Route 3
 Outdoor = true
 ShowArea = true
 MapPosition = 0,14,6
-BattleBack = field
+BattleBack = grass
 MapSize = 2,1101
 #-------------------------------
 [032]   # Oreburgh City
@@ -200,7 +201,7 @@ Name = Route 4
 Outdoor = true
 ShowArea = true
 MapPosition = 0,11,6
-BattleBack = field
+BattleBack = grass
 MapSize = 2,11
 #-------------------------------
 [040]
@@ -235,7 +236,7 @@ Name = Route 6
 Outdoor = true
 ShowArea = true
 MapPosition = 0,11,10
-BattleBack = field
+BattleBack = grass
 MapSize = 2,11
 #-------------------------------
 [045]
@@ -365,7 +366,7 @@ Name = Safari Zone
 Outdoor = true
 ShowArea = true
 MapPosition = 0,12,12
-BattleBack = field
+BattleBack = grass
 #-------------------------------
 [067]
 Name = Safari Zone
@@ -386,7 +387,7 @@ Outdoor = true
 ShowArea = true
 MapPosition = 0,13,13
 DiveMap = 70
-BattleBack = field
+BattleBack = grass
 #-------------------------------
 [070]
 Name = Route 8
@@ -404,7 +405,7 @@ Outdoor = true
 ShowArea = true
 Weather = Storm,50
 MapPosition = 0,18,17
-BattleBack = field
+BattleBack = grass
 Flags = DistortionWorld
 #-------------------------------
 [073]
@@ -412,7 +413,7 @@ Name = Faraday Island
 Outdoor = true
 ShowArea = true
 MapPosition = 0,22,16
-BattleBack = field
+BattleBack = grass
 Flags = DistortionWorld
 #-------------------------------
 [074]
