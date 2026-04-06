@@ -207,7 +207,7 @@ class Battle::Scene::FightMenu < Battle::Scene::MenuBase
   #     Graphics/UI/Battle/overlay_message.png. You will need to edit def
   #     pbShowWindow to make the graphic appear while the command menu is being
   #     displayed.
-  USE_GRAPHICS     = false
+  USE_GRAPHICS     = true
   TYPE_ICON_HEIGHT = 28
   # Text colours of PP of selected move
   PP_COLORS = [

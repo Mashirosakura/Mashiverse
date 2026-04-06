@@ -26,504 +26,504 @@ BattleBGM =
 Name = Aroma Lady
 Gender = Female
 BaseMoney = 32
-TrainerIntro = DPPT 090 Trainers_ Eyes Meet (Aroma Lady)
+IntroBGM = DPPT 090 Trainers_ Eyes Meet (Aroma Lady)
 #-------------------------------
 [ARTIST]
 Name = Artist
 Gender = Male
 BaseMoney = 36
-TrainerIntro = DPPT 101 Trainers_ Eyes Meet (Artist)
+IntroBGM = DPPT 101 Trainers_ Eyes Meet (Artist)
 #-------------------------------
 [BELLEANDPA]
 Name = Belle and Pa
 Gender = Mixed
 BaseMoney = 56
-TrainerIntro = DPPT 076 Trainers_ Eyes Meet (Ace Trainer)
+IntroBGM = DPPT 076 Trainers_ Eyes Meet (Ace Trainer)
 #-------------------------------
 [BEAUTY]
 Name = Beauty
 Gender = Female
 BaseMoney = 56
-TrainerIntro = DPPT 090 Trainers_ Eyes Meet (Aroma Lady)
+IntroBGM = DPPT 090 Trainers_ Eyes Meet (Aroma Lady)
 #-------------------------------
 [BIKER]
 Name = Biker
 Gender = Male
 BaseMoney = 32
-TrainerIntro = DPPT 086 Trainers_ Eyes Meet (Black Belt)
+IntroBGM = DPPT 086 Trainers_ Eyes Meet (Black Belt)
 #-------------------------------
 [BIRDKEEPER_M]
 Name = Bird Keeper
 Gender = Male
 BaseMoney = 32
-TrainerIntro = DPPT 101 Trainers_ Eyes Meet (Artist)
+IntroBGM = DPPT 101 Trainers_ Eyes Meet (Artist)
 #-------------------------------
 [BIRDKEEPER_F]
 Name = Bird Keeper
 Gender = Male
 BaseMoney = 32
-TrainerIntro = DPPT 101 Trainers_ Eyes Meet (Artist)
+IntroBGM = DPPT 101 Trainers_ Eyes Meet (Artist)
 #-------------------------------
 [BUGCATCHER_M]
 Name = Bug Catcher
 Gender = Male
 BaseMoney = 16
-TrainerIntro = DPPT 021 Trainers_ Eyes Meet (Youngster)
+IntroBGM = DPPT 021 Trainers_ Eyes Meet (Youngster)
 #-------------------------------
 [BUGCATCHER_F]
 Name = Bug Catcher
 Gender = Male
 BaseMoney = 16
-TrainerIntro = DPPT 022 Trainers_ Eyes Meet (Lass)
+IntroBGM = DPPT 022 Trainers_ Eyes Meet (Lass)
 #-------------------------------
 [BURGLAR]
 Name = Burglar
 Gender = Male
 BaseMoney = 88
 SkillLevel = 32
-TrainerIntro = DPPT 097 Trainers_ Eyes Meet (Gambler)
+IntroBGM = DPPT 097 Trainers_ Eyes Meet (Gambler)
 #-------------------------------
 [CAMERAMAN]
 Name = Cameraman
 Gender = Male
 BaseMoney = 32
-TrainerIntro = DPPT 076 Trainers_ Eyes Meet (Ace Trainer)
+IntroBGM = DPPT 076 Trainers_ Eyes Meet (Ace Trainer)
 #-------------------------------
 [CHANNELER]
 Name = Channeler
 Gender = Female
 BaseMoney = 32
-TrainerIntro = DPPT 093 Trainers_ Eyes Meet (Collector)
+IntroBGM = DPPT 093 Trainers_ Eyes Meet (Collector)
 #-------------------------------
 [ROUGHNECK]
 Name = Roughneck
 Gender = Male
 BaseMoney = 24
-TrainerIntro = DPPT 086 Trainers_ Eyes Meet (Black Belt)
+IntroBGM = DPPT 086 Trainers_ Eyes Meet (Black Belt)
 #-------------------------------
 [CLOWN]
 Name = Clown
 Gender = Male
 BaseMoney = 48
-TrainerIntro = DPPT 101 Trainers_ Eyes Meet (Artist)
+IntroBGM = DPPT 101 Trainers_ Eyes Meet (Artist)
 #-------------------------------
 [COLLECTOR]
 Name = Collector
 Gender = Male
 BaseMoney = 48
-TrainerIntro = DPPT 093 Trainers_ Eyes Meet (Collector)
+IntroBGM = DPPT 093 Trainers_ Eyes Meet (Collector)
 #-------------------------------
 [COWGIRL]
 Name = Cowgirl
 Gender = Female
 BaseMoney = 48
-TrainerIntro = DPPT 022 Trainers_ Eyes Meet (Lass)
+IntroBGM = DPPT 022 Trainers_ Eyes Meet (Lass)
 #-------------------------------
 [CYCLIST_F]
 Name = Cyclist
 Gender = Female
 BaseMoney = 48
-TrainerIntro = DPPT 053 Trainers_ Eyes Meet (Cycling)
+IntroBGM = DPPT 053 Trainers_ Eyes Meet (Cycling)
 #-------------------------------
 [CYCLIST_M]
 Name = Cyclist
 Gender = Male
 BaseMoney = 48
-TrainerIntro = DPPT 053 Trainers_ Eyes Meet (Cycling)
+IntroBGM = DPPT 053 Trainers_ Eyes Meet (Cycling)
 #-------------------------------
 [DOUBLETEAM]
 Name = Double Team
 Gender = Mixed
 BaseMoney = 48
-TrainerIntro = DPPT 076 Trainers_ Eyes Meet (Ace Trainer)
+IntroBGM = DPPT 076 Trainers_ Eyes Meet (Ace Trainer)
 #-------------------------------
 [DRAGONTAMER]
 Name = Dragon Tamer
 Gender = Male
 BaseMoney = 48
-TrainerIntro = DPPT 086 Trainers_ Eyes Meet (Black Belt)
+IntroBGM = DPPT 086 Trainers_ Eyes Meet (Black Belt)
 #-------------------------------
 [FISHERMAN]
 Name = Fisherman
 Gender = Male
 BaseMoney = 32
-TrainerIntro = DPPT 057 Trainers_ Eyes Meet (Hiker)
+IntroBGM = DPPT 057 Trainers_ Eyes Meet (Hiker)
 #-------------------------------
 [GENTLEMAN]
 Name = Gentleman
 Gender = Male
 BaseMoney = 72
-TrainerIntro = DPPT 097 Trainers_ Eyes Meet (Gambler)
+IntroBGM = DPPT 097 Trainers_ Eyes Meet (Gambler)
 #-------------------------------
 [SOCIALITE]
 Name = Socialite
 Gender = Female
 BaseMoney = 72
-TrainerIntro = DPPT 097 Trainers_ Eyes Meet (Gambler)
+IntroBGM = DPPT 097 Trainers_ Eyes Meet (Gambler)
 #-------------------------------
 [TEACHER]
 Name = Teacher
 Gender = Female
 BaseMoney = 72
-TrainerIntro = DPPT 090 Trainers_ Eyes Meet (Aroma Lady)
+IntroBGM = DPPT 090 Trainers_ Eyes Meet (Aroma Lady)
 #-------------------------------
 [INTERVIEWERS]
 Name = Interviewers
 Gender = Mixed
 BaseMoney = 48
-TrainerIntro = DPPT 076 Trainers_ Eyes Meet (Ace Trainer)
+IntroBGM = DPPT 076 Trainers_ Eyes Meet (Ace Trainer)
 #-------------------------------
 [JOGGER]
 Name = Jogger
 Gender = Male
 BaseMoney = 48
-TrainerIntro = DPPT 053 Trainers_ Eyes Meet (Cycling)
+IntroBGM = DPPT 053 Trainers_ Eyes Meet (Cycling)
 #-------------------------------
 [HIKER]
 Name = Hiker
 Gender = Male
 BaseMoney = 32
-TrainerIntro = DPPT 057 Trainers_ Eyes Meet (Hiker)
+IntroBGM = DPPT 057 Trainers_ Eyes Meet (Hiker)
 #-------------------------------
 [JUGGLER]
 Name = Juggler
 Gender = Male
 BaseMoney = 32
-TrainerIntro = DPPT 101 Trainers_ Eyes Meet (Artist)
+IntroBGM = DPPT 101 Trainers_ Eyes Meet (Artist)
 #-------------------------------
 [KIMONOGIRL]
 Name = Kimono Girl
 Gender = Female
 BaseMoney = 160
 SkillLevel = 72
-TrainerIntro = DPPT 090 Trainers_ Eyes Meet (Aroma Lady)
+IntroBGM = DPPT 090 Trainers_ Eyes Meet (Aroma Lady)
 #-------------------------------
 [LADY]
 Name = Lady
 Gender = Female
 BaseMoney = 160
 SkillLevel = 72
-TrainerIntro = DPPT 090 Trainers_ Eyes Meet (Aroma Lady)
+IntroBGM = DPPT 090 Trainers_ Eyes Meet (Aroma Lady)
 #-------------------------------
 [PAINTER]
 Name = Painter
 Gender = Female
 BaseMoney = 16
-TrainerIntro = DPPT 101 Trainers_ Eyes Meet (Artist)
+IntroBGM = DPPT 101 Trainers_ Eyes Meet (Artist)
 #-------------------------------
 [MAID]
 Name = Maid
 Gender = Female
 BaseMoney = 48
-TrainerIntro = DPPT 090 Trainers_ Eyes Meet (Aroma Lady)
+IntroBGM = DPPT 090 Trainers_ Eyes Meet (Aroma Lady)
 #-------------------------------
 [NINJABOY]
 Name = Ninja Boy
 Gender = Male
 BaseMoney = 48
-TrainerIntro = DPPT 086 Trainers_ Eyes Meet (Black Belt)
+IntroBGM = DPPT 086 Trainers_ Eyes Meet (Black Belt)
 #-------------------------------
 [SHINOBIGIRL]
 Name = Shinobi Girl
 Gender = Female
 BaseMoney = 48
-TrainerIntro = DPPT 086 Trainers_ Eyes Meet (Black Belt)
+IntroBGM = DPPT 086 Trainers_ Eyes Meet (Black Belt)
 #-------------------------------
 [OFFICER]
 Name = Officer
 Gender = Male
 BaseMoney = 48
-TrainerIntro = DPPT 086 Trainers_ Eyes Meet (Black Belt)
+IntroBGM = DPPT 086 Trainers_ Eyes Meet (Black Belt)
 #-------------------------------
 [PARASOLLADY]
 Name = Parasol Lady
 Gender = Female
 BaseMoney = 48
-TrainerIntro = DPPT 090 Trainers_ Eyes Meet (Aroma Lady)
+IntroBGM = DPPT 090 Trainers_ Eyes Meet (Aroma Lady)
 #-------------------------------
 [PI]
 Name = Private Investigator
 Gender = Male
 BaseMoney = 48
-TrainerIntro = DPPT 097 Trainers_ Eyes Meet (Gambler)
+IntroBGM = DPPT 097 Trainers_ Eyes Meet (Gambler)
 #-------------------------------
 [POKEMANIAC]
 Name = Poké Maniac
 Gender = Male
 BaseMoney = 64
-TrainerIntro = DPPT 093 Trainers_ Eyes Meet (Collector)
+IntroBGM = DPPT 093 Trainers_ Eyes Meet (Collector)
 #-------------------------------
 [POKEMONBREEDER_F]
 Name = Pokémon Breeder
 Gender = Female
 BaseMoney = 48
-TrainerIntro = DPPT 076 Trainers_ Eyes Meet (Ace Trainer)
+IntroBGM = DPPT 076 Trainers_ Eyes Meet (Ace Trainer)
 #-------------------------------
 [POKEMONBREEDER_M]
 Name = Pokémon Breeder
 Gender = Male
 BaseMoney = 48
-TrainerIntro = DPPT 076 Trainers_ Eyes Meet (Ace Trainer)
+IntroBGM = DPPT 076 Trainers_ Eyes Meet (Ace Trainer)
 #-------------------------------
 [POKEFAN_F]
 Name = Pokéfan
 Gender = Female
 BaseMoney = 48
-TrainerIntro = DPPT 076 Trainers_ Eyes Meet (Ace Trainer)
+IntroBGM = DPPT 076 Trainers_ Eyes Meet (Ace Trainer)
 #-------------------------------
 [POKEFAN_M]
 Name = Pokéfan
 Gender = Male
 BaseMoney = 48
-TrainerIntro = DPPT 076 Trainers_ Eyes Meet (Ace Trainer)
+IntroBGM = DPPT 076 Trainers_ Eyes Meet (Ace Trainer)
 #-------------------------------
 [POKEKID]
 Name = Pokékid
 Gender = Female
 BaseMoney = 48
-TrainerIntro = DPPT 076 Trainers_ Eyes Meet (Ace Trainer)
+IntroBGM = DPPT 076 Trainers_ Eyes Meet (Ace Trainer)
 #-------------------------------
 [GUITARIST]
 Name = Guitarist
 Gender = Male
 BaseMoney = 24
-TrainerIntro = DPPT 086 Trainers_ Eyes Meet (Black Belt)
+IntroBGM = DPPT 086 Trainers_ Eyes Meet (Black Belt)
 #-------------------------------
 [RUINMANIAC]
 Name = Ruin Maniac
 Gender = Male
 BaseMoney = 48
-TrainerIntro = DPPT 057 Trainers_ Eyes Meet (Hiker)
+IntroBGM = DPPT 057 Trainers_ Eyes Meet (Hiker)
 #-------------------------------
 [RANCHER]
 Name = Rancher
 Gender = Male
 BaseMoney = 48
-TrainerIntro = DPPT 057 Trainers_ Eyes Meet (Hiker)
+IntroBGM = DPPT 057 Trainers_ Eyes Meet (Hiker)
 #-------------------------------
 [RICHBOY]
 Name = Rich Boy
 Gender = Male
 BaseMoney = 48
-TrainerIntro = DPPT 076 Trainers_ Eyes Meet (Ace Trainer)
+IntroBGM = DPPT 076 Trainers_ Eyes Meet (Ace Trainer)
 #-------------------------------
 [REPORTER]
 Name = Reporter
 Gender = Female
 BaseMoney = 48
-TrainerIntro = DPPT 076 Trainers_ Eyes Meet (Ace Trainer)
+IntroBGM = DPPT 076 Trainers_ Eyes Meet (Ace Trainer)
 #-------------------------------
 [VETERAN]
 Name = Veteran
 Gender = Male
 BaseMoney = 48
-TrainerIntro = DPPT 057 Trainers_ Eyes Meet (Hiker)
+IntroBGM = DPPT 057 Trainers_ Eyes Meet (Hiker)
 #-------------------------------
 [WAITER]
 Name = Waiter
 Gender = Male
 BaseMoney = 48
-TrainerIntro = DPPT 076 Trainers_ Eyes Meet (Ace Trainer)
+IntroBGM = DPPT 076 Trainers_ Eyes Meet (Ace Trainer)
 #-------------------------------
 [WAITRESS]
 Name = Waitress
 Gender = Female
 BaseMoney = 48
-TrainerIntro = DPPT 076 Trainers_ Eyes Meet (Ace Trainer)
+IntroBGM = DPPT 076 Trainers_ Eyes Meet (Ace Trainer)
 #-------------------------------
 [WORKER]
 Name = Worker
 Gender = Male
 BaseMoney = 48
-TrainerIntro = DPPT 076 Trainers_ Eyes Meet (Ace Trainer)
+IntroBGM = DPPT 076 Trainers_ Eyes Meet (Ace Trainer)
 #-------------------------------
 [SAILOR]
 Name = Sailor
 Gender = Male
 BaseMoney = 32
-TrainerIntro = DPPT 087 Trainers_ Eyes Meet (Sailor)
+IntroBGM = DPPT 087 Trainers_ Eyes Meet (Sailor)
 #-------------------------------
 [SCIENTIST]
 Name = Scientist
 Gender = Male
 BaseMoney = 48
-TrainerIntro = DPPT 093 Trainers_ Eyes Meet (Collector)
+IntroBGM = DPPT 093 Trainers_ Eyes Meet (Collector)
 #-------------------------------
 [SUPERNERD]
 Name = Super Nerd
 Gender = Male
 BaseMoney = 48
-TrainerIntro = DPPT 093 Trainers_ Eyes Meet (Collector)
+IntroBGM = DPPT 093 Trainers_ Eyes Meet (Collector)
 #-------------------------------
 [BLACKBELT]
 Name = Black Belt
 Gender = Male
 BaseMoney = 32
-TrainerIntro = DPPT 086 Trainers_ Eyes Meet (Black Belt)
+IntroBGM = DPPT 086 Trainers_ Eyes Meet (Black Belt)
 #-------------------------------
 [BATTLEGIRL]
 Name = Battle Girl
 Gender = Female
 BaseMoney = 24
-TrainerIntro = DPPT 086 Trainers_ Eyes Meet (Black Belt)
+IntroBGM = DPPT 086 Trainers_ Eyes Meet (Black Belt)
 #-------------------------------
 [CAMPER]
 Name = Camper
 Gender = Male
 BaseMoney = 16
-TrainerIntro = DPPT 021 Trainers_ Eyes Meet (Youngster)
+IntroBGM = DPPT 021 Trainers_ Eyes Meet (Youngster)
 #-------------------------------
 [PICNICKER]
 Name = Picnicker
 Gender = Female
 BaseMoney = 16
-TrainerIntro = DPPT 022 Trainers_ Eyes Meet (Lass)
+IntroBGM = DPPT 022 Trainers_ Eyes Meet (Lass)
 #-------------------------------
 [ACETRAINER_M]
 Name = Ace Trainer
 Gender = Male
 BaseMoney = 60
-TrainerIntro = DPPT 076 Trainers_ Eyes Meet (Ace Trainer)
+IntroBGM = DPPT 076 Trainers_ Eyes Meet (Ace Trainer)
 #-------------------------------
 [ACETRAINER_F]
 Name = Ace Trainer
 Gender = Female
 BaseMoney = 60
-TrainerIntro = DPPT 076 Trainers_ Eyes Meet (Ace Trainer)
+IntroBGM = DPPT 076 Trainers_ Eyes Meet (Ace Trainer)
 #-------------------------------
 [SNOWACETRAINER_M]
 Name = Ace Trainer
 Gender = Male
 BaseMoney = 60
-TrainerIntro = DPPT 076 Trainers_ Eyes Meet (Ace Trainer)
+IntroBGM = DPPT 076 Trainers_ Eyes Meet (Ace Trainer)
 #-------------------------------
 [SNOWACETRAINER_F]
 Name = Ace Trainer
 Gender = Female
 BaseMoney = 60
-TrainerIntro = DPPT 076 Trainers_ Eyes Meet (Ace Trainer)
+IntroBGM = DPPT 076 Trainers_ Eyes Meet (Ace Trainer)
 #-------------------------------
 [SKIER_M]
 Name = Skier
 Gender = Male
 BaseMoney = 60
-TrainerIntro = DPPT 076 Trainers_ Eyes Meet (Ace Trainer)
+IntroBGM = DPPT 076 Trainers_ Eyes Meet (Ace Trainer)
 #-------------------------------
 [SKIER_F]
 Name = Skier
 Gender = Female
 BaseMoney = 60
-TrainerIntro = DPPT 076 Trainers_ Eyes Meet (Ace Trainer)
+IntroBGM = DPPT 076 Trainers_ Eyes Meet (Ace Trainer)
 #-------------------------------
 [YOUNGSTER]
 Name = Youngster
 Gender = Male
 BaseMoney = 16
-TrainerIntro = DPPT 021 Trainers_ Eyes Meet (Youngster)
+IntroBGM = DPPT 021 Trainers_ Eyes Meet (Youngster)
 #-------------------------------
 [LASS]
 Name = Lass
 Gender = Female
 BaseMoney = 16
-TrainerIntro = DPPT 022 Trainers_ Eyes Meet (Lass)
+IntroBGM = DPPT 022 Trainers_ Eyes Meet (Lass)
 #-------------------------------
 [POKEMONRANGER_M]
 Name = Pokémon Ranger
 Gender = Male
 BaseMoney = 60
-TrainerIntro = DPPT 076 Trainers_ Eyes Meet (Ace Trainer)
+IntroBGM = DPPT 076 Trainers_ Eyes Meet (Ace Trainer)
 #-------------------------------
 [POKEMONRANGER_F]
 Name = Pokémon Ranger
 Gender = Female
 BaseMoney = 60
-TrainerIntro = DPPT 076 Trainers_ Eyes Meet (Ace Trainer)
+IntroBGM = DPPT 076 Trainers_ Eyes Meet (Ace Trainer)
 #-------------------------------
 [TAMER]
 Name = Pokémon Ranger
 Gender = Female
 BaseMoney = 60
-TrainerIntro = DPPT 076 Trainers_ Eyes Meet (Ace Trainer)
+IntroBGM = DPPT 076 Trainers_ Eyes Meet (Ace Trainer)
 #-------------------------------
 [PSYCHIC_M]
 Name = Psychic
 Gender = Male
 BaseMoney = 32
-TrainerIntro = DPPT 076 Trainers_ Eyes Meet (Ace Trainer)
+IntroBGM = DPPT 076 Trainers_ Eyes Meet (Ace Trainer)
 #-------------------------------
 [PSYCHIC_F]
 Name = Psychic
 Gender = Female
 BaseMoney = 32
-TrainerIntro = DPPT 076 Trainers_ Eyes Meet (Ace Trainer)
+IntroBGM = DPPT 076 Trainers_ Eyes Meet (Ace Trainer)
 #-------------------------------
 [SWIMMER_M]
 Name = Swimmer
 Gender = Male
 BaseMoney = 16
 SkillLevel = 32
-TrainerIntro = DPPT 076 Trainers_ Eyes Meet (Ace Trainer)
+IntroBGM = DPPT 076 Trainers_ Eyes Meet (Ace Trainer)
 #-------------------------------
 [SWIMMER_F]
 Name = Swimmer
 Gender = Female
 BaseMoney = 16
 SkillLevel = 32
-TrainerIntro = DPPT 076 Trainers_ Eyes Meet (Ace Trainer)
+IntroBGM = DPPT 076 Trainers_ Eyes Meet (Ace Trainer)
 #-------------------------------
 [TUBER_M]
 Name = Tuber
 Gender = Male
 BaseMoney = 4
 SkillLevel = 16
-TrainerIntro = DPPT 038 Trainers_ Eyes Meet (Twins)
+IntroBGM = DPPT 038 Trainers_ Eyes Meet (Twins)
 #-------------------------------
 [SCHOOLKID_F]
 Name = Tuber
 Gender = Female
 BaseMoney = 4
 SkillLevel = 16
-TrainerIntro = DPPT 038 Trainers_ Eyes Meet (Twins)
+IntroBGM = DPPT 038 Trainers_ Eyes Meet (Twins)
 #-------------------------------
 [SCHOOLKID_M]
 Name = Tuber
 Gender = Male
 BaseMoney = 4
 SkillLevel = 16
-TrainerIntro = DPPT 038 Trainers_ Eyes Meet (Twins)
+IntroBGM = DPPT 038 Trainers_ Eyes Meet (Twins)
 #-------------------------------
 [TUBER_F]
 Name = Tuber
 Gender = Female
 BaseMoney = 4
 SkillLevel = 16
-TrainerIntro = DPPT 038 Trainers_ Eyes Meet (Twins)
+IntroBGM = DPPT 038 Trainers_ Eyes Meet (Twins)
 #-------------------------------
 [YOUNGCOUPLE]
 Name = Young Couple
 Gender = Unknown
 BaseMoney = 72
 SkillLevel = 48
-TrainerIntro = DPPT 038 Trainers_ Eyes Meet (Twins)
+IntroBGM = DPPT 038 Trainers_ Eyes Meet (Twins)
 #-------------------------------
 [CRUSHKIN]
 Name = Crush Kin
 Gender = Unknown
 BaseMoney = 48
-TrainerIntro = DPPT 086 Trainers_ Eyes Meet (Black Belt)
+IntroBGM = DPPT 086 Trainers_ Eyes Meet (Black Belt)
 #-------------------------------
 [SISANDBRO]
 Name = Sis and Bro
 Gender = Unknown
 BaseMoney = 16
 SkillLevel = 48
-TrainerIntro = DPPT 038 Trainers_ Eyes Meet (Twins)
+IntroBGM = DPPT 038 Trainers_ Eyes Meet (Twins)
 #-------------------------------
 [TWINS]
 Name = Twins
 Gender = Unknown
 BaseMoney = 24
-TrainerIntro = DPPT 038 Trainers_ Eyes Meet (Twins)
+IntroBGM = DPPT 038 Trainers_ Eyes Meet (Twins)
 #-------------------------------
 [TEAMLUCID_M]
 Name = Team Rocket

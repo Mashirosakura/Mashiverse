@@ -45,6 +45,7 @@ MapPosition = 0,13,12
 #-------------------------------
 [009] # Pastoria City
 Name = Pastoria City
+BattleBack = path
 #-------------------------------
 [010] # Pastoria City
 Name = Pastoria City Gym
@@ -1172,6 +1173,7 @@ Bicycle = true
 Name = Route 221
 Outdoor = true
 ShowArea = true
+BattleBack = grass
 Bicycle = true
 #-------------------------------
 [205]   # Veilstone City
@@ -1268,6 +1270,7 @@ Outdoor = true
 ShowArea = true
 Bicycle = true
 SafariMap = true
+BattleBack = mud
 #-------------------------------
 [222]   # Route 212
 Name = Route 212
@@ -1280,7 +1283,8 @@ Name = Route 212
 Outdoor = true
 ShowArea = true
 Bicycle = true
-Weather = Rain,100
+BattleBack = mud
+Weather = Rain,30
 #-------------------------------
 [224]   # Route 222
 Name = Route 222
