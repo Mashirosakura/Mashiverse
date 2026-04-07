@@ -200,6 +200,10 @@ class Scene_Map
         $game_temp.ready_menu_calling = true if !$game_player.moving?
       elsif Input.press?(Input::F9)
         $game_temp.debug_calling = true if $DEBUG
+      elsif Input.trigger?(Input::AUX1)
+        if !$game_player.moving?
+          pbSaveScreen
+        end
       end
     end
     if !$game_player.moving?

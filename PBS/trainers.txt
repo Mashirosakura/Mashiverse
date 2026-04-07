@@ -1,62 +1,90 @@
 ﻿# See the documentation on the wiki to learn how to edit this file.
 #-------------------------------Bosses
-[RIVAL_Dara,Dara]
+[RIVALDara,Dara]
 LoseText = Aww man I think I'm losing $10 million...
 Pokemon = CHIMCHAR,5
 #-------------------------------
-[RIVAL_Dara,Dara,1]
+[RIVALDara,Dara,1]
 LoseText = Aww man I think I'm losing $10 million...
 Pokemon = PIPLUP,5
 #-------------------------------
-[RIVAL_Dara,Dara,2]
+[RIVALDara,Dara,2]
 LoseText = Aww man I think I'm losing $10 million...
 Pokemon = TURTWIG,5
 #-------------------------------
-[RIVAL_Dara,Dara,3]
+[RIVALDara,Dara,3]
 LoseText = Aw man...
-Pokemon = BUNEARY,10
+Pokemon = BUNEARY,9
 	Shiny = true
-Pokemon = CHIMCHAR,11
+Pokemon = CHIMCHAR,10
 #-------------------------------
-[RIVAL_Dara,Dara,4]
+[RIVALDara,Dara,4]
 LoseText = Aw man...
-Pokemon = BUNEARY,10
-Pokemon = PIPLUP,11
+Pokemon = BUNEARY,9
+	Shiny = true
+Pokemon = PIPLUP,10
 #-------------------------------
-[RIVAL_Dara,Dara,5]
+[RIVALDara,Dara,5]
 LoseText = Aw man...
-Pokemon = BUNEARY,10
-Pokemon = TURTWIG,11
+Pokemon = BUNEARY,9
+	Shiny = true
+Pokemon = TURTWIG,10
 #-------------------------------
-[RIVAL_Hiro,Hiro]
+[RIVALHiro,Hiro]
 LoseText = 
-Pokemon = STARYU,11
-	Moves = TACKLE,HARDEN,WATERGUN,CONFUSERAY
-Pokemon = GIBLE,12
-	Moves = TACKLE,SANDTOMB,SANDATTACK,DRAGONBREATH
+Pokemon = STARYU,9
+	Moves = TACKLE,HARDEN,WATERGUN,FLASH
+Pokemon = GIBLE,10
+	Moves = TACKLE,SCARYFACE,SANDATTACK,TWISTER
 #-------------------------------
 [LEADER_Aaron,Aaron]
 LoseText = 
 Items = POTION
-Pokemon = COMBEE,14
+Pokemon = COMBEE,13
 	Moves = SWEETSCENT,GUST,STRUGGLEBUG,BUGBITE
-Pokemon = DEWPIDER,14
-	#AbilityIndex = 2
+	AbilityIndex = 2
+	Nature = RELAXED
+Pokemon = DEWPIDER,13
 	Moves = WATERGUN,BUGBITE,STICKYWEB,INFESTATION
-Pokemon = SKORUPI,15
+	Nature = BRAVE
+	AbilityIndex = 0
+Pokemon = SKORUPI,14
 	Item = BERRYJUICE
 	Moves = POUNCE,POISONTAIL,HONECLAWS,SCREECH
+	Nature = NAIVE
+	AbilityIndex = 1
 #-------------------------------
 [ADMIN_Somnia,Somnia]
 LoseText = 
 Items = SUPERPOTION
 Pokemon = HOUNDOUR,17
-	AbilityIndex = 0
 	Moves = BITE,EMBER,THUNDERFANG,HOWL
+	Nature = NAIVE
+	AbilityIndex = 0
 Pokemon = HOOTHOOT,17
 	Moves = ECHOEDVOICE,REFLECT,WINGATTACK,CONFUSION
+	Nature = RELAXED
 Pokemon = CHIMECHO,18
+	Nature = BOLD
 	Moves = CONFUSION,CHARGEBEAM,HYPNOSIS,RECOVER
+#-------------------------------
+[LEADER_Volkner,Volkner]
+LoseText = 
+Items = SUPERPOTION
+Pokemon = LUXIO,18
+	Moves = SPARK,ICEFANG,HOWL,DOUBLEKICK
+	Nature = JOLLY
+	AbilityIndex = 1
+Pokemon = VOLTORB_1,19
+	Item = ORANBERRY
+	Moves = CHARGEBEAM,BULLETSEED,LEECHSEED,RECYCLE
+	Nature = NAIVE
+	AbilityIndex = 2
+Pokemon = ELEKID,20
+	Item = BERRYJUICE
+	Moves = SHOCKWAVE,TRAILBLAZE,CHARGE,QUICKATTACK
+	Nature = RASH
+	AbilityIndex = 2
 #-------------------------------Route 212
 [YOUNGSTER,Timmy]
 LoseText = Wow, you're already pretty good!
@@ -79,7 +107,7 @@ Pokemon = NIDORAN,6
 LoseText = Reeled up a good fight this time!
 Pokemon = MAGIKARP,4
 #-------------------------------
-[BUGCATCHER_M,Shan]
+[BUGCATCHER_F,Shan]
 LoseText = No, my evolved bugs!
 Pokemon = WURMPLE,6
 Pokemon = CASCOON,7

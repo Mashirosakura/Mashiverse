@@ -8,7 +8,7 @@ Name = Lappet Town
 Outdoor = true
 ShowArea = true
 MapPosition = 0,13,12
-BattleBack = field
+BattleBack = grass
 #-------------------------------
 [003]   # Ramanas Town
 Name = Ramanas Town
@@ -16,7 +16,7 @@ Name = Ramanas Town
 [203]   # Ramanas Town (outside)
 Name = Ramanas Town
 ShowArea = true
-BattleBack = field
+BattleBack = grass
 Outdoor = true
 #-------------------------------
 [004]
@@ -43,21 +43,16 @@ MapSize = 2,11
 Name = Lappet Town
 MapPosition = 0,13,12
 #-------------------------------
-[009]
-Name = Cedolan City
-HealingSpot = 8,17,11
-MapPosition = 0,14,10
+[009] # Pastoria City
+Name = Pastoria City
+BattleBack = path
 #-------------------------------
-[010]
-Name = Cedolan City
-MapPosition = 0,13,10
-BattleBack = indoor3
-Environment = Rock
-Flags = DisableBoxLink
+[010] # Pastoria City
+Name = Pastoria City Gym
+BattleBack = arena11
 #-------------------------------
-[011]
-Name = Cedolan City
-MapPosition = 0,14,10
+[011] # Pastoria City
+Name = Pokémon Center
 #-------------------------------
 [012]
 Name = Cedolan City
@@ -101,7 +96,7 @@ Outdoor = true
 ShowArea = true
 Weather = Rain,100
 MapPosition = 0,14,8
-BattleBack = field
+BattleBack = grass
 MapSize = 1,11
 #-------------------------------
 [022]   # Oreburgh City
@@ -139,7 +134,7 @@ Name = Natural Park
 Outdoor = true
 ShowArea = true
 MapPosition = 0,16,8
-BattleBack = field
+BattleBack = grass
 Flags = MossRock,BugContest
 #-------------------------------
 [029]
@@ -158,7 +153,7 @@ Name = Route 3
 Outdoor = true
 ShowArea = true
 MapPosition = 0,14,6
-BattleBack = field
+BattleBack = grass
 MapSize = 2,1101
 #-------------------------------
 [032]   # Oreburgh City
@@ -207,7 +202,7 @@ Name = Route 4
 Outdoor = true
 ShowArea = true
 MapPosition = 0,11,6
-BattleBack = field
+BattleBack = grass
 MapSize = 2,11
 #-------------------------------
 [040]
@@ -242,7 +237,7 @@ Name = Route 6
 Outdoor = true
 ShowArea = true
 MapPosition = 0,11,10
-BattleBack = field
+BattleBack = grass
 MapSize = 2,11
 #-------------------------------
 [045]
@@ -372,7 +367,7 @@ Name = Safari Zone
 Outdoor = true
 ShowArea = true
 MapPosition = 0,12,12
-BattleBack = field
+BattleBack = grass
 #-------------------------------
 [067]
 Name = Safari Zone
@@ -393,7 +388,7 @@ Outdoor = true
 ShowArea = true
 MapPosition = 0,13,13
 DiveMap = 70
-BattleBack = field
+BattleBack = grass
 #-------------------------------
 [070]
 Name = Route 8
@@ -411,7 +406,7 @@ Outdoor = true
 ShowArea = true
 Weather = Storm,50
 MapPosition = 0,18,17
-BattleBack = field
+BattleBack = grass
 Flags = DistortionWorld
 #-------------------------------
 [073]
@@ -419,7 +414,7 @@ Name = Faraday Island
 Outdoor = true
 ShowArea = true
 MapPosition = 0,22,16
-BattleBack = field
+BattleBack = grass
 Flags = DistortionWorld
 #-------------------------------
 [074]
@@ -1178,6 +1173,7 @@ Bicycle = true
 Name = Route 221
 Outdoor = true
 ShowArea = true
+BattleBack = grass
 Bicycle = true
 #-------------------------------
 [205]   # Veilstone City
@@ -1274,6 +1270,7 @@ Outdoor = true
 ShowArea = true
 Bicycle = true
 SafariMap = true
+BattleBack = mud
 #-------------------------------
 [222]   # Route 212
 Name = Route 212
@@ -1286,7 +1283,8 @@ Name = Route 212
 Outdoor = true
 ShowArea = true
 Bicycle = true
-Weather = Rain,100
+BattleBack = mud
+Weather = Rain,30
 #-------------------------------
 [224]   # Route 222
 Name = Route 222

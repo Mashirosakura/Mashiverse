@@ -11,5 +11,6 @@ To do:
 	- PBS stuff because mashi is dumb and reverted some of it by accident
 	 - trainers
 	 - trainertypes
-	 - 
+	 - tms
+	 - map metadata
 	- window skin again

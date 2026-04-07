@@ -674,3 +674,11 @@ GameData::Evolution.register({
     next value == parameter && pkmn.ready_to_evolve
   }
 })
+
+GameData::Evolution.register({
+  :id            => :Feebas,
+  :parameter     => :Item,
+  :use_item_proc => proc { |pkmn, parameter, item|
+    next item == parameter && pkmn.hasItem?(:PRISMSCALE)
+  }
+})

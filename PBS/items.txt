@@ -2330,7 +2330,8 @@ Pocket = 1
 Price = 3000
 SellPrice = 1000
 BPPrice = 5
-Flags = Fling_30
+FieldUse = OnPokemon
+Flags = EvolutionStone,Fling_30
 Description = A thick and tough scale. Dragon-type Pokémon may be holding this item when caught.
 #-------------------------------
 [UPGRADE]
@@ -2350,7 +2351,8 @@ Pocket = 1
 Price = 3000
 SellPrice = 1000
 BPPrice = 5
-Flags = Fling_50
+FieldUse = OnPokemon
+Flags = EvolutionStone,Fling_50
 Description = A transparent device overflowing with dubious data.  Its producer is unknown.
 #-------------------------------
 [PROTECTOR]
@@ -2360,7 +2362,8 @@ Pocket = 1
 Price = 3000
 SellPrice = 1000
 BPPrice = 5
-Flags = Fling_80
+FieldUse = OnPokemon
+Flags = EvolutionStone,Fling_80
 Description = A protective item of some sort. It is extremely stiff and heavy. It is loved by a certain Pokémon.
 #-------------------------------
 [ELECTIRIZER]
@@ -2370,7 +2373,8 @@ Pocket = 1
 Price = 3000
 SellPrice = 1000
 BPPrice = 5
-Flags = Fling_80
+FieldUse = OnPokemon
+Flags = EvolutionStone,Fling_80
 Description = A box packed with a tremendous amount of electric energy. It is loved by a certain Pokémon.
 #-------------------------------
 [MAGMARIZER]
@@ -2380,7 +2384,8 @@ Pocket = 1
 Price = 3000
 SellPrice = 1000
 BPPrice = 5
-Flags = Fling_80
+FieldUse = OnPokemon
+Flags = EvolutionStone,Fling_80
 Description = A box packed with a tremendous amount of magma energy. It is loved by a certain Pokémon.
 #-------------------------------
 [REAPERCLOTH]
@@ -2392,7 +2397,8 @@ Pocket = 1
 Price = 3000
 SellPrice = 1000
 BPPrice = 5
-Flags = Fling_10
+FieldUse = OnPokemon
+Flags = EvolutionStone,Fling_10
 Description = A cloth imbued with horrifyingly strong spiritual energy. It is loved by a certain Pokémon.
 #-------------------------------
 [PRISMSCALE]
@@ -4045,8 +4051,8 @@ Price = 3000
 BPPrice = 32
 FieldUse = TR
 Flags = Fling_150
-Move = FOCUSPUNCH
-Description = The user focuses its mind before launching a punch. This move fails if the user is hit before it is used.
+Move = POUNCE
+Description = The user attacks by pouncing on the target. This also lowers the target’s Speed stat.
 #-------------------------------
 [TM02]
 Name = TM02
@@ -4067,8 +4073,8 @@ Price = 3000
 BPPrice = 32
 FieldUse = TR
 Flags = Fling_60
-Move = WATERPULSE
-Description = The user attacks the target with a pulsing blast of water. This may also confuse the target.
+Move = PSYSHOCK
+Description = The user materializes an odd psychic wave to attack the target. This attack does physical damage.
 #-------------------------------
 [TM04]
 Name = TM04
@@ -4089,8 +4095,8 @@ Price = 1000
 BPPrice = 32
 FieldUse = TR
 Flags = Fling_10
-Move = ROAR
-Description = The target is scared off, and a different Pokémon is dragged out. In the wild, this ends the battle.
+Move = ALLURINGVOICE
+Description = Attacks using an angelic voice. This confuses the target if its stats have been raised this turn.
 #-------------------------------
 [TM06]
 Name = TM06
@@ -4111,8 +4117,8 @@ Price = 2000
 BPPrice = 32
 FieldUse = TR
 Flags = Fling_10
-Move = HAIL
-Description = The user summons a hailstorm lasting five turns. It damages all Pokémon except Ice types.
+Move = SNOWSCAPE
+Description = Summons a five-turn snowstorm that boosts the Defense of Ice-type Pokémon.
 #-------------------------------
 [TM08]
 Name = TM08
@@ -4254,8 +4260,8 @@ Price = 2000
 BPPrice = 32
 FieldUse = TR
 Flags = Fling_10
-Move = SAFEGUARD
-Description = The user creates a protective field that prevents status conditions for five turns.
+Move = BODYPRESS
+Description = The user attacks by slamming its body into the target. Power increases the higher the user's Defense is.
 #-------------------------------
 [TM21]
 Name = TM21
@@ -4485,8 +4491,8 @@ Price = 1500
 BPPrice = 32
 FieldUse = TR
 Flags = Fling_10
-Move = TORMENT
-Description = The user torments and enrages the target, making it incapable of using the same move twice in a row.
+Move = WATERPULSE
+Description = The user attacks the target with a pulsing blast of water. It may also confuse the target.
 #-------------------------------
 [TM42]
 Name = TM42
@@ -4562,8 +4568,8 @@ Price = 3000
 BPPrice = 32
 FieldUse = TR
 Flags = Fling_10
-Move = SKILLSWAP
-Description = The user employs its psychic power to exchange Abilities with the target.
+Move = VENOSHOCK
+Description = The user drenches the foe in a special poisonous liquid. Its power doubles if the target is poisoned.
 #-------------------------------
 [TM49]
 Name = TM49
@@ -4639,8 +4645,8 @@ Price = 3000
 BPPrice = 32
 FieldUse = TR
 Flags = Fling_65
-Move = BRINE
-Description = If the target's HP is half or less, this attack will hit with double the power.
+Move = EARTHPOWER
+Description = The user makes the ground under the foe erupt with power. It may also lower the target's Sp. Def.
 #-------------------------------
 [TM56]
 Name = TM56
@@ -4672,8 +4678,8 @@ Price = 2000
 BPPrice = 32
 FieldUse = TR
 Flags = Fling_10
-Move = ENDURE
-Description = The user endures any attack with at least 1 HP. Its chance of failing rises if it is used in succession.
+Move = TRAILBLAZE
+Description = The user attacks suddenly as if leaping out from tall grass. This boosts the user's Speed stat.
 #-------------------------------
 [TM59]
 Name = TM59
@@ -4760,8 +4766,8 @@ Price = 3000
 BPPrice = 32
 FieldUse = TR
 Flags = Fling_50
-Move = PAYBACK
-Description = The user stores power, then attacks. If the user moves after the target, this attack's power will be doubled.
+Move = ICESPINNER
+Description = The user spins into the target with feet covered in thin ice. This also destroys the terrain.
 #-------------------------------
 [TM67]
 Name = TM67
@@ -4771,8 +4777,8 @@ Price = 1000
 BPPrice = 32
 FieldUse = TR
 Flags = Fling_10
-Move = RECYCLE
-Description = The user recycles a held item that has been used in battle so it can be used again.
+Move = RETURN
+Description = A full-power attack that grows more powerful the more the user likes its Trainer.
 #-------------------------------
 [TM68]
 Name = TM68
@@ -4783,7 +4789,7 @@ BPPrice = 32
 FieldUse = TR
 Flags = Fling_150
 Move = GIGAIMPACT
-Description = The user charges at the target using every bit of its power. The user can't move on the next turn.
+Description = The user charges at the target using every bit of its power. The user can't use this consecutively.
 #-------------------------------
 [TM69]
 Name = TM69
@@ -4881,8 +4887,8 @@ Price = 1500
 BPPrice = 32
 FieldUse = TR
 Flags = Fling_10
-Move = PSYCHUP
-Description = The user hypnotizes itself into copying any stat change made by the target.
+Move = HIDDENPOWER
+Description = A unique attack that varies in type and intensity depending on the Pokémon using it.
 #-------------------------------
 [TM78]
 Name = TM78
@@ -5002,8 +5008,8 @@ Price = 3000
 BPPrice = 32
 FieldUse = TR
 Flags = Fling_60
-Move = PLUCK
-Description = The user pecks the target. If the target is holding a Berry, the user eats it and gains its effect.
+Move = MYSTICALFIRE
+Description = The user attacks by breathing a special, hot fire. This also lowers the target's Sp. Atk stat.
 #-------------------------------
 [TM89]
 Name = TM89
