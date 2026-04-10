@@ -71,6 +71,7 @@ Pokedex =
 [MIMIKYU,2]
 FormName = Mega Mimikyu
 MegaStone = MIMIKITE
+UnmegaForm = 1
 BaseStats = 55,115,90,101,100,115
 BaseExp = 313
 Abilities = REVEALED
@@ -134,9 +135,22 @@ Height = 2.4
 Weight = 155.5
 Pokedex = 
 #-------------------------------
+[TOXTRICITY,2]
+FormName = Mega Toxtricity
+MegaStone = TOXTRICITITE
+UnmegaForm = 0
+BaseStats = 75,98,90,95,154,90
+BaseExp = 313
+Abilities = DUALTONE
+HiddenAbilities = DUALTONE
+Height = 2.4
+Weight = 155.5
+Pokedex = 
+#-------------------------------
 [TOXTRICITY,3]
 FormName = Mega Toxtricity
 MegaStone = TOXTRICITITE
+UnmegaForm = 1
 BaseStats = 75,98,90,95,154,90
 BaseExp = 313
 Abilities = DUALTONE
@@ -193,7 +207,7 @@ Pokedex =
 #-------------------------------
 [LICKILICKY,1]
 FormName = Mega Lickilicky
-MegaStone = LICKILICKITE
+MegaStone = LICKILITE
 Types = NORMAL,POISON
 BaseStats = 110,125,115,50,100,115
 BaseExp = 317
