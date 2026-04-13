@@ -142,3 +142,15 @@ Target = NearOther
 FunctionCode = UseTargetDefenseInsteadOfTargetSpDef
 Flags = CanProtect,CanMirrorMove
 Description = The user throws an electric gift to attack the target. This attack does physical damage.
+#-------------------------------
+[TACTICALSTRIKE]
+Name = Tatical Strike
+Type = FIGHTING
+Category = Physical
+Power = 60
+Accuracy = 0
+TotalPP = 10
+Target = NearOther
+FunctionCode = AlwaysCriticalHit
+Flags = Contact,CanProtect,CanMirrorMove
+Description = The user pinpoints a weak spot on the target and pierces it, which always hits and lands a critical hit.
