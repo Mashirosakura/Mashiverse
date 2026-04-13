@@ -38,3 +38,7 @@ Description = Its sound-based moves become Ghost-type.
 [AILMENTLICK]
 Name = Ailment Lick
 Description = Its contact moves can status 15% of the time.
+#-------------------------------
+[SUPREMELEADER]
+Name = Supreme Leader
+Description =  Boosts allies ATK & SpA by 50%.
