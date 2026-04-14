@@ -41,4 +41,4 @@ Description = Its contact moves can status 15% of the time.
 #-------------------------------
 [SUPREMELEADER]
 Name = Supreme Leader
-Description =  Boosts allies ATK & SpA by 50%.
+Description =  Boosts allies Atk & Sp.Atk by 50%.

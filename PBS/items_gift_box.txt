@@ -1,0 +1,18 @@
+﻿#-------------------------------
+[GIFTBOX]
+Name = Gift Box
+NamePlural = Gift Boxes
+Pocket = 1
+Price = 5000
+FieldUse = Direct
+Flags = CannotHold
+Description = A gift box filled with items.
+#-------------------------------
+[GIFTBOXRARE]
+Name = Rare Gift Box
+NamePlural = Rare Gift Boxes
+Pocket = 1
+Price = 25000
+FieldUse = Direct
+Flags = CannotHold
+Description = A gift box filled with rare items.

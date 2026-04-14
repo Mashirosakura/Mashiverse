@@ -1398,3 +1398,70 @@ def pbChooseMove(pokemon, variableNumber, nameVarNumber)
   end
   $game_map.need_refresh = true if $game_map
 end
+
+# insert this on at the end of UI_Summary, above the last 'end' around line 1385 or similar (may need some adjust)
+# the function ins't assigned to a Key, instead only open another page with more space for bigger descriptions
+# so its up to you to assign it one, shoulnd't be too hard ig 
+ 
+def pbshowAbilityDescription(pokemon)
+        overlay = @sprites["overlay"].bitmap
+        overlay.clear
+        @sprites["background"].setBitmap("Graphics/UI/Summary/bgability_extender")
+        imagepos = []
+        ballimage = sprintf("Graphics/UI/Summary/icon_ball_%s", @pokemon.poke_ball)
+        imagepos.push([ballimage, 14, 60, 0, 0, -1, -1])
+        pbDrawImagePositions(overlay, imagepos)
+        base   = Color.new(0, 0, 0)
+        shadow = Color.new(72, 88, 80)
+        pbSetSystemFont(overlay)
+        abilityname = pokemon.ability.name
+        abilitydesc = pokemon.ability.description
+        pokename = @pokemon.name
+        # texts
+        textpos = [
+           [_INTL("DESCRIPTION"), 26, 22, 0, base, shadow],
+           [pokename, 46, 68, 0, base, shadow],
+           [pokemon.level.to_s, 46, 98, 0, base, shadow],
+           [_INTL("Ability:"), 230, 22, 0, base, shadow],
+           [abilityname, 336, 22, 0, base, shadow],
+           [_INTL("Item Name:"), 66, 324, 0, base, shadow]
+          ] 
+        if @pokemon.hasItem?
+          textpos.push([@pokemon.item.name, 16, 358, :left, base, shadow])
+        else
+          textpos.push([_INTL("None"), 16, 358, :left, Color.new(248, 248, 248), Color.new(72, 88, 80)])
+        end
+        if @pokemon.male?
+          textpos.push([_INTL("♂"), 6, 97, :left, Color.new(24, 112, 216), Color.new(0, 56, 108)])
+         elsif @pokemon.female?
+          textpos.push([_INTL("♀"), 6, 97, :left, Color.new(248, 56, 32), Color.new(159, 53, 36)])
+        end
+        # Draw all text
+        pbDrawTextPositions(overlay, textpos)
+        # Draw the Pokémon's markings
+        drawMarkings(overlay, 84, 292)
+        pbDrawTextPositions(overlay, textpos)
+        drawTextEx(overlay, 240, 85, 230, 10 , abilitydesc, base, shadow)  
+        loop do
+          Graphics.update
+          Input.update
+          pbUpdate
+          if Input.trigger?(Input::BACK)
+            Input.update
+            if PluginManager.installed?("Modular UI Scenes")
+              drawPage(:page_info) 
+            else
+              drawPage(1)
+            end
+            break
+          elsif Input.trigger?(Input::SPECIAL)
+            Input.update
+            if PluginManager.installed?("Modular UI Scenes")
+              drawPage(:page_info) 
+            else
+              drawPage(1)
+            end
+            break
+          end
+        end
+      end

@@ -19,6 +19,14 @@ BPPrice = 5
 Flags = Fling_80
 Description = A peculiar pouch that's loved by a very friendly species of Pokémon. It's light and smooth.
 #-------------------------------
+[TRAINPASS]
+Name = Train Pass
+NamePlural = Train Passes
+Pocket = 8
+Price = 0
+Flags = KeyItem
+Description = A train pass that allows you board trains to visit stations you've already visited.
+#------------------------------- Mega Stones
 [TORTERRITE]
 Name = Torterrite
 NamePlural = Torterrites

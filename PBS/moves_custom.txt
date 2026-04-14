@@ -122,7 +122,7 @@ Flags = Contact,CanProtect,CanMirrorMove
 Description = The user glides at the target leaving behind a rainbow trail. Has a higher chance to crit the more this move is used.
 #-------------------------------
 [STEPPINGBLOCKS]
-Name = Ensnaring Clamp
+Name = Stepping Blocks
 Type = FAIRY
 Category = Status
 Accuracy = 0
@@ -154,3 +154,28 @@ Target = NearOther
 FunctionCode = AlwaysCriticalHit
 Flags = Contact,CanProtect,CanMirrorMove
 Description = The user pinpoints a weak spot on the target and pierces it, which always hits and lands a critical hit.
+#-------------------------------
+[PIXIEPUMMEL]
+Name = Pixie Pummel
+Type = FAIRY
+Category = Physical
+Power = 18
+Accuracy = 80
+TotalPP = 15
+Target = NearOther
+FunctionCode = HitTwoToFiveTimes
+Flags = Contact,CanProtect,CanMirrorMove
+Description = The user unleashes a flurry of fae packed punches that hit two to five times in a row.
+#-------------------------------
+[SHOOTINGSTAR]
+Name = Shooting Star
+Type = FAIRY
+Category = Physical
+Power = 40
+Accuracy = 100
+TotalPP = 20
+Target = NearOther
+Priority = 1
+FunctionCode = None
+Flags = Contact,CanProtect,CanMirrorMove
+Description = The user dashes at the opponent at a blinding speed. This always goes first.
