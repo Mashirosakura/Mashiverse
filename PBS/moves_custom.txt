@@ -4,19 +4,19 @@
 Name = Sappy Seed
 Type = GRASS
 Category = Physical
-Power = 60
+Power = 65
 Accuracy = 90
 TotalPP = 10
 Target = NearOther
 FunctionCode = StartLeechSeedTarget
 Flags = CanProtect,CanMirrorMove
-Description = The user grows a gigantic stalk that scatters seeds to attack the target. The seeds drain the target’s HP every turn.
+Description = The user grows a gigantic stalk that scatters seeds to attack the target, that drain the target’s HP every turn.
 #-------------------------------
 [BOUNCYBUBBLE]
 Name = Bouncy Bubble
 Type = WATER
 Category = Special
-Power = 60
+Power = 75
 Accuracy = 90
 TotalPP = 10
 Target = NearOther
@@ -37,30 +37,6 @@ Flags = Contact,CanProtect,CanMirrorMove
 EffectChance = 50
 Description = The user attacks whilst throwing pebbles at the target. The impact can cause the target to flinch.
 #-------------------------------
-[GLITZYGLOW]
-Name = Glitzy Glow
-Type = PSYCHIC
-Category = Special
-Power = 60
-Accuracy = 90
-TotalPP = 10
-Target = NearOther
-FunctionCode = StartWeakenSpecialDamageAgainstUserSide
-Flags = CanProtect,CanMirrorMove
-Description = The user bombards the target with telekinetic force. A wondrous wall of light is put up to weaken the power of the opposing Pokémon's special moves.
-#-------------------------------
-[BADDYBAD]
-Name = Baddy Bad
-Type = DARK
-Category = Special
-Power = 60
-Accuracy = 90
-TotalPP = 10
-Target = NearOther
-FunctionCode = StartWeakenPhysicalDamageAgainstUserSide
-Flags = CanProtect,CanMirrorMove
-Description = The user acts bad and attacks the target. A wondrous wall of light is put up to weaken the power of the opposing Pokémon's physical moves.
-#-------------------------------
 [FREEZYFROST]
 Name = Freezy Frost
 Type = ICE
@@ -73,17 +49,17 @@ FunctionCode = ResetAllBattlersStatStages
 Flags = CanProtect,CanMirrorMove
 Description = The user attacks with a crystal made of cold frozen haze. It eliminates every stat change among all the Pokémon engaged in battle.
 #-------------------------------
-[SWIRLYSWIRL]
-Name = Swirly Swirl
+[SPARKLYSTORM]
+Name = Sparkly Storm
 Type = FAIRY
-Category = Special
+Category = Physical
 Power = 60
 Accuracy = 90
 TotalPP = 10
 Target = NearOther
 FunctionCode = CureUserPartyStatus
 Flags = CanProtect,CanMirrorMove
-Description = The user attacks the target by wrapping it with a whirlwind of an overpowering scent. This also heals all status conditions of the user's party.
+Description = The user attacks the target by wrapping it in a whirlwind of scented air. This also heals all status conditions of the user's party.
 #-------------------------------
 [ENSNARINGCLAMP]
 Name = Ensnaring Clamp
@@ -153,7 +129,7 @@ TotalPP = 10
 Target = NearOther
 FunctionCode = AlwaysCriticalHit
 Flags = Contact,CanProtect,CanMirrorMove
-Description = The user pinpoints a weak spot on the target and pierces it, which always hits and lands a critical hit.
+Description = The user targets the weak spot of the foe and strikes. This never misses and always results in a critical hit.
 #-------------------------------
 [PIXIEPUMMEL]
 Name = Pixie Pummel
@@ -178,4 +154,117 @@ Target = NearOther
 Priority = 1
 FunctionCode = None
 Flags = Contact,CanProtect,CanMirrorMove
-Description = The user dashes at the opponent at a blinding speed. This always goes first.
+Description = The user shoots towards the target like a comet. This always goes first.
+#-------------------------------
+[ZIPPYZAP]
+Name = Zippy Zap
+Type = ELECTRIC
+Category = Physical
+Power = 40
+Accuracy = 100
+TotalPP = 20
+Target = NearOther
+Priority = 1
+FunctionCode = None
+Flags = Contact,CanProtect,CanMirrorMove
+Description = The user dashes at the opponent at a lightning fast pace. This always goes first.
+#-------------------------------
+[GIGATONPICKAXE]
+Name = Gigaton Pickaxe
+Type = GROUND
+Category = Special
+Power = 160
+Accuracy = 100
+TotalPP = 5
+Target = NearOther
+FunctionCode = CantSelectConsecutiveTurns
+Flags = CanProtect,CanMirrorMove
+Description = The user attacks with its huge pickaxe. This move can’t be used twice in a row.
+#-------------------------------
+[STORMCLOUD]
+Name = Storm Cloud
+Type = FLYING
+Category = Special
+Power = 60
+Accuracy = 90
+TotalPP = 10
+Target = NearOther
+FunctionCode = SwitchOutTargetDamagingMove
+Priority = -6
+Flags = CanProtect,CanMirrorMove
+Description = The user blows away the target and drags out another Pokémon in its party. In the wild, the battle ends.
+#-------------------------------
+[FROSTYRUNWAY]
+Name = Frosty Runway
+Type = ICE
+Category = Special
+Power = 80
+Accuracy = 95
+TotalPP = 10
+Target = NearOther
+FunctionCode = None #Power doubles in Snow
+EffectChance = 20
+Flags = Contact,CanProtect,CanMirrorMove,Dance
+Description = The user sashays towards the target swirled in frozen air. This may also leave the target frostbitten.
+#-------------------------------
+[MOLTENFALL]
+Name = Molten Fall
+Type = FIRE
+Category = Special
+Power = 80
+Accuracy = 95
+TotalPP = 10
+Target = NearOther
+Priority = 2
+FunctionCode = BurnTarget
+EffectChance = 20
+Flags = CanProtect,CanMirrorMove
+Description = The user fires off molten hot rock at the foe. It acts first and may also leave the target with a burn.
+#-------------------------------
+[IONWAVE]
+Name = Ion Wave
+Type = WATER
+Category = Special
+Power = 80
+Accuracy = 95
+TotalPP = 10
+Target = AllNearFoes
+FunctionCode = None #Charge Effect
+EffectChance = 20
+Flags = CanProtect,CanMirrorMove
+Description = The user launches an ionized wave at the targets. Boosts the power of the user's next Electric-Type move.
+#-------------------------------
+[GRANDHEIST]
+Name = Grand Heist
+Type = DARK
+Category = Special
+Power = 90
+Accuracy = 85
+TotalPP = 10
+Target = NearOther
+FunctionCode = UserTakesTargetItem
+Flags = Contact,CanProtect,CanMirrorMove
+Description = The user overwhelms the target with illusions and steals the foe's held item simultaneously. It can't steal if the user holds an item.
+#-------------------------------
+[SPINECHILL]
+Name = Spine Chill
+Type = ICE
+Category = Status
+Accuracy = 85
+TotalPP = 15
+Target = NearOther
+FunctionCode = FreezeTarget
+Flags = CanProtect,CanMirrorMove
+Description = The user blows a strong gust of icy wind towards the opponents to inflict frostbite.
+#-------------------------------
+[SLOBBER]
+Name = Slobber
+Type = NORMAL
+Category = Status
+Accuracy = 85
+TotalPP = 15
+Target = NearOther
+FunctionCode = LowerTargetSpeed2 #needs to be 3 turns
+Flags = CanProtect,CanMirrorMove
+Description = The user slobbers on the opponent drenching them in saliva. Cuts the opponents speed in half for 3 turns.
+#-------------------------------
