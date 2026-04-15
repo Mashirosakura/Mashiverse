@@ -50,16 +50,16 @@ FunctionCode = RecoilThirdOfDamageDealt
 Flags = Contact,CanProtect,CanMirrorMove
 EffectChance = 100
 Description = The user shrouds itself in water and slams into the target. This also damages the user.
-#-------------------------------
+#------------------------------- #changed
 [CHLOROBLAST]
 Name = Chloroblast
 Type = GRASS
 Category = Special
-Power = 150
+Power = 120
 Accuracy = 95
 TotalPP = 5
 Target = NearOther
-FunctionCode = RecoilHalfOfTotalHP
+FunctionCode = RecoilThirdOfDamageDealt
 Flags = CanProtect,CanMirrorMove
 Description = The user launches its amassed chlorophyll to inflict damage on the target. This also damages the user.
 #-------------------------------

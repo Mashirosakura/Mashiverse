@@ -54,13 +54,13 @@ BattleBack = arena11
 [011] # Pastoria City
 Name = Pokémon Center
 #-------------------------------
-[012]
-Name = Cedolan City
-MapPosition = 0,14,10
+[012] # Route 212 Inside
+Name = Route 212
 #-------------------------------
-[013]
-Name = Cedolan City
-MapPosition = 0,14,10
+[013] # Ramanas Town Station
+Name = Ramanas Town Station
+Outdoor = false
+ShowArea = true
 #-------------------------------
 [014]
 Name = Cedolan City
@@ -1263,6 +1263,10 @@ Name = Pastoria City
 Outdoor = true
 ShowArea = true
 Bicycle = true
+#-------------------------------
+[220]   # Great Marsh Station
+Name = Great Marsh Station
+ShowArea = true
 #-------------------------------
 [221]   # Great Marsh
 Name = Great Marsh

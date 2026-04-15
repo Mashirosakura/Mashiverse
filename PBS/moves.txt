@@ -863,7 +863,7 @@ Target = AllNearFoes
 FunctionCode = PowerHigherWithUserHP
 Flags = CanProtect,CanMirrorMove,CannotMetronome
 Description = Converts life-force into power to attack. The lower the user's HP, the lower the move's power.
-#-------------------------------
+#------------------------------- #changed
 [ROAROFTIME]
 Name = Roar of Time
 Type = DRAGON
@@ -874,7 +874,7 @@ TotalPP = 5
 Target = NearOther
 FunctionCode = CantSelectConsecutiveTurns
 Flags = CanProtect,CanMirrorMove
-Description = The user blasts the target with power that distorts even time. The user must rest on the next turn.
+Description = The user blasts the target with power that distorts even time. Can't be used on the next turn.
 #-------------------------------
 [DRACOMETEOR]
 Name = Draco Meteor
@@ -923,19 +923,19 @@ Target = AllNearFoes
 FunctionCode = NegateTargetAbilityIfTargetActed
 Flags = CanProtect,CanMirrorMove
 Description = If the target has already moved this turn, the effect of its Ability is negated.
-#-------------------------------
+#------------------------------- #changed
 [DRAGONRUSH]
 Name = Dragon Rush
 Type = DRAGON
 Category = Physical
-Power = 100
-Accuracy = 75
-TotalPP = 10
+Power = 120
+Accuracy = 100
+TotalPP = 15
 Target = NearOther
-FunctionCode = FlinchTarget
+FunctionCode = RecoilThirdOfDamageDealtFlinchTarget
 Flags = Contact,CanProtect,CanMirrorMove,TramplesMinimize
 EffectChance = 20
-Description = The user tackles the foe while exhibiting overwhelming menace. It may also make the target flinch.
+Description = The user viciously tackles targets, which may make them flinch and damage itself.
 #-------------------------------
 [DYNAMAXCANNON]
 Name = Dynamax Cannon
@@ -1220,18 +1220,18 @@ FunctionCode = ParalyzeTarget
 Flags = CanProtect,CanMirrorMove
 EffectChance = 10
 Description = A strong electric blast is loosed at the target. It may also leave the target with paralysis.
-#-------------------------------
+#------------------------------- #changed
 [WILDCHARGE]
 Name = Wild Charge
 Type = ELECTRIC
 Category = Physical
-Power = 90
+Power = 85
 Accuracy = 100
 TotalPP = 15
 Target = NearOther
-FunctionCode = RecoilQuarterOfDamageDealt
+FunctionCode = ParalyzeTarget
 Flags = Contact,CanProtect,CanMirrorMove
-Description = The user shrouds itself in electricity and smashes into its foe. It also damages the user a little.
+Description = The user shrouds itself in electricity and smashes into its target. Has a chance to paralyze.
 #-------------------------------
 [BOLTBEAK]
 Name = Bolt Beak
@@ -2398,7 +2398,7 @@ Target = NearOther
 FunctionCode = LowerUserDefSpDefSpd1
 Flags = Contact,CanProtect,CanMirrorMove,CannotMetronome
 Description = With a fiery forehead, the user hurls itself at the foe. It lowers the user's Defense, Sp. Def, and Speed.
-#-------------------------------
+#------------------------------- #changed
 [BLASTBURN]
 Name = Blast Burn
 Type = FIRE
@@ -2409,7 +2409,7 @@ TotalPP = 5
 Target = NearOther
 FunctionCode = CantSelectConsecutiveTurns
 Flags = CanProtect,CanMirrorMove
-Description = The target is razed by a fiery explosion. The user must rest on the next turn, however.
+Description = The target is razed by a fiery explosion. Can't be used on the next turn.
 #-------------------------------
 [ERUPTION]
 Name = Eruption
@@ -3431,7 +3431,7 @@ Target = NearOther
 FunctionCode = AddGhostTypeToTarget
 Flags = CanProtect,CanMirrorMove
 Description = The user takes the target trick-or-treating. This adds Ghost type to the target's type.
-#-------------------------------
+#------------------------------- #changed
 [FRENZYPLANT]
 Name = Frenzy Plant
 Type = GRASS
@@ -3442,7 +3442,7 @@ TotalPP = 5
 Target = NearOther
 FunctionCode = CantSelectConsecutiveTurns
 Flags = CanProtect,CanMirrorMove
-Description = The user slams the target with an enormous tree. The user can't move on the next turn.
+Description = The user slams the target with an enormous tree. Can't be used on the next turn.
 #-------------------------------
 [LEAFSTORM]
 Name = Leaf Storm
@@ -4634,7 +4634,7 @@ Target = AllNearOthers
 FunctionCode = UserFaintsExplosive
 Flags = CanProtect,CanMirrorMove
 Description = The user blows up to inflict damage on all Pokémon in battle. The user faints upon using this move.
-#-------------------------------
+#------------------------------- #changed
 [GIGAIMPACT]
 Name = Giga Impact
 Type = NORMAL
@@ -4645,8 +4645,8 @@ TotalPP = 5
 Target = NearOther
 FunctionCode = CantSelectConsecutiveTurns
 Flags = Contact,CanProtect,CanMirrorMove
-Description = The user charges at the target using every bit of its power. The user must rest on the next turn.
-#-------------------------------
+Description = The user charges at the target using every bit of its power. Can't be used on the next turn.
+#------------------------------- #changed
 [HYPERBEAM]
 Name = Hyper Beam
 Type = NORMAL
@@ -4657,7 +4657,7 @@ TotalPP = 5
 Target = NearOther
 FunctionCode = CantSelectConsecutiveTurns
 Flags = CanProtect,CanMirrorMove
-Description = The foe is attacked with a powerful beam. The user must rest on the next turn to regain its energy.
+Description = The foe is attacked with a powerful beam. Can't be used on the next turn.
 #-------------------------------
 [BOOMBURST]
 Name = Boomburst
@@ -7727,7 +7727,7 @@ Target = NearOther
 FunctionCode = RecoilHalfOfDamageDealt
 Flags = Contact,CanProtect,CanMirrorMove
 Description = The user attacks the foe with a hazardous, full-power headbutt. The user also takes terrible damage.
-#-------------------------------
+#------------------------------- #changed
 [ROCKWRECKER]
 Name = Rock Wrecker
 Type = ROCK
@@ -7736,9 +7736,9 @@ Power = 150
 Accuracy = 90
 TotalPP = 5
 Target = NearOther
-FunctionCode = AttackAndSkipNextTurn
+FunctionCode = CantSelectConsecutiveTurns
 Flags = CanProtect,CanMirrorMove,Bomb
-Description = The user launches a huge boulder at the target to attack. It must rest on the next turn, however.
+Description = The user launches a huge boulder at the target to attack. Can't be used on the next turn.
 #-------------------------------
 [METEORBEAM]
 Name = Meteor Beam
@@ -7951,16 +7951,16 @@ TotalPP = 5
 Target = NearOther
 FunctionCode = AttackTwoTurnsLater
 Description = Two turns after this move is used, the user blasts the target with a concentrated bundle of light.
-#-------------------------------
+#------------------------------- #changed
 [STEELBEAM]
 Name = Steel Beam
 Type = STEEL
 Category = Special
-Power = 140
+Power = 120
 Accuracy = 95
 TotalPP = 5
 Target = NearOther
-FunctionCode = UserLosesHalfOfTotalHP
+FunctionCode = RecoilThirdOfDamageDealt
 Flags = CanProtect,CanMirrorMove,CannotMetronome
 Description = The user fires a beam of steel that it collected from its entire body. This also damages the user.
 #-------------------------------
@@ -8114,13 +8114,13 @@ FunctionCode = HitTwoTimesFlinchTarget
 Flags = Contact,CanProtect,Punching,CannotMetronome
 EffectChance = 30
 Description = The user rotates, centering the hex nut in its chest, and then strikes twice. May cause flinching.
-#-------------------------------
+#------------------------------- #changed
 [MIRRORSHOT]
 Name = Mirror Shot
 Type = STEEL
 Category = Special
-Power = 65
-Accuracy = 85
+Power = 85
+Accuracy = 90
 TotalPP = 10
 Target = NearOther
 FunctionCode = LowerTargetAccuracy1
@@ -8275,7 +8275,7 @@ TotalPP = 10
 Target = User
 FunctionCode = RaiseUserAtk1Spd2
 Description = The user rotates its gears, raising its Attack and sharply raising its Speed.
-#-------------------------------
+#------------------------------- #changed
 [HYDROCANNON]
 Name = Hydro Cannon
 Type = WATER
@@ -8286,7 +8286,7 @@ TotalPP = 5
 Target = NearOther
 FunctionCode = CantSelectConsecutiveTurns
 Flags = CanProtect,CanMirrorMove
-Description = The target is hit with a watery blast. The user must rest on the next turn, however.
+Description = The target is hit with a watery blast. Can't be used on the next turn.
 #-------------------------------
 [WATERSPOUT]
 Name = Water Spout
