@@ -42,3 +42,7 @@ Description = Its contact moves can status 15% of the time.
 [SUPREMELEADER]
 Name = Supreme Leader
 Description =  Boosts allies Atk & Sp.Atk by 50%.
+#-------------------------------
+[SLEIGHTOFHAND]
+Name = Sleight of Hand
+Description =  When this Pokemon gains an item, its Sp.Attack is increased by 1 stage.

@@ -166,7 +166,6 @@ Accuracy = 95
 TotalPP = 10
 Target = AllNearFoes
 FunctionCode = PowerUpElectricMove #Charge Effect
-EffectChance = 10
 Flags = CanProtect,CanMirrorMove
 Description = The user launches an ionized wave at the targets. Boosts the user's next Electric-Type move.
 #-------------------------------
@@ -174,13 +173,13 @@ Description = The user launches an ionized wave at the targets. Boosts the user'
 Name = Grand Heist
 Type = DARK
 Category = Special
-Power = 90
-Accuracy = 85
+Power = 75
+Accuracy = 100
 TotalPP = 10
 Target = NearOther
-FunctionCode = UserTakesTargetItem
+FunctionCode = UserTargetSwapItems
 Flags = Contact,CanProtect,CanMirrorMove
-Description = The user overwhelms the target with illusions and steals the foe's held item simultaneously.
+Description = The user overwhelms the target with illusions and switches the foe's held item simultaneously.
 #-------------------------------
 [SPARKLYSTORM]
 Name = Sparkly Storm
