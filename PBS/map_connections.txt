@@ -26,7 +26,7 @@
 92,South,0,94,North,14
 # Route 205 Floaroma side (94) - Floaroma Town (96)
 94,West,44,96,East,0
-# Valley Windworks (111) - Route 205 Floaroma side (94)
+# Windworks Valley (111) - Route 205 Floaroma side (94)
 111,West,0,94,East,52
 # Fuego Ironworks (95) - Route 205 Floaroma side (94)
 95,East,2,94,West,0
@@ -86,49 +86,47 @@
 164,East,2,163,West,0
 # Route 225 more (165) - Route 225 (164)
 165,West,0,164,East,39
-# Route 212 (223) - Pastoria City (219)
-223,East,0,219,West,26
-# Route 212 (223) - Route 212 (222)
-223,North,0,222,South,2
-# Seabreak Path (235) - Route 224 (234)
-235,South,0,234,North,41
-# Flower Paradise (236) - Seabreak Path (235)
-236,South,0,235,North,0
-# Route 222 (224) - Sunyshore City (225)
-224,East,0,225,West,17
-# Route 223 (226) - Sunyshore City (225)
-226,South,4,225,North,0
-# Route 214 (206) - Route 222 (224)
-206,East,106,224,West,0
-# Valor Lakefront (214) - Route 222 (224)
-214,East,23,224,West,0
-# Veilstone City (205) - Route 214 (206)
-205,South,32,206,North,0
-# Spring Path (208) - Route 214 (206)
-208,West,0,206,East,0
-# Valor Lakefront (214) - Route 214 (206)
-214,North,27,206,South,0
-# Spring Path (208) - Veilstone City (205)
-208,North,0,205,South,65
-# Valor Lakefront (214) - Spring Path (208)
-214,East,0,208,West,83
-# Route 213 (218) - Valor Lakefront (214)
-218,North,42,214,South,0
-# Pokémon League (227) - Route 223 (226)
-227,South,0,226,North,6
-# Route 220 (199) - Route 221 (200)
-199,East,0,200,West,4
-# Route 219 (198) - Route 220 (199)
-198,South,0,199,North,5
-# Sandgem Town (192) - Route 219 (198)
-192,South,0,198,North,0
-# Route 201 (193) - Route 219 (198)
-193,East,34,198,West,0
 # Route 202 (191) - Sandgem Town (192)
 191,South,6,192,North,0
+# Sandgem Town (192) - Route 219 (198)
+192,South,0,198,North,0
 # Route 201 (193) - Sandgem Town (192)
 193,East,2,192,West,0
+# Route 201 (193) - Route 219 (198)
+193,East,34,198,West,0
 # Verity Lakefront (195) - Route 201 (193)
 195,East,0,193,West,10
 # Twinleaf Town (194) - Route 201 (193)
 194,North,2,193,South,0
+# Route 219 (198) - Route 220 (199)
+198,South,0,199,North,5
+# Route 220 (199) - Route 221 (200)
+199,East,0,200,West,4
+# Route 212 (223) - Pastoria City (219)
+223,East,0,219,West,26
+# Route 212 (222) - Route 212 (223)
+222,South,2,223,North,0
+# Seabreak Path (235) - Route 224 (234)
+235,South,0,234,North,41
+# Flower Paradise (236) - Seabreak Path (235)
+236,South,0,235,North,0
+# Route 214 (206) - Route 222 (224)
+206,East,106,224,West,0
+# Valor Lakefront (214) - Route 222 (224)
+214,East,23,224,West,0
+# Route 213 (218) - Route 222 (224)
+218,East,0,224,West,7
+# Spring Path (208) - Route 222 (224)
+208,South,0,224,North,24
+# Sunyshore City (225) - Route 222 (224)
+225,West,17,224,East,0
+# Veilstone City (205) - Route 214 (206)
+205,South,32,206,North,0
+# Valor Lakefront (214) - Route 214 (206)
+214,North,27,206,South,0
+# Route 213 (218) - Valor Lakefront (214)
+218,North,42,214,South,0
+# Route 223 (226) - Sunyshore City (225)
+226,South,4,225,North,0
+# Lily Island (227) - Route 223 (226)
+227,South,0,226,North,6

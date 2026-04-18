@@ -131,3 +131,19 @@ Pokemon = BEAUTIFLY,10
 LoseText = I wish I could stay here forever!
 Pokemon = DUSTOX,10
 #-------------------------------Route 213
+[TUBER_F,Jess]
+LoseText = I love the beach!
+Pokemon = FINNEON,10
+#-------------------------------
+[FISHERMAN,Fred]
+LoseText = Looks like you've reeled in better stuff!
+Pokemon = MAGIKARP,10
+#-------------------------------
+[TUBER_M,Marsh]
+LoseText = I like the feeling of the waves around me!
+Pokemon = HORSEA,14
+#-------------------------------
+[LASS,Lila]
+LoseText = I certainly do!
+Pokemon = CUTIEFLY,14
+Pokemon = SHELLOS_1,14

@@ -1234,18 +1234,21 @@ Name = Valor Lakefront
 Outdoor = true
 ShowArea = true
 Bicycle = true
+BattleBack = grass
 #-------------------------------
 [215]   # Lake Valor
 Name = Lake Valor
 Outdoor = true
 ShowArea = true
 Bicycle = true
+BattleBack = grass
 #-------------------------------
 [216]   # Lake Valor
 Name = Lake Valor
 Outdoor = true
 ShowArea = true
 Bicycle = true
+BattleBack = grass
 #-------------------------------
 [217]   # Valor Cavern
 Name = Valor Cavern
@@ -1257,12 +1260,14 @@ Name = Route 213
 Outdoor = true
 ShowArea = true
 Bicycle = true
+BattleBack = grass
 #-------------------------------
 [219]   # Pastoria City
 Name = Pastoria City
 Outdoor = true
 ShowArea = true
 Bicycle = true
+BattleBack = grass
 #-------------------------------
 [220]   # Great Marsh Station
 Name = Great Marsh Station
