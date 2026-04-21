@@ -83,10 +83,12 @@ class PokemonEvolutionScene
   # Opens the evolution screen
   def pbEvolution(cancancel = true)
     pbBGMStop
-    pbMessageDisplay(@sprites["msgwindow"], "\\se[]" + _INTL("What?") + "\1") { pbUpdate }
-    pbPlayDecisionSE
+    # FRAME2 PROJECT ADDITION
+    @sprites["rsprite1"]&.pbPlayIntroAnimation
     @pokemon.play_cry
-    @sprites["msgwindow"].text = _INTL("{1} is evolving!", @pokemon.name)
+    pbMessageDisplay(@sprites["msgwindow"], "\\se[]" + _INTL("What?\1\n{1} is evolving!", @pokemon.name)) { pbUpdate }
+    # pbPlayDecisionSE
+    # @sprites["msgwindow"].text = _INTL("{1} is evolving!", @pokemon.name)
     timer_start = System.uptime
     loop do
       Graphics.update
@@ -94,8 +96,7 @@ class PokemonEvolutionScene
       pbUpdate
       break if System.uptime - timer_start >= 1
     end
-    pbMEPlay("Evolution start")
-    pbBGMPlay("Evolution")
+    pbBGMPlay("DPPT 050 Evolution")
     canceled = false
     timer_start = System.uptime
     loop do
@@ -194,31 +195,42 @@ class PokemonEvolutionScene
 
   def pbEvolutionSuccess
     $stats.evolution_count += 1
-    # Play cry of evolved species
-    cry_time = GameData::Species.cry_length(@newspecies, @pokemon.form)
-    Pokemon.play_cry(@newspecies, @pokemon.form)
-    timer_start = System.uptime
-    loop do
-      Graphics.update
-      pbUpdate
-      break if System.uptime - timer_start >= cry_time
-    end
-    pbBGMStop
-    # Success jingle/message
-    pbMEPlay("Evolution success")
+    
+    oldspeciesname = @pokemon.name
     newspeciesname = GameData::Species.get(@newspecies).name
-    pbMessageDisplay(@sprites["msgwindow"],
-                     "\\se[]" + _INTL("Congratulations! Your {1} evolved into {2}!",
-                                      @pokemon.name, newspeciesname) + "\\wt[80]") { pbUpdate }
-    @sprites["msgwindow"].text = ""
+
     # Check for consumed item and check if Pokémon should be duplicated
     pbEvolutionMethodAfterEvolution
+
     # Modify Pokémon to make it evolved
     was_fainted = @pokemon.fainted?
     @pokemon.species = @newspecies
     @pokemon.hp = 0 if was_fainted
     @pokemon.calc_stats
     @pokemon.ready_to_evolve = false
+    
+    # Play cry of evolved species
+    cry_time = GameData::Species.cry_length(@newspecies, @pokemon.form)
+    Pokemon.play_cry(@newspecies, @pokemon.form)
+        
+    # FRAME2 PROJECT ADDITION
+    @sprites["rsprite2"].pbPlayIntroAnimation
+
+    timer_start = System.uptime
+    loop do
+      Graphics.update
+      pbUpdate
+      break if System.uptime - timer_start >= cry_time
+    end
+
+    pbBGMStop
+    # Success jingle/message
+    pbMEPlay("DPPT 051 Congratulations On Your Evolution")
+    pbMessageDisplay(@sprites["msgwindow"],
+                     "\\se[]" + _INTL("Congratulations! Your {1} evolved into {2}!",
+                      oldspeciesname, newspeciesname) + "\\wt[80]") { pbUpdate }
+    @sprites["msgwindow"].text = ""
+
     # See and own evolved species
     was_owned = $player.owned?(@newspecies)
     $player.pokedex.register(@pokemon)

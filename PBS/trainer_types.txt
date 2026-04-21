@@ -83,6 +83,13 @@ BaseMoney = 88
 SkillLevel = 32
 IntroBGM = DPPT 097 Trainers_ Eyes Meet (Gambler)
 #-------------------------------
+[FIREBREATHER]
+Name = Firebreather
+Gender = Male
+BaseMoney = 88
+SkillLevel = 32
+IntroBGM = DPPT 097 Trainers_ Eyes Meet (Gambler)
+#-------------------------------
 [CAMERAMAN]
 Name = Cameraman
 Gender = Male
@@ -175,7 +182,7 @@ IntroBGM = DPPT 076 Trainers_ Eyes Meet (Ace Trainer)
 #-------------------------------
 [JOGGER]
 Name = Jogger
-Gender = Male
+Gender = Female
 BaseMoney = 48
 IntroBGM = DPPT 053 Trainers_ Eyes Meet (Cycling)
 #-------------------------------

@@ -305,7 +305,10 @@ class PokemonSummary_Scene
       drawPageOneEgg
       return
     end
-    @sprites["pokemon"].setPokemonBitmap(@pokemon)
+    
+    # FRAME2 PROJECT CHANGE - This is not needed and interfered with the animation playing
+    # @sprites["pokemon"].setPokemonBitmap(@pokemon)
+    @sprites["pokemon"]&.pbPlayIntroAnimation if @playanim
     @sprites["pokeicon"].pokemon = @pokemon
     @sprites["itemicon"].item = @pokemon.item_id
     overlay = @sprites["overlay"].bitmap
@@ -924,6 +927,9 @@ class PokemonSummary_Scene
     @sprites["itemicon"].item = @pokemon.item_id
     pbSEStop
     @pokemon.play_cry
+
+    # FRAME2 PROJECT ADDITION
+    @sprites["pokemon"]&.pbPlayIntroAnimation if !@pokemon.egg?
   end
 
   def pbMoveSelection
@@ -1269,14 +1275,23 @@ class PokemonSummary_Scene
 
   def pbScene
     @pokemon.play_cry
+    
+    # FRAME2 PROJECT ADDITION
+    @sprites["pokemon"]&.pbPlayIntroAnimation if !@pokemon.egg?
+    
     loop do
       Graphics.update
       Input.update
       pbUpdate
       dorefresh = false
+      @playanim = false
       if Input.trigger?(Input::ACTION)
         pbSEStop
         @pokemon.play_cry
+
+        # FRAME2 PROJECT ADDITION
+        @sprites["pokemon"]&.pbPlayIntroAnimation if !@pokemon.egg?
+        
       elsif Input.trigger?(Input::BACK)
         pbPlayCloseMenuSE
         break
@@ -1300,6 +1315,7 @@ class PokemonSummary_Scene
           pbChangePokemon
           @ribbonOffset = 0
           dorefresh = true
+          @playanim = true
         end
       elsif Input.trigger?(Input::DOWN) && @partyindex < @party.length - 1
         oldindex = @partyindex
@@ -1308,6 +1324,7 @@ class PokemonSummary_Scene
           pbChangePokemon
           @ribbonOffset = 0
           dorefresh = true
+          @playanim = true
         end
       elsif Input.trigger?(Input::LEFT) && !@pokemon.egg?
         oldpage = @page
@@ -1318,6 +1335,7 @@ class PokemonSummary_Scene
           pbSEPlay("GUI summary change page")
           @ribbonOffset = 0
           dorefresh = true
+          @playanim = false
         end
       elsif Input.trigger?(Input::RIGHT) && !@pokemon.egg?
         oldpage = @page
@@ -1328,8 +1346,10 @@ class PokemonSummary_Scene
           pbSEPlay("GUI summary change page")
           @ribbonOffset = 0
           dorefresh = true
+          @playanim = false
         end
       end
+      # @playanim = @partyindex != oldindex
       drawPage(@page) if dorefresh
     end
     return @partyindex

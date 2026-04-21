@@ -9,36 +9,6 @@ class Battle::Move::UseTargetSpDefInsteadOfTargetDefense < Battle::Move
 end
 
 #===============================================================================
-# Prevents the target from switching out or fleeing for 5 turns. This effect
-# isn't applied if either Pokémon is already prevented from switching out or
-# fleeing. (Ensnaring Clamp)
-#===============================================================================
-class Battle::Move::TrapTargetInBattle5Turns < Battle::Move
-  def pbEffectAgainstTarget(user, target)
-    return if user.fainted? || target.fainted? || target.damageState.substitute
-    return if Settings::MORE_TYPE_EFFECTS && target.pbHasType?(:GHOST)
-    return if user.trappedInBattle? || target.trappedInBattle?
-    target.effects[PBEffects::JawLock] = 5
-    @battle.pbDisplay(_INTL("{1} can't run away for 5 turns!", target.pbThis))
-  end
-
-
-  def pbMoveFailed?(user, targets)
-    if user.pbOwnSide.effects[PBEffects::Reflect] > 0
-      @battle.pbDisplay(_INTL("But it failed!"))
-      return true
-    end
-    return false
-  end
-
-  def pbEffectGeneral(user)
-    user.pbOwnSide.effects[PBEffects::Reflect] = 5
-    user.pbOwnSide.effects[PBEffects::Reflect] = 8 if user.hasActiveItem?(:LIGHTCLAY)
-    @battle.pbDisplay(_INTL("{1} raised {2}'s Defense!", @name, user.pbTeam(true)))
-  end
-end
-
-#===============================================================================
 # Crit chance is multiplied by the number of consecutive rounds in which this
 # move was used by the user. (Rainbow Glide)
 #===============================================================================

@@ -50,7 +50,7 @@ class PokemonEggHatch_Scene
   end
 
   def pbMain
-    pbBGMPlay("Evolution")
+    pbBGMPlay("DPPT 050 Evolution")
     # Egg animation
     updateScene(1.5)
     pbPositionHatchMask(0)
@@ -97,9 +97,13 @@ class PokemonEggHatch_Scene
     # Finish scene
     cry_duration = GameData::Species.cry_length(@pokemon)
     @pokemon.play_cry
+    
+    # FRAME2 PROJECT ADDITION
+    @sprites["pokemon"].pbPlayIntroAnimation
+    
     updateScene(cry_duration + 0.1)
     pbBGMStop
-    pbMEPlay("Evolution success")
+    pbMEPlay("DPPT 051 Congratulations On Your Evolution")
     @pokemon.name = nil
     pbMessage("\\se[]" + _INTL("{1} hatched from the Egg!", @pokemon.name) + "\\wt[80]") { update }
     # Record the Pokémon's species as owned in the Pokédex

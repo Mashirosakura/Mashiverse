@@ -8,9 +8,9 @@ Power = 80
 Accuracy = 100
 TotalPP = 10
 Target = NearOther
-FunctionCode = TrapTargetInBattle5Turns #needschange [5 Turn limit]
+FunctionCode = TrapTargetInBattle
 Flags = Contact,CanProtect,CanMirrorMove
-Description = The user clamps down on the target, who cannot be switched out of battle for 5 turns.
+Description = The user clamps down on the target, who cannot be switched out of battle.
 #-------------------------------
 [CHARREDSMOKE]
 Name = Charred Smoke

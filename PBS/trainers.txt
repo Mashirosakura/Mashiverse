@@ -141,9 +141,36 @@ Pokemon = MAGIKARP,10
 #-------------------------------
 [TUBER_M,Marsh]
 LoseText = I like the feeling of the waves around me!
-Pokemon = HORSEA,14
+Pokemon = HORSEA,11
 #-------------------------------
 [LASS,Lila]
 LoseText = I certainly do!
-Pokemon = CUTIEFLY,14
-Pokemon = SHELLOS_1,14
+Pokemon = CUTIEFLY,11
+Pokemon = SHELLOS,12
+	Form = 1
+#-------------------------------
+[CLOWN,Manny]
+LoseText = That's just how we roll!
+Pokemon = HOUNDOUR,12
+Pokemon = GEODUDE,12
+#-------------------------------
+[JUGGLER,Hanson]
+LoseText = That's how the travelling battle show rolls!
+Pokemon = VOLTORB,12
+	Form = 1
+Pokemon = CHATOT,12
+#-------------------------------
+[FIREBREATHER,Fieri]
+LoseText = Burnt to a crisp...
+Pokemon = CYNDAQUIL,12
+Pokemon = MAGBY,13
+#-------------------------------Route 222
+[JOGGER,Saba]
+LoseText = Now I have to start over...
+Pokemon = BUIZEL,13
+Pokemon = GLAMEOW,13
+#-------------------------------
+[FISHERMAN,Dylan]
+LoseText = This is still the best spot to me!
+Pokemon = BASCULIN,13
+Pokemon = TYNAMO,13
