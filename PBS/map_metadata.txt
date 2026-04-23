@@ -62,31 +62,29 @@ Name = Ramanas Town Station
 Outdoor = false
 ShowArea = true
 #-------------------------------
-[014]
-Name = Cedolan City
-MapPosition = 0,13,10
+[014] # Route 213 inside
+Name = Route 213
+Outdoor = false
 #-------------------------------
-[015]
-Name = Cedolan City
-MapPosition = 0,13,10
+[015] # Pastoria City Gatehouse
+Name = Pastoria City Gatehouse
+Outdoor = false
 #-------------------------------
-[016]
-Name = Cedolan City
-MapPosition = 0,13,10
+[016] # Grand Star Hotel
+Name = Grand Star Hotel
+Outdoor = false
 #-------------------------------
-[017]
-Name = Cedolan City
-MapPosition = 0,13,10
+[017] # 7 Stars Restaurant
+Name = 7 Stars Restaurant 
+Outdoor = false
 #-------------------------------
-[018]
+[018] # WATERBORDER
 Name = Cedolan City
-MapPosition = 0,13,10
 #-------------------------------
-[019]
+[019] # TREEBORDER
 Name = Cedolan City
-MapPosition = 0,13,10
 #-------------------------------
-[020]
+[020] # Sunyshore Gatehouse
 Name = Cedolan City
 MapPosition = 0,13,10
 #-------------------------------
@@ -1300,24 +1298,28 @@ Name = Route 222
 Outdoor = true
 ShowArea = true
 Bicycle = true
+BattleBack = path
 #-------------------------------
 [225]   # Sunyshore City
 Name = Sunyshore City
 Outdoor = true
 ShowArea = true
 Bicycle = true
+BattleBack = path
 #-------------------------------
 [226]   # Route 223
 Name = Route 223
 Outdoor = true
 ShowArea = true
 Bicycle = true
+BattleBack = water
 #-------------------------------
 [227]   # Pokémon League
 Name = Pokémon League
 Outdoor = true
 ShowArea = true
 Bicycle = true
+BattleBack = water
 #-------------------------------
 [228]   # Victory Road
 Name = Victory Road

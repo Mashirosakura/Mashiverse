@@ -110,23 +110,35 @@
 235,South,0,234,North,41
 # Flower Paradise (236) - Seabreak Path (235)
 236,South,0,235,North,0
-# Route 214 (206) - Route 222 (224)
-206,East,106,224,West,0
+# WaterBorder (18) - Route 213 (218)
+18,West,0,218,East,34
+# Route 222 (224) - Route 213 (218)
+224,West,7,218,East,0
+# treeborder (19) - Route 213 (218)
+19,West,30,218,East,0
+# Valor Lakefront (214) - Route 213 (218)
+214,South,0,218,North,42
+# Route 222 (224) - WaterBorder (18)
+224,South,0,18,North,0
+# Valor Lakefront (214) - WaterBorder (18)
+214,East,64,18,West,0
+# treeborder (19) - Route 222 (224)
+19,South,0,224,North,0
 # Valor Lakefront (214) - Route 222 (224)
 214,East,23,224,West,0
-# Route 213 (218) - Route 222 (224)
-218,East,0,224,West,7
 # Spring Path (208) - Route 222 (224)
 208,South,0,224,North,24
 # Sunyshore City (225) - Route 222 (224)
 225,West,17,224,East,0
+# Valor Lakefront (214) - treeborder (19)
+214,East,0,19,West,0
+# Route 214 (206) - treeborder (19)
+206,South,33,19,North,0
+# Route 214 (206) - Valor Lakefront (214)
+206,South,0,214,North,27
 # Veilstone City (205) - Route 214 (206)
 205,South,32,206,North,0
-# Valor Lakefront (214) - Route 214 (206)
-214,North,27,206,South,0
-# Route 213 (218) - Valor Lakefront (214)
-218,North,42,214,South,0
 # Route 223 (226) - Sunyshore City (225)
-226,South,4,225,North,0
+226,South,3,225,North,0
 # Lily Island (227) - Route 223 (226)
-227,South,0,226,North,6
+227,South,0,226,North,11

@@ -38,7 +38,7 @@ Pokemon = GIBLE,10
 	Moves = TACKLE,SCARYFACE,SANDATTACK,TWISTER
 #-------------------------------
 [LEADER_Aaron,Aaron]
-LoseText = 
+LoseText = Did you feel the buzz from that fight?
 Items = POTION
 Pokemon = COMBEE,13
 	Moves = SWEETSCENT,GUST,STRUGGLEBUG,BUGBITE
@@ -55,7 +55,7 @@ Pokemon = SKORUPI,14
 	AbilityIndex = 1
 #-------------------------------
 [ADMIN_Somnia,Somnia]
-LoseText = 
+LoseText = Ugh, what a pain...
 Items = SUPERPOTION
 Pokemon = HOUNDOUR,17
 	Moves = BITE,EMBER,THUNDERFANG,HOWL
@@ -69,7 +69,7 @@ Pokemon = CHIMECHO,18
 	Moves = CONFUSION,CHARGEBEAM,HYPNOSIS,RECOVER
 #-------------------------------
 [LEADER_Volkner,Volkner]
-LoseText = 
+LoseText = I see what drives you!
 Items = SUPERPOTION
 Pokemon = LUXIO,18
 	Moves = SPARK,ICEFANG,HOWL,DOUBLEKICK
@@ -116,7 +116,6 @@ Pokemon = SILCOON,7
 [YOUNGSTER,Ben]
 LoseText = You can go on ahead...
 Pokemon = EKANS,7
-Pokemon = MACHOP,7
 #-------------------------------
 [ACETRAINER_F,Rebecca]
 LoseText = Well I guess that's yours now!
@@ -146,31 +145,56 @@ Pokemon = HORSEA,11
 [LASS,Lila]
 LoseText = I certainly do!
 Pokemon = CUTIEFLY,11
-Pokemon = SHELLOS,12
-	Form = 1
-#-------------------------------
+#-------------------------------Route 222
 [CLOWN,Manny]
 LoseText = That's just how we roll!
-Pokemon = HOUNDOUR,12
 Pokemon = GEODUDE,12
 #-------------------------------
 [JUGGLER,Hanson]
 LoseText = That's how the travelling battle show rolls!
 Pokemon = VOLTORB,12
 	Form = 1
-Pokemon = CHATOT,12
 #-------------------------------
 [FIREBREATHER,Fieri]
 LoseText = Burnt to a crisp...
 Pokemon = CYNDAQUIL,12
 Pokemon = MAGBY,13
-#-------------------------------Route 222
-[JOGGER,Saba]
+#-------------------------------
+[JOGGER,Sabrina]
 LoseText = Now I have to start over...
-Pokemon = BUIZEL,13
-Pokemon = GLAMEOW,13
+Pokemon = BUIZEL,12
+Pokemon = GLAMEOW,12
 #-------------------------------
 [FISHERMAN,Dylan]
 LoseText = This is still the best spot to me!
-Pokemon = BASCULIN,13
-Pokemon = TYNAMO,13
+Pokemon = BASCULIN,12
+	Form = 2
+Pokemon = TYNAMO,12
+#-------------------------------
+[SAILOR,Dan]
+LoseText = Washed up...
+Pokemon = MANTYKE,13
+#-------------------------------
+[SAILOR,Sam]
+LoseText = Ahahaha!
+Pokemon = MACHOP,13
+#-------------------------------Sendoff Spring
+[TEAMLUCID_F,Ally]
+LoseText = Looks like you'll be getting in the way.
+Pokemon = PACHIRISU,13
+#-------------------------------
+[TEAMLUCID_M,Dom]
+LoseText = She will not be happy about this outcome...
+Pokemon = MUNNA,13
+#-------------------------------Sunyshore Gym
+[GUITARIST,Rich]
+LoseText = Rock on!
+Pokemon = SHINX,14
+#-------------------------------
+[LASS,Dina]
+LoseText = Aww man...
+Pokemon = RUFFPUFF,14
+#-------------------------------
+[WORKER,Carl]
+LoseText = Well looks like there's no issues with your skills!
+Pokemon = MAGNEMITE,14
