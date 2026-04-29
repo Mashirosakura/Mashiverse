@@ -7,3 +7,8 @@ To do:
 	- Aaron Sprite (needs design)
 	- Generic overworlds for npcs
 	- Add npcs/wild pkmn
+- PreGym2:
+	- Volkner sprite (needs design)
+	- Team Lucid/Somnia sprites (same as above)
+	- Gym design
+	- Building interiors for Route 213, 222 and Sunyshore
