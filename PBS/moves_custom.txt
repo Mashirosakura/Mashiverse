@@ -217,6 +217,18 @@ Flags = Contact,CanProtect,CanMirrorMove
 EffectChance = 50
 Description = The user forms a moon shaped rock and launches it at the foe. 1.3x power when Gravity intensifies.
 #-------------------------------
+[BLOCKADE]
+Name = Blockade
+Type = NORMAL
+Category = Physical
+Power = 35
+Accuracy = 85
+TotalPP = 15
+Target = NearOther
+FunctionCode = BindTarget
+Flags = CanProtect,CanMirrorMove
+Description = The user traps the target inside a spiky floored room for four to five turns.
+#-------------------------------
 #------------------------------- Reworked Moves
 [ZIPPYZAP]
 Name = Zippy Zap
