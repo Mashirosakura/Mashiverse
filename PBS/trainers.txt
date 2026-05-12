@@ -57,16 +57,17 @@ Pokemon = SKORUPI,14
 [ADMIN_Somnia,Somnia]
 LoseText = Ugh, what a pain...
 Items = SUPERPOTION
+Pokemon = HOOTHOOT,17
+	Moves = ECHOEDVOICE,REFLECT,WINGATTACK,FEATHERDANCE
+	Nature = RELAXED
 Pokemon = HOUNDOUR,17
 	Moves = BITE,EMBER,THUNDERFANG,HOWL
 	Nature = NAIVE
 	AbilityIndex = 0
-Pokemon = HOOTHOOT,17
-	Moves = ECHOEDVOICE,REFLECT,WINGATTACK,CONFUSION
-	Nature = RELAXED
 Pokemon = CHIMECHO,18
+	Item = BERRYJUICE
 	Nature = BOLD
-	Moves = CONFUSION,CHARGEBEAM,HYPNOSIS,RECOVER
+	Moves = CONFUSION,DRAININGKISS,HYPNOSIS,RECOVER
 #-------------------------------
 [LEADER_Volkner,Volkner]
 LoseText = I see what drives you!
