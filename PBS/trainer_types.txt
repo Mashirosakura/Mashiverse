@@ -533,12 +533,12 @@ BaseMoney = 24
 IntroBGM = DPPT 038 Trainers_ Eyes Meet (Twins)
 #-------------------------------
 [TEAMLUCID_M]
-Name = Team Rocket
+Name = Team Lucid
 Gender = Male
 BaseMoney = 32
 #-------------------------------
 [TEAMLUCID_F]
-Name = Team Rocket
+Name = Team Lucid
 Gender = Female
 BaseMoney = 32
 #-------------------------------

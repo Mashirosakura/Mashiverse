@@ -75,10 +75,11 @@ Pokemon = LUXIO,18
 	Moves = SPARK,ICEFANG,HOWL,DOUBLEKICK
 	Nature = JOLLY
 	AbilityIndex = 1
-Pokemon = VOLTORB_1,19
+Pokemon = VOLTORB,19
 	Item = ORANBERRY
 	Moves = CHARGEBEAM,BULLETSEED,LEECHSEED,RECYCLE
 	Nature = NAIVE
+	Form = 1
 	AbilityIndex = 2
 Pokemon = ELEKID,20
 	Item = BERRYJUICE
@@ -181,20 +182,22 @@ Pokemon = MACHOP,13
 #-------------------------------Sendoff Spring
 [TEAMLUCID_F,Ally]
 LoseText = Looks like you'll be getting in the way.
-Pokemon = PACHIRISU,13
+Pokemon = PACHIRISU,15
 #-------------------------------
 [TEAMLUCID_M,Dom]
 LoseText = She will not be happy about this outcome...
-Pokemon = MUNNA,13
+Pokemon = MUNNA,15
 #-------------------------------Sunyshore Gym
 [GUITARIST,Rich]
 LoseText = Rock on!
-Pokemon = SHINX,14
+Pokemon = SHINX,17
+Pokemon = SHINX,17
 #-------------------------------
 [LASS,Dina]
 LoseText = Aww man...
-Pokemon = RUFFPUFF,14
+Pokemon = RUFFPUFF,17
 #-------------------------------
 [WORKER,Carl]
 LoseText = Well looks like there's no issues with your skills!
-Pokemon = MAGNEMITE,14
+Pokemon = MAGNEMITE,17
+Pokemon = TYNAMO,17
