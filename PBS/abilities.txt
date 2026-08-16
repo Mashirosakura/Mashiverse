@@ -488,7 +488,8 @@ Description = Changes type to match the held Plate.
 #-------------------------------
 [FLOWERGIFT]
 Name = Flower Gift
-Description = Powers up party Pokémon when it is sunny.
+#Description = Powers up party Pokémon when it is sunny.
+Description = Sun boosts moves, else take less damage.
 #-------------------------------
 [BADDREAMS]
 Name = Bad Dreams

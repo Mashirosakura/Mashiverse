@@ -29,7 +29,7 @@ Land,21
     10,BONSLY,2,4
     10,BUNEARY,2,4
 LandNight,21
-    25,BIDOOF,2,4
+    25,SURSKIT,2,4
     25,STARLY,2,4
     25,BUDEW,2,4
     25,BUIZEL,2,4

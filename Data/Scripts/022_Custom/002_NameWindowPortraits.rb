@@ -33,7 +33,7 @@ PLEASE MAKE SURE YOU HAVE INSTALLED AND MODIFIED THE ABOVE CORRECTLY.
 #=============================================================================
 
 # SHIFT NAMEWINDOW IN X AXIS (except when specifying a particular X location)
-OFFSET_NAMEWINDOW_X=322 
+OFFSET_NAMEWINDOW_X=8 
 # SHIFT NAMEWINDOW IN Y AXIS (except when specifying a particular Y location)
 OFFSET_NAMEWINDOW_Y=10
 # WHETHER THE TEXT SHOULD BE CENTERED (0=right, 1=center, 2=right)
@@ -732,7 +732,7 @@ if facewindowL
           facewindowR&.dispose
           facewindowR=FaceWindowVXNew.new(param)
           facewindowR.windowskin=nil
-          facewindowR.x=230
+          facewindowR.x=180
           facewindowR.y=196
           facewindowR.viewport=msgwindow.viewport
           facewindowR.z=msgwindow.z
