@@ -1,5 +1,5 @@
 ﻿# See the documentation on the wiki to learn how to edit this file.
-#-------------------------------
+#------------------------------- Evolution Items
 [RAINBOWPOFFIN]
 Name = Rainbow Poffin
 NamePlural = Rainbow Poffins
@@ -19,6 +19,15 @@ BPPrice = 5
 Flags = Fling_80
 Description = A peculiar pouch that's loved by a very friendly species of Pokémon. It's light and smooth.
 #-------------------------------
+[CORALCROWN]
+Name = Coral Crown
+NamePlural = Coral Crowns
+Pocket = 1
+Price = 10000
+BPPrice = 5
+Flags = Fling_80
+Description = A crown made from a gem-like coral. It's loved by a certain blue Pokémon.
+#------------------------------- Key Items
 [TRAINPASS]
 Name = Train Pass
 NamePlural = Train Passes
