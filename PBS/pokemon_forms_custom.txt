@@ -172,7 +172,7 @@ Pokedex =
 #-------------------------------
 [HONCHKROW,1]
 FormName = Mega Honchkrow
-MegaStone = HONCHKROWITE
+MegaStone = HONCHKRITE
 BaseStats = 100,145,102,71,105,82
 BaseExp = 313
 Abilities = INTIMIDATE

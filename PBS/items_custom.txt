@@ -144,9 +144,9 @@ BPPrice = 50
 Flags = MegaStone,Fling_80
 Description = One of a variety of mysterious Mega Stones. Have Luxray hold it, and it will be able to Mega Evolve.
 #-------------------------------
-[HONCHKROWITE]
-Name = Honchkrowite
-NamePlural = Honchkrowites
+[HONCHKRITE]
+Name = Honchkrite
+NamePlural = Honchkrites
 Pocket = 1
 Price = 0
 BPPrice = 50

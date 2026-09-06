@@ -9272,7 +9272,7 @@ ShadowSize = 2
 FrontAnimation = ShakeSmall,ABBA
 BackAnimation = ShakeSmall,ABBA
 #-------------------------------
-[BURROTUFF]
+[EXCATUFF]
 BackSprite = 0,20
 FrontSprite = 0,20
 ShadowX = 0

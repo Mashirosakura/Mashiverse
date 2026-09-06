@@ -103,10 +103,10 @@ Shape = Bipedal
 Habitat = RoughTerrain
 Category = Excavation
 Pokedex = 
-Evolutions = BURROTUFF,Level,24
+Evolutions = EXCATUFF,Level,24
 #-------------------------------
-[BURROTUFF]
-Name = Burrotuff
+[EXCATUFF]
+Name = Excatuff
 Types = GROUND,FIGHTING
 BaseStats = 65,55,82,78,45,55
 GenderRatio = AlwaysMale

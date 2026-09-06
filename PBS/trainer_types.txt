@@ -549,15 +549,22 @@ BaseMoney = 100
 BattleBGM = DPPT 118 Battle! (Elite Four)
 VictoryBGM = DPPT 036 Victory! (Gym Leader)
 #-------------------------------
-[ADMIN_Cauchemar]
+[ADMIN_Malson]
 Name = Lucid Admin
 Gender = Male
 BaseMoney = 100
 BattleBGM = DPPT 118 Battle! (Elite Four)
 VictoryBGM = DPPT 036 Victory! (Gym Leader)
 #-------------------------------
-[ADMIN_Chumu]
+[ADMIN_Deydri]
 Name = Lucid Admin
+Gender = Female
+BaseMoney = 100
+BattleBGM = DPPT 118 Battle! (Elite Four)
+VictoryBGM = DPPT 036 Victory! (Gym Leader)
+#-------------------------------
+[DETECTIVE]
+Name = Detective
 Gender = Female
 BaseMoney = 100
 BattleBGM = DPPT 118 Battle! (Elite Four)

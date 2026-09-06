@@ -31,7 +31,7 @@ Pokemon = BUNEARY,9
 Pokemon = TURTWIG,10
 #-------------------------------
 [RIVALHiro,Hiro]
-LoseText = 
+LoseText = What?!
 Pokemon = STARYU,9
 	Moves = TACKLE,HARDEN,WATERGUN,FLASH
 Pokemon = GIBLE,10
@@ -40,30 +40,31 @@ Pokemon = GIBLE,10
 [LEADER_Aaron,Aaron]
 LoseText = Did you feel the buzz from that fight?
 Items = POTION
-Pokemon = COMBEE,13
-	Moves = SWEETSCENT,GUST,STRUGGLEBUG,BUGBITE
-	AbilityIndex = 2
-	Nature = RELAXED
 Pokemon = DEWPIDER,13
-	Moves = WATERGUN,BUGBITE,STICKYWEB,INFESTATION
+	Moves = WATERGUN,BUGBITE,STICKYWEB,STOCKPILE
 	Nature = BRAVE
 	AbilityIndex = 0
+Pokemon = YANMA,13
+	Moves = POUNCE,PROTECT,QUICKATTACK,WHIRLWIND
+	Nature = HASTY
+	AbilityIndex = 0
+	Nature = RELAXED
 Pokemon = SKORUPI,14
-	Item = BERRYJUICE
-	Moves = POUNCE,POISONTAIL,HONECLAWS,SCREECH
+	Item = ORANBERRY
+	Moves = POUNCE,POISONFANG,BITE,FOCUSENERGY
 	Nature = NAIVE
 	AbilityIndex = 1
 #-------------------------------
 [ADMIN_Somnia,Somnia]
 LoseText = Ugh, what a pain...
 Items = SUPERPOTION
-Pokemon = HOOTHOOT,17
-	Moves = ECHOEDVOICE,REFLECT,WINGATTACK,FEATHERDANCE
-	Nature = RELAXED
 Pokemon = HOUNDOUR,17
 	Moves = BITE,EMBER,THUNDERFANG,HOWL
 	Nature = NAIVE
 	AbilityIndex = 0
+Pokemon = HOOTHOOT,17
+	Moves = ECHOEDVOICE,REFLECT,WINGATTACK,FEATHERDANCE
+	Nature = RELAXED
 Pokemon = CHIMECHO,18
 	Item = BERRYJUICE
 	Nature = BOLD
@@ -87,6 +88,164 @@ Pokemon = ELEKID,20
 	Moves = SHOCKWAVE,TRAILBLAZE,CHARGE,QUICKATTACK
 	Nature = RASH
 	AbilityIndex = 2
+#-------------------------------
+[RIVALHiro,Hiro,1]
+LoseText = AGAIN?!
+Pokemon = STARYU,20
+	Moves = SWIFT,WATERPULSE,CONFUSERAY,RAPIDSPIN
+	Nature = TIMID
+	AbilityIndex = 0
+Pokemon = CARNIVINE,20
+	Moves = VINEWHIP,BITE,SWEETSCENT,GROWTH
+	Nature = CAREFUL
+Pokemon = GIBLE,22
+	Moves = DRAGONBREATH,BULLDOZE,SANDATTACK,TACKLE
+#-------------------------------
+[LEADER_Maylene,Maylene]
+LoseText = 
+Items = SUPERPOTION
+Pokemon = MEDITITE,24
+	Moves = FORCEPALM,PSYBEAM,DETECT,FAKEOUT
+	Nature = LONELY
+Pokemon = LILLIGANT,24
+	Item = BLUNDERPOLICY
+	Moves = GIGADRAIN,LOWSWEEP,AERIALACE,SLEEPPOWDER
+	Nature = NAIVE
+	Form = 1
+	AbilityIndex = 1
+Pokemon = LUCARIO,25
+	Item = SITRUSBERRY
+	Moves = VACUUMWAVE,BULLETPUNCH,WATERPULSE,CALMMIND
+	Nature = RASH
+	AbilityIndex = 1
+#-------------------------------
+[ADMIN_Malson,Malson]
+LoseText = 
+Items = SUPERPOTION
+Pokemon = TENTACOOL,29
+	Moves = BUBBLEBEAM,HEX,TOXICSPIKES,AQUARING
+	Nature = MODEST
+	AbilityIndex = 0
+Pokemon = SCYTHER,29
+	Moves = WINGATTACK,FURYCUTTER,SWORDSDANCE,FOCUSENERGY
+	Nature = HASTY
+	AbilityIndex = 0
+Pokemon = EXCATUFF,29
+	Moves = AURASPHERE,MUDSHOT,BRUTALSWING,DETECT
+	Nature = JOLLY
+	AbilityIndex = 2
+Pokemon = MALAMAR,30
+	Item = BLACKGLASSES
+	Moves = PSYCHOCUT,NIGHTSLASH,DESTINYBOND,HYPNOSIS
+	Nature = ADAMANT
+	AbilityIndex = 0
+#-------------------------------
+[RIVALDara,Dara,6]
+LoseText = ...
+Items = SUPERPOTION
+Pokemon = LOPUNNY,31
+	Moves = CHARM,RETURN,DOUBLEKICK,QUICKATTACK
+	Nature = JOLLY
+	Shiny = true
+Pokemon = DARTRIX,31
+	Moves = RAZORLEAF,PLUCK,SYNTHESIS,GROWL
+	Nature = NAIVE
+	AbilityIndex = 0
+Pokemon = CLEFAIRY,31
+	Moves = STOREDPOWER,CHARGEBEAM,MINIMIZE,MOONLIGHT
+	Nature = CALM
+	AbilityIndex = 0
+Pokemon = MONFERNO,32
+	Item = SITRUSBERRY
+	Moves = FLAMEWHEEL,POWERUPPUNCH,FEINT,TAUNT
+	Nature = NAIVE
+	AbilityIndex = 0
+#-------------------------------
+[RIVALDara,Dara,7]
+LoseText = ...
+Items = SUPERPOTION
+Pokemon = LOPUNNY,31
+	Moves = CHARM,RETURN,DOUBLEKICK,QUICKATTACK
+	Nature = JOLLY
+	Shiny = true
+Pokemon = QUILAVA,31
+	Moves = FLAMEWHEEL,EXTRASENSORY,SMOKESCREEN,QUICKATTACK
+	Nature = TIMID
+	AbilityIndex = 0
+Pokemon = CLEFAIRY,31
+	Moves = STOREDPOWER,CHARGEBEAM,MINIMIZE,MOONLIGHT
+	Nature = CALM
+	AbilityIndex = 0
+Pokemon = PRINPLUP,32
+	Item = SITRUSBERRY
+	Moves = BUBBLEBEAM,SWAGGER,METALCLAW,CHARM
+	Nature = MODEST
+	AbilityIndex = 0
+#-------------------------------
+[RIVALDara,Dara,8]
+LoseText = ...
+Items = SUPERPOTION
+Pokemon = LOPUNNY,31
+	Moves = CHARM,RETURN,DOUBLEKICK,QUICKATTACK
+	Nature = JOLLY
+	Shiny = true
+Pokemon = DEWOTT,31
+	Moves = RAZORSHELL,REVENGE,FOCUSENERGY,AIRSLASH
+	Nature = JOLLY
+	AbilityIndex = 0
+Pokemon = CLEFAIRY,31
+	Moves = STOREDPOWER,CHARGEBEAM,MINIMIZE,MOONLIGHT
+	Nature = CALM
+	AbilityIndex = 0
+Pokemon = GROTLE,32
+	Item = SITRUSBERRY
+	Moves = RAZORLEAF,BITE,CURSE,LEECHSEED
+	Nature = CAREFUL
+	AbilityIndex = 0
+#-------------------------------
+[LEADER_Dominique,Dominique]
+LoseText = 
+Items = SUPERPOTION,SUPERPOTION
+Pokemon = MORGREM,34
+	Item = LIGHTCLAY
+	Moves = FALSESURRENDER,PARTINGSHOT,REFLECT,LIGHTSCREEN
+	Nature = ADAMANT
+	AbilityIndex = 0
+Pokemon = SYLVEON,34
+	Moves = ALLURINGVOICE,YAWN,CALMMIND,HIDDENPOWER
+	Nature = NAIVE
+	IV = 19,2,15,20,20,15
+	AbilityIndex = 0
+Pokemon = POFFLIN,35
+	Moves = RAINBOWGLIDE,SHOOTINGSTAR,ROOST,BRICKBREAK
+	Nature = JOLLY
+	AbilityIndex = 0
+Pokemon = MIMIKYU,36
+	Item = MIMIKITE
+	Moves = SHADOWBALL,ALLURINGVOICE,WOODHAMMER,HONECLAWS
+	Nature = NAIVE
+#-------------------------------
+[DETECTIVE,Yume]
+LoseText = 
+Items = HYPERPOTION
+Pokemon = ZOROARK,40#
+	Moves = HEX,SPINECHILL,HYPERVOICE,UTURN
+	Nature = MODEST
+	Form = 1
+Pokemon = THIEVUL,40#
+	Item = FOCUSSASH
+	Moves = SNARL,BURNINGJEALOUSY,NASTYPLOT,TORMENT
+	Nature = TIMID
+	AbilityIndex = 1
+Pokemon = CORVIKNIGHT,40#
+	Moves = STEELWING,DRILLPECK,IRONDEFENSE,TAILWIND
+	Nature = IMPISH
+	AbilityIndex = 0
+Pokemon = HONCHKROW,40#
+	Item = HONCHKRITE
+	Moves = NIGHTSLASH,BRAVEBIRD,ROOST,FEATHERDANCE
+	Nature = ADAMANT
+	AbilityIndex = 1
 #-------------------------------Route 212
 [YOUNGSTER,Timmy]
 LoseText = Wow, you're already pretty good!
