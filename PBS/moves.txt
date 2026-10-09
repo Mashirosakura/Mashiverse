@@ -935,7 +935,7 @@ Target = NearOther
 FunctionCode = RecoilThirdOfDamageDealtFlinchTarget
 Flags = Contact,CanProtect,CanMirrorMove,TramplesMinimize
 EffectChance = 20
-Description = The user viciously tackles targets, which may make them flinch and damage itself.
+Description = The user viciously tackles targets, which may make them flinch and damages itself.
 #-------------------------------
 [DYNAMAXCANNON]
 Name = Dynamax Cannon
@@ -4579,7 +4579,7 @@ Accuracy = 0
 TotalPP = 20
 Target = UserSide
 FunctionCode = StartWeakenDamageAgainstUserSideIfHail
-Description = This move reduces damage from attacks for five turns. This can be used only in a hailstorm.
+Description = This move reduces damage from attacks for five turns. This can be used only in a snowstorm.
 #-------------------------------
 [HAIL]
 Name = Hail
