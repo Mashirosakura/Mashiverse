@@ -540,7 +540,7 @@ Price = 3000
 BPPrice = 32
 FieldUse = TR
 Flags = Fling_150
-Move = FRENZYBLAST
+Move = FRENZYPLANT
 Description = The user slams the target with an enormous tree. Can't be used on the next turn.
 #-------------------------------
 [TR034]
